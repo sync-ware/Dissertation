@@ -25,7 +25,7 @@ machine learning to make full use of the hardware.
 \subsection{Evolution}
 Firstly, we want to look at the last 10 years of technological advancements within the smartphone space. 
 With this information, we can hopefully gain some insight into the how much their capabilities have evolved. To do this,
- we will collect key aspects of data from the Samsung Galaxy flagship line of smartphones. Samsung currently hold the 
+ we will collect key aspects of specification data from the Samsung Galaxy flagship line of smartphones. Samsung currently hold the 
  top spot in global market share at 20.8\% as of Q3’ 2021, this position is typically held by Apple or Samsung and can 
  vary from a quarter to quarter basis (\cite{odea2021}).
  \newpage
@@ -71,15 +71,15 @@ What we must also consider is price and accessibility, flagship smartphones repr
  each smartphone manufacturer and are of course priced as such. Low-end to mid-end smartphones are still more capable 
  than their predecessors albeit their spec sheet may not be as impressive as high-end versions in the same generation. 
  Therefore, we must ensure some level of scalability within our machine and deep learning processes. How can we make 
- sure our processes can run efficiently on lower end hardware as well as high end hardware? What we can analyse is, how 
- are smartphones being used now as a tool.
+ sure our processes can run efficiently on lower end hardware as well as high end hardware? What we can analyse is; how 
+ is the hardware in smartphones being utilised currently, as a scientific tool?
 \\
 \\
  \citeauthor{kulendran2014} (2014), highlights how improvements in smartphones have created a boom in the number of 
  smartphone based application designed to aid surgeons and patients in multiple facets of the medical industry like 
   plastic, orthopaedic
    and general surgery. They conduct an expansive review of different solutions and analyse how the evolution of 
-   smartphones got them to the point that make them extremely useful as a tool to aid us. Ultimately what this project 
+   smartphones got them to the point that make them extremely useful as a tool to aid us. Ultimately, what this project 
    aims to do is provide a robust software solution to recognise flower species on a smartphone, but we cannot ignore 
    the fact that smartphones have come a long way in the hardware and operating system space to allow us to even 
    conceive of a system.
@@ -89,7 +89,7 @@ cells, DNA in tissue and blood samples. This aids in specifically, the process o
 where researchers make use of the smartphone camera as well as some additional apparatuses to analyse things like cells.
  An example where a smartphone with a 3D printed microscope was used to highlight cost efficiency and the portability of
   the apparatus. The smartphones camera assisted by the microscope was used to take multiple photos of the tissue sample
-   which could then be processed by an algorithm and analysed by the smartphone, all within the smartphone. It was 
+   which could then be processed by an algorithm and analysed, all within the smartphone. It was 
    highlighted that a typical scenario would include using a \$10,000 to \$50,000 high end microscope within a lab, 
    therefore having this type of capability in a remote environment at the fraction of the cost really highlights the 
    benefit of smartphones.
@@ -97,13 +97,13 @@ where researchers make use of the smartphone camera as well as some additional a
 \\
 A more relevant example comes in the form of an application called Bilicam that consisted of a solution to identify 
 jaundice within new-borns. Jaundice is a medical condition that can be identified by the yellow discoloration of skin 
-(\cite{deGreefLilian2014Bump}). The system consisted of just the smartphone with the application and card of colours used for 
+(\cite{deGreefLilian2014Bump}). The system consisted of just the smartphone with the application and a card of colours used for 
 calibration. The research specifies that the chemical by-product of Bilirubin causes Jaundice and that there are 
 scenarios where new-borns can have too much of it, this can cause irreversible brain damage and even death in some 
 cases. They proposed a smartphone system that uses a picture of a new born which is then uploaded to a cloud service 
 to be processed by a machine learning algorithm. It should then output a predicted Bilirubin level. Their rationale for 
 this system was to have a solution where you could easily screen for new-borns that could potentially have dangerous 
-levels of jaundice without conducting blood tests, this could mean when the new-born has already left the hospital and 
+levels of jaundice, without conducting blood tests. This could mean when the new-born has already left the hospital and 
 therefore getting an accurate lab based diagnosis is no longer possible. The analysis system used the card to 
 essentially ensure that the colour data was accurate as environmental factors such as lighting can affect the outcome. 
 It then passes on the image data into a cloud based machine learning process that consisted of different regression 
@@ -121,18 +121,19 @@ trends graph which maps out interest in a search term over time which sees a ris
 ML and AI has become such an important part of smartphones that manufacturers now have dedicated processors for ML and 
 AI tasks. Google includes a Tenor Processing Unit (TPU) in their Pixel line of phones (\cite{triggs2021}). Samsung, 
 Qualcomm and Apple use their own solutions for machine learning processing by having their own bespoke processors. These
- processors are used to process specific actions that require the decision making and accuracy capabilities of machine 
+ processors are used to compute specific actions that require the decision making and accuracy capabilities of machine 
  learning. Google Tensor in particular aids tasks such as speech recognition that is accurate but not taxing, therefore 
  saving battery life. Tensor also applies to processing photographs and provides additional features to videos 
  (\cite{gupta2021}). With such a focus on smartphones, to the point that they get dedicated hardware for ML, we should be 
- seeing a huge increase in applications that integrate ML in some way as well as the entire process of designing and 
- implementing such solutions being carried out more rapidly as developers learn to leverage the hardware.
+ seeing a huge increase in applications that integrate ML in some way, as well as the entire process of designing and 
+ implementing such solutions being carried out more rapidly, as developers learn to leverage the hardware.
 \section{Computer Vision}
 Since we are working with analysing images, the area of computer vision plays a big part in our research. In order to 
 identify flower species we must first discuss techniques to analyse the incoming image data to make predictions using
  ML and DL.
  \subsection{History}
- \citeauthor{SzeliskiRichard2011CV:A} (2011) outlines significant occurrences in each decade starting from the 70s, thought to be the beginning of 
+ \citeauthor{SzeliskiRichard2011CV:A} (2011) outlines significant occurrences in each decade starting from the 70s, 
+ thought to be the beginning of 
  computer vision, all the way through to the 2000s. In the early 70s, researchers sought to emulate human intelligence 
  in a machine by first solving the visual problem. It was hypothesised that if a computer could first recognize objects 
  in the real world that it could then move onto the next step of using reasoning and problem solving at a high level. 
@@ -155,13 +156,14 @@ identify flower species we must first discuss techniques to analyse the incoming
    Emphasis was placed on the limiting the scope of the allowed images, as such the system was trained and ready to 
    accept profile straight-on images of the subject. In addition to that, they aimed to have the system compute a result
     in a reasonable time, which of course, is one of the goals of this project. The research hoped to improve on it’s 
-    predecessors that used at the time, traditional methods of recognising features such as eyes’, noses and mouths and 
+    predecessors that used, at the time, traditional methods of recognising features such as eyes’, noses and mouths and 
     their relative position to each other. The work done with eigenfaces shows great similarities with the machine 
     learning techniques we see today, by essentially creating feature vectors and comparing the distance of known 
     vectors in the same space.
 \\
 \\
-\citeauthor{SzeliskiRichard2011CV:A} (2011) continues with their insight into the 2000s where see the various improvements like more efficient 
+\citeauthor{SzeliskiRichard2011CV:A} (2011) continues with their insight into the 2000s where see the various improvements
+ like more efficient 
 algorithms and what finally dominates the latter half of the 2000s; applying machine learning techniques to computer
     vision to aid visual recognition research.
 \section{Machine Learning}
@@ -223,7 +225,7 @@ demonstrates the classifier based version of it in Equation 1. They explore the 
  \citeauthor{MohammedMohssen2017Ml:a} (2017) states that K-Nearest Neighbours (KNN) is one of the “simplest” of  all the ML algorithms. 
  \citeauthor{rosebook2016} (2016) discusses how to implement an image classifier using KNN where we can convert an image into a set 
  of feature vectors on a graph, any new points get classified based on the k number of nearest neighbouring points, 
- there’s no real learning in this process, just the calculation of what the nearest points are based on 
+ there’s no real learning in this process, just the calculation of where the nearest points are, based on
  (usually Euclidean) distance.
  \\
  \\
@@ -240,18 +242,19 @@ demonstrates the classifier based version of it in Equation 1. They explore the 
 DL will of course be our alternative approach to recognizing flower species. Where ML is basically our baseline, our DL 
 implementation should hopefully highlight how much better it is compared to the ML approach.
 \subsection{Neurons and Perceptrons}
-\citeauthor{ScarpinoMatthew2018Tfd} (2018) introduces the concept of Perceptrons in their book about using TensorFlow to implement DL. First we 
-must discuss neurons and how they relate to DL.
+\citeauthor{ScarpinoMatthew2018Tfd} (2018) introduces the concept of Perceptrons in their book about using TensorFlow 
+to implement DL. First, we must discuss neurons and how they relate to understanding the foundation of DL.
 \begin{figure}[h]\
     \centering
     \includegraphics[width=0.6\textwidth]{neuron.png}
     \caption{Simple diagram of a neuron (\cite{ScarpinoMatthew2018Tfd})}.
 \end{figure}
+\break
 What they choose to highlight in particular are three points that describe a neurons functionality (and ultimately how 
 it relates to perceptrons):
 \begin{itemize}
     \item A neuron receives one or more incoming signals and produces one outgoing signal.
-    \item A neuron’s output can server as the input of another neuron.
+    \item A neuron’s output can serve as the input of another neuron.
     \item Every neuron has a threshold, and the neuron won’t produce output until its electricity exceeds the threshold.
 \end{itemize}
 This page by \citeauthor{anonpercep} (n.d.) highlights a brief history of perceptrons, though 
@@ -263,13 +266,14 @@ more modern version:
     \includegraphics[width=0.7\textwidth]{perceptron.jpg}
     \caption{Diagram of a perceptron (\cite{anonpercep})}.
 \end{figure}
+\break
 Each input on the left is weighted and the summed within the circle node. If the summation meets a certain threshold, 
 the output will be 1, if it doesn’t meet the threshold then a 0 is outputted (\cite{ScarpinoMatthew2018Tfd}). 
 Scarpino highlights some 
 improvements to the model that was made including the weights that we discussed earlier as well as additional biases 
-assigned with the incoming signals and an “activation function” that generates the output signal. Scarpino goes onto to 
-link activation functions directly with in built TensorFlow functions that carry out the same task. Making it quite 
-useful to link the TensorFlow API with the underlying DL context. Once we start linking perceptrons and arranging them 
+assigned with the incoming signals and an “activation function” that generates the output signal. Scarpino goes further by 
+linking activation functions directly with in built TensorFlow functions that carry out the same task. Making it quite 
+useful to understand the link between the TensorFlow API and the underlying DL context. Once we start linking perceptrons and arranging them 
 into layers we get a neural network as shown here:
 \begin{figure}[h]\
     \centering
@@ -278,7 +282,7 @@ into layers we get a neural network as shown here:
 \end{figure}
 \subsection{Mobile Deep Learning}
 \citeauthor{goodfellow2016deep} (2015) go into detail about Deep Learning from the concept of perceptrons to modern 
-implementations. Something they talk about that is interesting is the increasing data set and model sized over time 
+implementations. Something they talk about that is interesting is the increasing data set and model sizes over time, 
 which is quite applicable to the project since we are working with modern mobile hardware. They discuss how the 
 increasing capabilities of computer hardware have led to the development of larger models and that neural networks tend 
 to double in size roughly every 2.4 years. They predict that the trend will continue further on in the future. What is 
@@ -293,7 +297,7 @@ also relevant is the dataset sizes. Storing datasets take up storage space, they
   application.
 \subsection{Convolutional Neural Networks}
 Bengio, Goodfellow and Courville (2015) and Scarpino (2018) go into detail about CNNs, Scarpino in particular is a
-useful source on how it works in particular with image classification in TensorFlow. However, it’s useful to have 
+useful source on how it works with image classification in TensorFlow. However, it’s useful to have 
 some sort of starting point for the subject. \citeauthor{saha2018} (2018) highlights the key features of a CNN and their purposes such 
 as the individual layers: convolutional (kernel),  pooling and classification (see Figure 5).
 \newpage
@@ -302,7 +306,7 @@ as the individual layers: convolutional (kernel),  pooling and classification (s
     \includegraphics[width=0.7\textwidth]{saha.jpg}
     \caption{Example of a CNN process (\cite{saha2018})}.
 \end{figure}
-They also highlight a feature of CNNs that make images easier to process where it reduces the size of images “into a 
+They also highlight a feature of CNNs that make images easier to process, where it reduces the size of images “into a 
 form that is easier to process, without losing features which are critical for getting a good prediction”. This helps 
 with our scalability approach when it comes to dataset sizes in particular. The ELI5 (Explain Like I’m 5) format is 
 quite useful and allows us to highlight the key points of each layer (Saha, 2018):
@@ -318,10 +322,10 @@ in exactly the same format. Dive into Deep Learning (\cite{diveintodeeplearning}
 and more modern approaches like AlexNet, VGG, NiN, GoogLeNet, etc. We can also see how to implement them using 
 TensorFlow which will prove useful when implementing our own solution for flowers.
 \subsection{ML vs DL}
-DL is an obvious evolution from ML, but is worth highlighting the key differences for clarity because ultimately this 
+DL is an obvious evolution from ML, but it is worth highlighting the key differences for clarity because ultimately this 
 project will compare how ML and DL compete with each other. \citeauthor{kav2020} (2020) breaks down how DL is different from ML. 
 They highlight that DL takes the initiative by automating feature extraction to lessen human intervention and that ML is
- more reliant on humans, where humans normally define the characteristics to look out for as well as their priorities. 
+ more reliant on humans, where humans normally define the characteristics to look out for, as well as their priorities. 
  DL doesn’t require a labelled dataset and can determine features without it. DL is stated to “require more data points 
  to improve its accuracy” compared to the ML counterpart.
  \\
@@ -367,7 +371,7 @@ correctly determined over the total number of instances that are guessed, this i
  \\
  \citeauthor{Chockwanich} (2019) use the same evaluation methods outlined when comparing different DL models 
  implemented in TensorFlow. They also look at CPU usage percentages and processing time. They were able to make a clear 
- conclusion of which model is better by evaluation all factors. A term called f1-score was also mentioned in their 
+ conclusion of which model is better by evaluating all factors. A term called f1-score was also mentioned in their 
  analysis. Shung (2018) also explains the relevancy of f1 score, it is essentially a way to determine a “balance between
   precision and recall”. \citeauthor{kors2021} (2021) discusses the F1 score and it’s purpose in providing a better accuracy 
   statistic that accounts for “imabalanced data”, this is when you don’t have a good balance of data for each class and 
