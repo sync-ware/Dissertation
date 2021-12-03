@@ -1,0 +1,1348 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{diveintodeeplearning}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7d5253ea94fa9c642303bef9e588cd8}{%
+           family={Anon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{fullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{bibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorbibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \field{extraname}{1}
+      \field{labelalpha}{Anonnd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Neural Networks}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://d2l.ai/chapter_convolutional-neural-networks/lenet.html
+      \endverb
+      \verb{url}
+      \verb https://d2l.ai/chapter_convolutional-neural-networks/lenet.html
+      \endverb
+    \endentry
+    \entry{anonpercep}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7d5253ea94fa9c642303bef9e588cd8}{%
+           family={Anon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{fullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{bibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorbibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
+      \field{extraname}{2}
+      \field{labelalpha}{Anonnd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{History of the Perceptron}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://home.csulb.edu/~cwallis/artificialn/History.htm
+      \endverb
+      \verb{url}
+      \verb https://home.csulb.edu/~cwallis/artificialn/History.htm
+      \endverb
+    \endentry
+    \entry{CamastraFrancescoMLfA}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a71ddc6e4bc6a17a4d18daac3db018a2}{%
+           family={Camastra},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cce889981ab28a69e091c1c46248ccd}{%
+           family={Vinciarelli},
+           familyi={V\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{c7e2fca64902baa87339c563da86d35d}
+      \strng{fullhash}{c7e2fca64902baa87339c563da86d35d}
+      \strng{bibnamehash}{c7e2fca64902baa87339c563da86d35d}
+      \strng{authorbibnamehash}{c7e2fca64902baa87339c563da86d35d}
+      \strng{authornamehash}{c7e2fca64902baa87339c563da86d35d}
+      \strng{authorfullhash}{c7e2fca64902baa87339c563da86d35d}
+      \field{labelalpha}{CamastraVinciarelli}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed. 2015}
+      \field{series}{Advanced Information and Knowledge Processing}
+      \field{title}{Machine Learning for Audio, Image and Video Analysis: Theory and Applications}
+    \endentry
+    \entry{tufts2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fc2e881244a424ef341af37c97aada0}{%
+           family={Centre},
+           familyi={C\bibinitperiod},
+           given={Tufts\bibnamedelima Medical},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1fc2e881244a424ef341af37c97aada0}
+      \strng{fullhash}{1fc2e881244a424ef341af37c97aada0}
+      \strng{bibnamehash}{1fc2e881244a424ef341af37c97aada0}
+      \strng{authorbibnamehash}{1fc2e881244a424ef341af37c97aada0}
+      \strng{authornamehash}{1fc2e881244a424ef341af37c97aada0}
+      \strng{authorfullhash}{1fc2e881244a424ef341af37c97aada0}
+      \field{labelalpha}{Centrena}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transcutaneous Bilirubin Measurement}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{n.a.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hhma.org/healthadvisor/pa-tranbili-pep/
+      \endverb
+      \verb{url}
+      \verb https://hhma.org/healthadvisor/pa-tranbili-pep/
+      \endverb
+    \endentry
+    \entry{Chockwanich}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f6688861b0b2199ff4197aee6d870621}{%
+           family={Chockwanich},
+           familyi={C\bibinitperiod},
+           given={Navaporn},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5204f27e716a1082adaf307a0314ed4e}{%
+           family={Visoottiviseth},
+           familyi={V\bibinitperiod},
+           given={Vasaka},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \strng{fullhash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \strng{bibnamehash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \strng{authorbibnamehash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \strng{authornamehash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \strng{authorfullhash}{25b1ac78df934a48c4e1f335b2d3fe76}
+      \field{labelalpha}{ChockwanichVisoottiviseth2019}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 21st International Conference on Advanced Communication Technology (ICACT)}
+      \field{title}{Intrusion Detection by Deep Learning with TensorFlow}
+      \field{year}{2019}
+      \field{pages}{654\bibrangedash 659}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/ICACT.2019.8701969
+      \endverb
+    \endentry
+    \entry{tom1995}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=829d19d0b924abeadff48ade89ef46c4}{%
+           family={Dietterich},
+           familyi={D\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{829d19d0b924abeadff48ade89ef46c4}
+      \strng{fullhash}{829d19d0b924abeadff48ade89ef46c4}
+      \strng{bibnamehash}{829d19d0b924abeadff48ade89ef46c4}
+      \strng{authorbibnamehash}{829d19d0b924abeadff48ade89ef46c4}
+      \strng{authornamehash}{829d19d0b924abeadff48ade89ef46c4}
+      \strng{authorfullhash}{829d19d0b924abeadff48ade89ef46c4}
+      \field{labelalpha}{Dietterich1995}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Comput. Surv.}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Overfitting and Undercomputing in Machine Learning}
+      \field{volume}{27}
+      \field{year}{1995}
+      \field{pages}{326\bibrangedash 327}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1145/212094.212114
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/212094.212114
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/212094.212114
+      \endverb
+    \endentry
+    \entry{goodfellow2016deep}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{labelalpha}{GoodfellowBengioCourville2016}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep learning}
+      \field{year}{2016}
+    \endentry
+    \entry{googletrends}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{1}
+      \field{labelalpha}{Google2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Trends}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.google.com/trends/explore?cat=1227&date=all&q=Deep%20Learning
+      \endverb
+      \verb{url}
+      \verb https://trends.google.com/trends/explore?cat=1227&date=all&q=Deep%20Learning
+      \endverb
+    \endentry
+    \entry{googleTF}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{2}
+      \field{labelalpha}{Google2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Performance measurement}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite/performance/measurement
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite/performance/measurement
+      \endverb
+    \endentry
+    \entry{deGreefLilian2014Bump}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=44cdad293885e6dfad3df7f29f121996}{%
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0,
+           family={Greef},
+           familyi={G\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b13c8307f712c1ae851b00c11c1ff97}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={Mayank},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d7709679ecf85b53232a215c2f0f3a1}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=094ba9f7e13264fad46dc7bb5dfee771}{%
+           family={Stout},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04e4b01cc527b681dc6aa9db38192f81}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Shwetak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{890c07572171e6e9b78a28ccb64ea988}
+      \strng{fullhash}{7b5529b15dee18072f98e118f6dfdf7f}
+      \strng{bibnamehash}{7b5529b15dee18072f98e118f6dfdf7f}
+      \strng{authorbibnamehash}{7b5529b15dee18072f98e118f6dfdf7f}
+      \strng{authornamehash}{890c07572171e6e9b78a28ccb64ea988}
+      \strng{authorfullhash}{7b5529b15dee18072f98e118f6dfdf7f}
+      \field{labelalpha}{Greef+2014}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Health sensing through smartphones has received considerable attention in recent years because of the devices' ubiquity and promise to lower the barrier for tracking medical conditions. In this paper, we focus on using smartphones to monitor newborn jaundice, which manifests as a yellow discoloration of the skin. Although a degree of jaundice is common in healthy newborns, early detection of extreme jaundice is essential to prevent permanent brain damage or death. Current detection techniques, however, require clinical tests with blood samples or other specialized equipment. Consequently, newborns often depend on visual assessments of their skin color at home, which is known to be unreliable. To this end, we present BiliCam, a low-cost system that uses smartphone cameras to assess newborn jaundice. We evaluated BiliCam on 100 newborns, yielding a 0.85 rank order correlation with the gold standard blood test. We also discuss usability challenges and design solutions to make the system practical.}
+      \field{booktitle}{Proceedings of the 2014 ACM International Joint Conference on pervasive and ubiquitous computing}
+      \field{isbn}{1450329683}
+      \field{series}{UbiComp '14}
+      \field{title}{Bilicam: using mobile phones to monitor newborn jaundice}
+      \field{year}{2014}
+      \field{pages}{331\bibrangedash 342}
+      \range{pages}{12}
+      \keyw{Bilirubin ; Health sensing ; Image processing ; Mobile phones ; Neonatal jaundice}
+    \endentry
+    \entry{gsm}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa3fd45ce0fdbda627dceb42cee19e51}{%
+           family={GSMArena},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \strng{fullhash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \strng{bibnamehash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \strng{authorbibnamehash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \strng{authornamehash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \strng{authorfullhash}{aa3fd45ce0fdbda627dceb42cee19e51}
+      \field{labelalpha}{GSMArena2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GSM Arena}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gsmarena.com/
+      \endverb
+      \verb{url}
+      \verb https://www.gsmarena.com/
+      \endverb
+    \endentry
+    \entry{gupta2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b684339cfeb154bee101b70cb1cb29b9}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b684339cfeb154bee101b70cb1cb29b9}
+      \strng{fullhash}{b684339cfeb154bee101b70cb1cb29b9}
+      \strng{bibnamehash}{b684339cfeb154bee101b70cb1cb29b9}
+      \strng{authorbibnamehash}{b684339cfeb154bee101b70cb1cb29b9}
+      \strng{authornamehash}{b684339cfeb154bee101b70cb1cb29b9}
+      \strng{authorfullhash}{b684339cfeb154bee101b70cb1cb29b9}
+      \field{labelalpha}{Gupta2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Tensor is a milestone for machine learning}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.google/products/pixel/introducing-google-tensor/
+      \endverb
+      \verb{url}
+      \verb https://blog.google/products/pixel/introducing-google-tensor/
+      \endverb
+    \endentry
+    \entry{kav2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b0ee043c5d5ce373995f25c08671606}{%
+           family={Kavlakoglu},
+           familyi={K\bibinitperiod},
+           given={Eda},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b0ee043c5d5ce373995f25c08671606}
+      \strng{fullhash}{0b0ee043c5d5ce373995f25c08671606}
+      \strng{bibnamehash}{0b0ee043c5d5ce373995f25c08671606}
+      \strng{authorbibnamehash}{0b0ee043c5d5ce373995f25c08671606}
+      \strng{authornamehash}{0b0ee043c5d5ce373995f25c08671606}
+      \strng{authorfullhash}{0b0ee043c5d5ce373995f25c08671606}
+      \field{labelalpha}{Kavlakoglu2020}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI vs. Machine Learning vs. Deep Learning vs. Neural Networks: What’s the Difference?}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/cloud/blog/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/cloud/blog/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks
+      \endverb
+    \endentry
+    \entry{kors2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9aa0c55a33059d21b829b3c604ebfab}{%
+           family={Korstanje},
+           familyi={K\bibinitperiod},
+           given={Joos},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{fullhash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{bibnamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authorbibnamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authornamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authorfullhash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \field{labelalpha}{Korstanje2021}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The F1 score}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/the-f1-score-bec2bbc38aa6
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/the-f1-score-bec2bbc38aa6
+      \endverb
+    \endentry
+    \entry{kulendran2014}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=c58628b2ea2a6621d2c30d5d5a389cb1}{%
+           family={Kulendran},
+           familyi={K\bibinitperiod},
+           given={Myutan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf26bc2623620cfd7d7d6384219f1095}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a81a50cf545fabdbd3c3b515bfc7b0a}{%
+           family={Laws},
+           familyi={L\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=295d07905d4b69077eb3d08626b86f2c}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abfe4a1822efbe13221b86451983bd93}{%
+           family={Nehme},
+           familyi={N\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcf0c58bc302d6877e4b774444a94569}{%
+           family={Darzi},
+           familyi={D\bibinitperiod},
+           given={Ara},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d748f10678383784b138ccbe732cb2ff}{%
+           family={Purkayastha},
+           familyi={P\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{517b379e45eeadf58722f7d66a42942b}
+      \strng{fullhash}{d839d5298b287bd5c0339d506cd83aed}
+      \strng{bibnamehash}{d839d5298b287bd5c0339d506cd83aed}
+      \strng{authorbibnamehash}{d839d5298b287bd5c0339d506cd83aed}
+      \strng{authornamehash}{517b379e45eeadf58722f7d66a42942b}
+      \strng{authorfullhash}{d839d5298b287bd5c0339d506cd83aed}
+      \field{labelalpha}{Kulendran+2014}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Surgical innovation}
+      \field{number}{4}
+      \field{title}{Surgical Smartphone Applications Across Different Platforms: Their Evolution, Uses, and Users}
+      \field{volume}{21}
+      \field{year}{2014}
+      \field{pages}{427\bibrangedash 440}
+      \range{pages}{14}
+    \endentry
+    \entry{MohammedMohssen2017Ml:a}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=269807ad4f8e31db360ebe786638d92f}{%
+           family={Mohammed},
+           familyi={M\bibinitperiod},
+           given={Mohssen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{269807ad4f8e31db360ebe786638d92f}
+      \strng{fullhash}{269807ad4f8e31db360ebe786638d92f}
+      \strng{bibnamehash}{269807ad4f8e31db360ebe786638d92f}
+      \strng{authorbibnamehash}{269807ad4f8e31db360ebe786638d92f}
+      \strng{authornamehash}{269807ad4f8e31db360ebe786638d92f}
+      \strng{authorfullhash}{269807ad4f8e31db360ebe786638d92f}
+      \field{labelalpha}{Mohammed2017}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning, one of the top emerging sciences, has an extremely broad range of applications. However, many books on the subject provide only a theoretical approach, making it difficult for a newcomer to grasp the subject material. This book provides a more practical approach by explaining the concepts of machine learning algorithms and describing the areas of application for each algorithm, using simple practical examples to demonstrate each algorithm and showing how different issues related to these algorithms are applied.}
+      \field{edition}{1st edition.}
+      \field{isbn}{1-4987-0539-1}
+      \field{title}{Machine learning : algorithms and applications}
+      \field{year}{2017}
+      \keyw{Machine learning; Computer algorithms; Electronic books}
+    \endentry
+    \entry{NobleWilliamS2006Wias}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=26e8712e76b937f49b896653e76a621f}{%
+           family={Noble},
+           familyi={N\bibinitperiod},
+           given={William\bibnamedelima S},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {NEW YORK}%
+      }
+      \list{publisher}{1}{%
+        {NATURE PUBLISHING GROUP}%
+      }
+      \strng{namehash}{26e8712e76b937f49b896653e76a621f}
+      \strng{fullhash}{26e8712e76b937f49b896653e76a621f}
+      \strng{bibnamehash}{26e8712e76b937f49b896653e76a621f}
+      \strng{authorbibnamehash}{26e8712e76b937f49b896653e76a621f}
+      \strng{authornamehash}{26e8712e76b937f49b896653e76a621f}
+      \strng{authorfullhash}{26e8712e76b937f49b896653e76a621f}
+      \field{labelalpha}{Noble2006}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Support vector machines (SVMs) are becoming popular in a wide variety of biological applications. But, what exactly are SVMs and how do they work? And what are their most promising applications in the life sciences?}
+      \field{issn}{1087-0156}
+      \field{journaltitle}{Nature biotechnology}
+      \field{number}{12}
+      \field{title}{What is a support vector machine?}
+      \field{volume}{24}
+      \field{year}{2006}
+      \field{pages}{1565\bibrangedash 1567}
+      \range{pages}{3}
+      \keyw{Algorithms ; Biological and medical sciences ; Biotechnology & Applied Microbiology ; Computational Biology - methods ; Fundamental and applied biological sciences. Psychology ; General aspects ; Life Sciences & Biomedicine ; Mathematics in biology. Statistical analysis. Models. Metrology. Data processing in biology (general aspects) ; Oligonucleotide Array Sequence Analysis - methods ; Pattern Recognition,Automated - methods ; Science & Technology}
+    \endentry
+    \entry{odea2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9ce55018d3529c396e9239ed65b2246}{%
+           family={O'Dea},
+           familyi={O\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9ce55018d3529c396e9239ed65b2246}
+      \strng{fullhash}{a9ce55018d3529c396e9239ed65b2246}
+      \strng{bibnamehash}{a9ce55018d3529c396e9239ed65b2246}
+      \strng{authorbibnamehash}{a9ce55018d3529c396e9239ed65b2246}
+      \strng{authornamehash}{a9ce55018d3529c396e9239ed65b2246}
+      \strng{authorfullhash}{a9ce55018d3529c396e9239ed65b2246}
+      \field{labelalpha}{ODea2021}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global smartphone market share from 4th quarter 2009 to 3rd quarter 2021}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/271496/global-market-share-held-by-smartphone-vendors-since-4th-quarter-2009/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/271496/global-market-share-held-by-smartphone-vendors-since-4th-quarter-2009/
+      \endverb
+    \endentry
+    \entry{rosebook2016}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c90bca519e8a141eae965e33de9a59}{%
+           family={Rosebrook},
+           familyi={R\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c90bca519e8a141eae965e33de9a59}
+      \strng{fullhash}{90c90bca519e8a141eae965e33de9a59}
+      \strng{bibnamehash}{90c90bca519e8a141eae965e33de9a59}
+      \strng{authorbibnamehash}{90c90bca519e8a141eae965e33de9a59}
+      \strng{authornamehash}{90c90bca519e8a141eae965e33de9a59}
+      \strng{authorfullhash}{90c90bca519e8a141eae965e33de9a59}
+      \field{labelalpha}{Rosebrook2016}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{k-NN classifier for image classification}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.pyimagesearch.com/2016/08/08/k-nn-classifier-for-image-classification/
+      \endverb
+      \verb{url}
+      \verb https://www.pyimagesearch.com/2016/08/08/k-nn-classifier-for-image-classification/
+      \endverb
+    \endentry
+    \entry{rosenblatt1961principles}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e8511ef13d0cdda3a709b93fa650e71}{%
+           family={Rosenblatt},
+           familyi={R\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Cornell Aeronautical Lab Inc Buffalo NY}%
+      }
+      \strng{namehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{fullhash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{bibnamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authorbibnamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authornamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authorfullhash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \field{labelalpha}{Rosenblatt1961}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principles of neurodynamics. perceptrons and the theory of brain mechanisms}
+      \field{type}{techreport}
+      \field{year}{1961}
+    \endentry
+    \entry{saha2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f70e57d70d96dc308cd512ddac3eba0}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Sumit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \strng{fullhash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \strng{bibnamehash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \strng{authorbibnamehash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \strng{authornamehash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \strng{authorfullhash}{8f70e57d70d96dc308cd512ddac3eba0}
+      \field{labelalpha}{Saha2018}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+      \endverb
+    \endentry
+    \entry{ScarpinoMatthew2018Tfd}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62f39f29815b17683bf8e3f31bf33e3a}{%
+           family={Scarpino},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Newark}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \strng{fullhash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \strng{bibnamehash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \strng{authorbibnamehash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \strng{authornamehash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \strng{authorfullhash}{62f39f29815b17683bf8e3f31bf33e3a}
+      \field{labelalpha}{Scarpino2018}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Become a machine learning pro! Google TensorFlow has become the darling of financial firms and research organizations, but the technology can be intimidating and the learning curve is steep. Luckily, TensorFlow For Dummies is here to offer you a friendly, easy-to-follow book on the subject. Inside, you'll find out how to write applications with TensorFlow, while also grasping the concepts underlying machine learning-all without ever losing your cool! Machine learning has become ubiquitous in modern society, and its applications include language translation, robotics, handwriting analysis, financial prediction, and image recognition. TensorFlow is Google's preeminent toolset for machine learning, and this hands-on guide makes it easy to understand, even for those without a background in artificial intelligence. Install TensorFlow on your computer Learn the fundamentals of statistical regression and neural networks Visualize the machine learning process with TensorBoard Perform image recognition with convolutional neural networks (CNNs) Analyze sequential data with recurrent neural networks (RNNs) Execute TensorFlow on mobile devices and the Google Cloud Platform (GCP) If you're a manager or software developer looking to use TensorFlow for machine learning, this is the book you'll want to have close by.}
+      \field{isbn}{9781119466215}
+      \field{series}{For dummies}
+      \field{title}{TensorFlow for dummies}
+      \field{year}{2018}
+      \keyw{Artificial intelligence ; Machine learning}
+    \endentry
+    \entry{seeger2000learning}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f881b2bdd82b01b43c0b7a6f9dd3208}{%
+           family={Seeger},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \strng{fullhash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \strng{bibnamehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \strng{authorbibnamehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \strng{authornamehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \strng{authorfullhash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
+      \field{labelalpha}{Seeger2000}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning with labeled and unlabeled data}
+      \field{year}{2000}
+    \endentry
+    \entry{shung2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a2f3c3353e787ef4b0e03922ae6c0ab}{%
+           family={Shung},
+           familyi={S\bibinitperiod},
+           given={Koo\bibnamedelima Ping},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \strng{fullhash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \strng{bibnamehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \strng{authorbibnamehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \strng{authornamehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \strng{authorfullhash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
+      \field{labelalpha}{Shung2018}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Accuracy, Precision, Recall or F1?}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
+      \endverb
+    \endentry
+    \entry{SzeliskiRichard2011CV:A}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2e556c93256e7d70895d67702e14f1a}{%
+           family={Szeliski},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer London : Imprint: Springer}%
+      }
+      \strng{namehash}{f2e556c93256e7d70895d67702e14f1a}
+      \strng{fullhash}{f2e556c93256e7d70895d67702e14f1a}
+      \strng{bibnamehash}{f2e556c93256e7d70895d67702e14f1a}
+      \strng{authorbibnamehash}{f2e556c93256e7d70895d67702e14f1a}
+      \strng{authornamehash}{f2e556c93256e7d70895d67702e14f1a}
+      \strng{authorfullhash}{f2e556c93256e7d70895d67702e14f1a}
+      \field{labelalpha}{Szeliski2011}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Humans perceive the three-dimensional structure of the world with apparent ease. However, despite all of the recent advances in computer vision research, the dream of having a computer interpret an image at the same level as a two-year old remains elusive. Why is computer vision such a challenging problem and what is the current state of the art? Computer Vision: Algorithms and Applications explores the variety of techniques commonly used to analyze and interpret images. It also describes challenging real-world applications where vision is being successfully used, both for specialized applications such as medical imaging, and for fun, consumer-level tasks such as image editing and stitching, which students can apply to their own personal photos and videos. More than just a source of “recipes,” this exceptionally authoritative and comprehensive textbook/reference also takes a scientific approach to basic vision problems, formulating physical models of the imaging process before inverting them to produce descriptions of a scene. These problems are also analyzed using statistical models and solved using rigorous engineering techniques Topics and features: Structured to support active curricula and project-oriented courses, with tips in the Introduction for using the book in a variety of customized courses Presents exercises at the end of each chapter with a heavy emphasis on testing algorithms and containing numerous suggestions for small mid-term projects Provides additional material and more detailed mathematical topics in the Appendices, which cover linear algebra, numerical techniques, and Bayesian estimation theory Suggests additional reading at the end of each chapter, including the latest research in each sub-field, in addition to a full Bibliography at the end of the book Supplies supplementary course material for students at the associated website, http://szeliski.org/Book/ Suitable for an upper-level undergraduate or graduate-level course in computer science or engineering, this textbook focuses on basic techniques that work under real-world conditions and encourages students to push their creative boundaries. Its design and exposition also make it eminently suitable as a unique reference to the fundamental techniques and current research literature in computer vision. Dr. Richard Szeliski has more than 25 years’ experience in computer vision research, most notably at Digital Equipment Corporation and Microsoft Research. This text draws on that experience, as well as on computer vision courses he has taught at the University of Washington and Stanford.}
+      \field{edition}{1st ed. 2011.}
+      \field{isbn}{1-84882-935-3}
+      \field{series}{Texts in Computer Science}
+      \field{title}{Computer Vision : Algorithms and Applications}
+      \field{year}{2011}
+      \keyw{Optical data processing; Image Processing and Computer Vision}
+    \endentry
+    \entry{three2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ca8a2087e5557e317599344687a57391}{%
+           family={Three},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca8a2087e5557e317599344687a57391}
+      \strng{fullhash}{ca8a2087e5557e317599344687a57391}
+      \strng{bibnamehash}{ca8a2087e5557e317599344687a57391}
+      \strng{authorbibnamehash}{ca8a2087e5557e317599344687a57391}
+      \strng{authornamehash}{ca8a2087e5557e317599344687a57391}
+      \strng{authorfullhash}{ca8a2087e5557e317599344687a57391}
+      \field{labelalpha}{Three2021}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Samsung Galaxy S21 Ultra 5G}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.three.co.uk/samsung/galaxy-s21-ultra-5g?colour=phantom%20black&memory=128&paym=true
+      \endverb
+      \verb{url}
+      \verb http://www.three.co.uk/samsung/galaxy-s21-ultra-5g?colour=phantom%20black&memory=128&paym=true
+      \endverb
+    \endentry
+    \entry{triggs2021}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d9e19439528db5984c439c0dd8fd1c9c}{%
+           family={Triggs},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599477998cdab18019362a39fbe80ffe}{%
+           family={Simons},
+           familyi={S\bibinitperiod},
+           given={Hadlee},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45db1522663faac73d3489cf8e3a082e}
+      \strng{fullhash}{45db1522663faac73d3489cf8e3a082e}
+      \strng{bibnamehash}{45db1522663faac73d3489cf8e3a082e}
+      \strng{authorbibnamehash}{45db1522663faac73d3489cf8e3a082e}
+      \strng{authornamehash}{45db1522663faac73d3489cf8e3a082e}
+      \strng{authorfullhash}{45db1522663faac73d3489cf8e3a082e}
+      \field{labelalpha}{TriggsSimons2021}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Tensor vs Snapdragon 888 series: How the Pixel 6's chip shapes up}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.androidauthority.com/google-tensor-vs-snapdragon-888-3025332/
+      \endverb
+      \verb{url}
+      \verb https://www.androidauthority.com/google-tensor-vs-snapdragon-888-3025332/
+      \endverb
+    \endentry
+    \entry{turk1991face}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f473b513afb136b08a16834fc69ce931}{%
+           family={Turk},
+           familyi={T\bibinitperiod},
+           given={Matthew\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50765fec61c4ad2cfe2fdc2924ec05ed}{%
+           family={Pentland},
+           familyi={P\bibinitperiod},
+           given={Alex\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \strng{fullhash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \strng{bibnamehash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \strng{authorbibnamehash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \strng{authornamehash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \strng{authorfullhash}{f0c07e155a8a77f057e1ca825263c6ca}
+      \field{labelalpha}{TurkPentland1991}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Face recognition using eigenfaces}
+      \field{year}{1991}
+      \field{pages}{586\bibrangedash 587}
+      \range{pages}{2}
+    \endentry
+    \entry{10.1145/1163593.1163596}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0e5a3a9e54852c4a85c08c6119296924}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed6da967659adf0958304858f40b61b4}{%
+           family={Zander},
+           familyi={Z\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09b239894f72930e201f200b928027e1}{%
+           family={Armitage},
+           familyi={A\bibinitperiod},
+           given={Grenville},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \strng{fullhash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \strng{bibnamehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \strng{authorbibnamehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \strng{authornamehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \strng{authorfullhash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
+      \field{labelalpha}{WilliamsZanderArmitage2006}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The identification of network applications through observation of associated packet traffic flows is vital to the areas of network management and surveillance. Currently popular methods such as port number and payload-based identification exhibit a number of shortfalls. An alternative is to use machine learning (ML) techniques and identify network applications based on per-flow statistics, derived from payload-independent features such as packet length and inter-arrival time distributions. The performance impact of feature set reduction, using Consistency-based and Correlation-based feature selection, is demonstrated on Naı̈ve Bayes, C4.5, Bayesian Network and Naı̈ve Bayes Tree algorithms. We then show that it is useful to differentiate algorithms based on computational performance rather than classification accuracy alone, as although classification accuracy between the algorithms is similar, computational performance can differ significantly.}
+      \field{issn}{0146-4833}
+      \field{journaltitle}{SIGCOMM Comput. Commun. Rev.}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{A Preliminary Performance Comparison of Five Machine Learning Algorithms for Practical IP Traffic Flow Classification}
+      \field{volume}{36}
+      \field{year}{2006}
+      \field{pages}{5\bibrangedash 16}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/1163593.1163596
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1163593.1163596
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1163593.1163596
+      \endverb
+      \keyw{machine learning,traffic classification}
+    \endentry
+    \entry{wright2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=12081392f8b4dc850a235d7a600ed3ec}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{12081392f8b4dc850a235d7a600ed3ec}
+      \strng{fullhash}{12081392f8b4dc850a235d7a600ed3ec}
+      \strng{bibnamehash}{12081392f8b4dc850a235d7a600ed3ec}
+      \strng{authorbibnamehash}{12081392f8b4dc850a235d7a600ed3ec}
+      \strng{authornamehash}{12081392f8b4dc850a235d7a600ed3ec}
+      \strng{authorfullhash}{12081392f8b4dc850a235d7a600ed3ec}
+      \field{labelalpha}{Wright2017}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new generation of portable scientific instruments is taking shape, thanks to mobile processors and innovative data-gathering techniques.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Smartphone Science}
+      \field{volume}{61}
+      \field{year}{2017}
+      \field{pages}{18\bibrangedash 20}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/3157079
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3157079
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3157079
+      \endverb
+    \endentry
+    \entry{8359287}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=83cb61e1cad20a60633bf0234768b3ab}{%
+           family={Xin},
+           familyi={X\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a4b22284c86ca8cb3131e984f739062}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Lingshuang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15d3c26ace4489d65320a919d2c1b350}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0c6aecaaa979091072dcb106eab0550}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuling},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8053189d1e0377879188e9c4191db778}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanmiao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7fa6ce74fa79dcbc5d85cd69150104c4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hongliang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34f588f98423e27d72e2b76dacb19646}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Mingcheng},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=485ccaec2c3235e0a36ac5857f87394a}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Haixia},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad4750692276614e74e6d1e0fca5f70}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chunhua},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{989e2561431c9b06548e7d75bdf57429}
+      \strng{fullhash}{c354d97e29179b39743854e752ea8f1e}
+      \strng{bibnamehash}{c354d97e29179b39743854e752ea8f1e}
+      \strng{authorbibnamehash}{c354d97e29179b39743854e752ea8f1e}
+      \strng{authornamehash}{989e2561431c9b06548e7d75bdf57429}
+      \strng{authorfullhash}{c354d97e29179b39743854e752ea8f1e}
+      \field{labelalpha}{Xin+2018}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Machine Learning and Deep Learning Methods for Cybersecurity}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{35365\bibrangedash 35381}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2836950
+      \endverb
+    \endentry
+    \entry{zhang2004optimality}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19dbc5beae2d592ebad24f7b07c64e57}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \strng{fullhash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \strng{bibnamehash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \strng{authorbibnamehash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \strng{authornamehash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \strng{authorfullhash}{19dbc5beae2d592ebad24f7b07c64e57}
+      \field{labelalpha}{Zhang2004}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AA}
+      \field{number}{2}
+      \field{title}{The optimality of naive Bayes}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{pages}{3}
+      \range{pages}{1}
+    \endentry
+    \entry{zhu2005semi}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c1be19288e2f02778ee1943bc08b36b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaojin\bibnamedelima Jerry},
+           giveni={X\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Wisconsin-Madison Department of Computer Sciences}%
+      }
+      \strng{namehash}{2c1be19288e2f02778ee1943bc08b36b}
+      \strng{fullhash}{2c1be19288e2f02778ee1943bc08b36b}
+      \strng{bibnamehash}{2c1be19288e2f02778ee1943bc08b36b}
+      \strng{authorbibnamehash}{2c1be19288e2f02778ee1943bc08b36b}
+      \strng{authornamehash}{2c1be19288e2f02778ee1943bc08b36b}
+      \strng{authorfullhash}{2c1be19288e2f02778ee1943bc08b36b}
+      \field{labelalpha}{Zhu2005}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semi-supervised learning literature survey}
+      \field{year}{2005}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
