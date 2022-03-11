@@ -1,22 +1,25 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'LitTech.blg'
-[122] biber-MSWIN32:340> INFO - === 
-[165] Biber.pm:415> INFO - Reading 'LitTech.bcf'
-[357] Biber.pm:952> INFO - Found 33 citekeys in bib section 0
-[375] Biber.pm:4340> INFO - Processing section 0
-[389] Biber.pm:4531> INFO - Looking for bibtex format file 'refs.bib' for section 0
-[449] bibtex.pm:1689> INFO - LaTeX decoding ...
-[516] bibtex.pm:1494> INFO - Found BibTeX data source 'refs.bib'
-[566] Utils.pm:395> WARN - legacy month field 'dec' in entry 'wright2017' is not an integer - this will probably not sort properly.
-[597] Utils.pm:395> WARN - legacy year field 'n.a.' in entry 'tufts2021' is not an integer - this will probably not sort properly.
-[623] Utils.pm:395> WARN - legacy month field 'sep' in entry 'tom1995' is not an integer - this will probably not sort properly.
-[640] Utils.pm:395> WARN - legacy year field 'n.d.' in entry 'anonpercep' is not an integer - this will probably not sort properly.
-[652] Utils.pm:395> WARN - legacy year field 'n.d.' in entry 'diveintodeeplearning' is not an integer - this will probably not sort properly.
-[670] Utils.pm:395> WARN - legacy month field 'oct' in entry '10.1145/1163593.1163596' is not an integer - this will probably not sort properly.
-[752] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[752] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[752] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[752] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[791] bbl.pm:654> INFO - Writing 'LitTech.bbl' with encoding 'UTF-8'
-[813] bbl.pm:757> INFO - Output to LitTech.bbl
-[813] Biber.pm:128> INFO - WARNINGS: 6
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'LitTech.blg'
+[47] biber:322> INFO - === Fri Mar 11, 2022, 14:57:44
+[57] Biber.pm:415> INFO - Reading 'LitTech.bcf'
+[139] Biber.pm:943> INFO - Found 42 citekeys in bib section 0
+[156] Biber.pm:4256> INFO - Processing section 0
+[156] Utils.pm:75> INFO - Globbing data source 'refs.bib'
+[156] Utils.pm:91> INFO - Globbed data source 'refs.bib' to refs.bib
+[164] Biber.pm:4455> INFO - Looking for bibtex format file 'refs.bib' for section 0
+[166] bibtex.pm:1653> INFO - LaTeX decoding ...
+[210] bibtex.pm:1471> INFO - Found BibTeX data source 'refs.bib'
+[272] Utils.pm:293> WARN - month field 'sep' in entry 'tom1995' is not an integer - this will probably not sort properly.
+[280] Utils.pm:293> WARN - year field 'n.d.' in entry 'mathworks' is not an integer - this will probably not sort properly.
+[303] Utils.pm:293> WARN - year field 'n.d.' in entry 'anonpercep' is not an integer - this will probably not sort properly.
+[311] Utils.pm:293> WARN - year field 'n.d.' in entry 'diveintodeeplearning' is not an integer - this will probably not sort properly.
+[330] Utils.pm:293> WARN - year field 'n.d.' in entry 'DataFlairND' is not an integer - this will probably not sort properly.
+[363] Utils.pm:293> WARN - year field 'n.d.' in entry 'picturethis' is not an integer - this will probably not sort properly.
+[368] Utils.pm:293> WARN - month field 'oct' in entry '10.1145/1163593.1163596' is not an integer - this will probably not sort properly.
+[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[426] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[426] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[457] bbl.pm:652> INFO - Writing 'LitTech.bbl' with encoding 'UTF-8'
+[476] bbl.pm:755> INFO - Output to LitTech.bbl
+[477] Biber.pm:128> INFO - WARNINGS: 7

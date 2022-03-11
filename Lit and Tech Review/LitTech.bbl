@@ -19,6 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{dishaa2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77297be75dfb0f03b50acb6b8157ae71}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Dishaa},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77297be75dfb0f03b50acb6b8157ae71}
+      \strng{fullhash}{77297be75dfb0f03b50acb6b8157ae71}
+      \strng{bibnamehash}{77297be75dfb0f03b50acb6b8157ae71}
+      \strng{authorbibnamehash}{77297be75dfb0f03b50acb6b8157ae71}
+      \strng{authornamehash}{77297be75dfb0f03b50acb6b8157ae71}
+      \strng{authorfullhash}{77297be75dfb0f03b50acb6b8157ae71}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guide For Feature Extraction Techniques}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.analyticsvidhya.com/blog/2021/04/guide-for-feature-extraction-techniques/
+      \endverb
+      \verb{url}
+      \verb https://www.analyticsvidhya.com/blog/2021/04/guide-for-feature-extraction-techniques/
+      \endverb
+    \endentry
     \entry{diveintodeeplearning}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e7d5253ea94fa9c642303bef9e588cd8}{%
@@ -32,13 +66,11 @@
       \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
       \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
       \field{extraname}{1}
-      \field{labelalpha}{Anonnd}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Convolutional Neural Networks}
@@ -67,13 +99,11 @@
       \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
       \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
       \field{extraname}{2}
-      \field{labelalpha}{Anonnd}
       \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{History of the Perceptron}
@@ -87,6 +117,78 @@
       \endverb
       \verb{url}
       \verb https://home.csulb.edu/~cwallis/artificialn/History.htm
+      \endverb
+    \endentry
+    \entry{brownlee2020}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{4 Types of Classification Tasks in Machine Learning}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/types-of-classification-in-machine-learning/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/types-of-classification-in-machine-learning/
+      \endverb
+    \endentry
+    \entry{Brownlee2020b}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a Confusion Matrix in Machine Learning}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/confusion-matrix-machine-learning/#:~:text=A%20confusion%20matrix%20is%20a%20summary%20of%20prediction%20results%20on,key%20to%20the%20confusion%20matrix
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/confusion-matrix-machine-learning/#:~:text=A%20confusion%20matrix%20is%20a%20summary%20of%20prediction%20results%20on,key%20to%20the%20confusion%20matrix
       \endverb
     \endentry
     \entry{CamastraFrancescoMLfA}{book}{}
@@ -116,50 +218,14 @@
       \strng{authorbibnamehash}{c7e2fca64902baa87339c563da86d35d}
       \strng{authornamehash}{c7e2fca64902baa87339c563da86d35d}
       \strng{authorfullhash}{c7e2fca64902baa87339c563da86d35d}
-      \field{labelalpha}{CamastraVinciarelli}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd ed. 2015}
       \field{series}{Advanced Information and Knowledge Processing}
       \field{title}{Machine Learning for Audio, Image and Video Analysis: Theory and Applications}
-    \endentry
-    \entry{tufts2021}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1fc2e881244a424ef341af37c97aada0}{%
-           family={Centre},
-           familyi={C\bibinitperiod},
-           given={Tufts\bibnamedelima Medical},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1fc2e881244a424ef341af37c97aada0}
-      \strng{fullhash}{1fc2e881244a424ef341af37c97aada0}
-      \strng{bibnamehash}{1fc2e881244a424ef341af37c97aada0}
-      \strng{authorbibnamehash}{1fc2e881244a424ef341af37c97aada0}
-      \strng{authornamehash}{1fc2e881244a424ef341af37c97aada0}
-      \strng{authorfullhash}{1fc2e881244a424ef341af37c97aada0}
-      \field{labelalpha}{Centrena}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Transcutaneous Bilirubin Measurement}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2021}
-      \field{year}{n.a.}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://hhma.org/healthadvisor/pa-tranbili-pep/
-      \endverb
-      \verb{url}
-      \verb https://hhma.org/healthadvisor/pa-tranbili-pep/
-      \endverb
     \endentry
     \entry{Chockwanich}{inproceedings}{}
       \name{author}{2}{}{%
@@ -182,9 +248,8 @@
       \strng{authorbibnamehash}{25b1ac78df934a48c4e1f335b2d3fe76}
       \strng{authornamehash}{25b1ac78df934a48c4e1f335b2d3fe76}
       \strng{authorfullhash}{25b1ac78df934a48c4e1f335b2d3fe76}
-      \field{labelalpha}{ChockwanichVisoottiviseth2019}
       \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -196,6 +261,37 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.23919/ICACT.2019.8701969
+      \endverb
+    \endentry
+    \entry{DataFlairND}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a8c781cb7918cf28b0a891f2b84cd10}{%
+           family={DataFlair},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \strng{fullhash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \strng{bibnamehash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \strng{authorbibnamehash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \strng{authornamehash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \strng{authorfullhash}{3a8c781cb7918cf28b0a891f2b84cd10}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Iris Flower Classification Project using Machine Learning}
+      \field{urlday}{28}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data-flair.training/blogs/iris-flower-classification/#:~:text=Iris%20flower%20classification%20is%20a,'%2C%20'Petal%20width
+      \endverb
+      \verb{url}
+      \verb https://data-flair.training/blogs/iris-flower-classification/#:~:text=Iris%20flower%20classification%20is%20a,'%2C%20'Petal%20width
       \endverb
     \endentry
     \entry{tom1995}{article}{}
@@ -219,9 +315,8 @@
       \strng{authorbibnamehash}{829d19d0b924abeadff48ade89ef46c4}
       \strng{authornamehash}{829d19d0b924abeadff48ade89ef46c4}
       \strng{authorfullhash}{829d19d0b924abeadff48ade89ef46c4}
-      \field{labelalpha}{Dietterich1995}
       \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -243,6 +338,92 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1145/212094.212114
+      \endverb
+    \endentry
+    \entry{camille_garcin_2021_5645731}{dataset}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=a4d510da4b94ebec6edfcd7da5123859}{%
+           family={Garcin},
+           familyi={G\bibinitperiod},
+           given={Camille},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a1863105df6fae815d632a91b43808}{%
+           family={Joly},
+           familyi={J\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc79b5705916779c8ebc040ca45049a8}{%
+           family={Bonnet},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2ab129e4708d5a4c8ace089a8b0d40f}{%
+           family={Affouard},
+           familyi={A\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d0aecb0e68eb6c79a32e3cb4a746959}{%
+           family={Lombardo},
+           familyi={L\bibinitperiod},
+           given={Jean-Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3681ea0889d3f50db528236a84b7c8a1}{%
+           family={Chouet},
+           familyi={C\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8950e51d51589d653667137efbd53851}{%
+           family={Servajean},
+           familyi={S\bibinitperiod},
+           given={Maximilien},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=768152f6792774a0a026d5c359791816}{%
+           family={Lorieul},
+           familyi={L\bibinitperiod},
+           given={Titouan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddc399ed9cad4f1e27a8896fadcc345c}{%
+           family={Salmon},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{3b61e63218e630b63880372b0275c1d8}
+      \strng{fullhash}{55896e3e61cc1c3e3a807c4e7729c385}
+      \strng{bibnamehash}{55896e3e61cc1c3e3a807c4e7729c385}
+      \strng{authorbibnamehash}{55896e3e61cc1c3e3a807c4e7729c385}
+      \strng{authornamehash}{3b61e63218e630b63880372b0275c1d8}
+      \strng{authorfullhash}{55896e3e61cc1c3e3a807c4e7729c385}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Pl@ntNet-300K image dataset}
+      \field{version}{1.1}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.5281/zenodo.5645731
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.5645731
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.5645731
       \endverb
     \endentry
     \entry{goodfellow2016deep}{book}{}
@@ -275,50 +456,14 @@
       \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authornamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
-      \field{labelalpha}{GoodfellowBengioCourville2016}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Deep learning}
       \field{year}{2016}
-    \endentry
-    \entry{googletrends}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{1}
-      \field{labelalpha}{Google2021}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Google Trends}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2021}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://trends.google.com/trends/explore?cat=1227&date=all&q=Deep%20Learning
-      \endverb
-      \verb{url}
-      \verb https://trends.google.com/trends/explore?cat=1227&date=all&q=Deep%20Learning
-      \endverb
     \endentry
     \entry{googleTF}{online}{}
       \name{author}{1}{}{%
@@ -332,14 +477,11 @@
       \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{2}
-      \field{labelalpha}{Google2021}
+      \field{extraname}{1}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradate}{2}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Performance measurement}
@@ -355,82 +497,37 @@
       \verb https://www.tensorflow.org/lite/performance/measurement
       \endverb
     \endentry
-    \entry{deGreefLilian2014Bump}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=44cdad293885e6dfad3df7f29f121996}{%
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0,
-           family={Greef},
-           familyi={G\bibinitperiod},
-           given={Lilian},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b13c8307f712c1ae851b00c11c1ff97}{%
-           family={Goel},
-           familyi={G\bibinitperiod},
-           given={Mayank},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3d7709679ecf85b53232a215c2f0f3a1}{%
-           family={Seo},
-           familyi={S\bibinitperiod},
-           given={Min},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
-           family={Larson},
-           familyi={L\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=094ba9f7e13264fad46dc7bb5dfee771}{%
-           family={Stout},
-           familyi={S\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=04e4b01cc527b681dc6aa9db38192f81}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={Shwetak},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
+    \entry{googleplay}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{890c07572171e6e9b78a28ccb64ea988}
-      \strng{fullhash}{7b5529b15dee18072f98e118f6dfdf7f}
-      \strng{bibnamehash}{7b5529b15dee18072f98e118f6dfdf7f}
-      \strng{authorbibnamehash}{7b5529b15dee18072f98e118f6dfdf7f}
-      \strng{authornamehash}{890c07572171e6e9b78a28ccb64ea988}
-      \strng{authorfullhash}{7b5529b15dee18072f98e118f6dfdf7f}
-      \field{labelalpha}{Greef+2014}
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{2}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Health sensing through smartphones has received considerable attention in recent years because of the devices' ubiquity and promise to lower the barrier for tracking medical conditions. In this paper, we focus on using smartphones to monitor newborn jaundice, which manifests as a yellow discoloration of the skin. Although a degree of jaundice is common in healthy newborns, early detection of extreme jaundice is essential to prevent permanent brain damage or death. Current detection techniques, however, require clinical tests with blood samples or other specialized equipment. Consequently, newborns often depend on visual assessments of their skin color at home, which is known to be unreliable. To this end, we present BiliCam, a low-cost system that uses smartphone cameras to assess newborn jaundice. We evaluated BiliCam on 100 newborns, yielding a 0.85 rank order correlation with the gold standard blood test. We also discuss usability challenges and design solutions to make the system practical.}
-      \field{booktitle}{Proceedings of the 2014 ACM International Joint Conference on pervasive and ubiquitous computing}
-      \field{isbn}{1450329683}
-      \field{series}{UbiComp '14}
-      \field{title}{Bilicam: using mobile phones to monitor newborn jaundice}
-      \field{year}{2014}
-      \field{pages}{331\bibrangedash 342}
-      \range{pages}{12}
-      \keyw{Bilirubin ; Health sensing ; Image processing ; Mobile phones ; Neonatal jaundice}
+      \field{title}{PlantNet Plant Identification}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=org.plantnet&hl=en_GB&gl=US
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=org.plantnet&hl=en_GB&gl=US
+      \endverb
     \endentry
     \entry{gsm}{online}{}
       \name{author}{1}{}{%
@@ -444,9 +541,8 @@
       \strng{authorbibnamehash}{aa3fd45ce0fdbda627dceb42cee19e51}
       \strng{authornamehash}{aa3fd45ce0fdbda627dceb42cee19e51}
       \strng{authorfullhash}{aa3fd45ce0fdbda627dceb42cee19e51}
-      \field{labelalpha}{GSMArena2021}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -479,9 +575,8 @@
       \strng{authorbibnamehash}{b684339cfeb154bee101b70cb1cb29b9}
       \strng{authornamehash}{b684339cfeb154bee101b70cb1cb29b9}
       \strng{authorfullhash}{b684339cfeb154bee101b70cb1cb29b9}
-      \field{labelalpha}{Gupta2021}
       \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -499,6 +594,116 @@
       \verb https://blog.google/products/pixel/introducing-google-tensor/
       \endverb
     \endentry
+    \entry{joly:hal-01182775}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=00a1863105df6fae815d632a91b43808}{%
+           family={Joly},
+           familyi={J\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc79b5705916779c8ebc040ca45049a8}{%
+           family={Bonnet},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3852a91e9572aab258643bae1656282c}{%
+           family={Go{ë}au},
+           familyi={G\bibinitperiod},
+           given={Herv{é}},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9301bd80264a68418c62cbec04c3367}{%
+           family={Barbe},
+           familyi={B\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d02c3cb6dc1a56bd0526ee5b3e14228d}{%
+           family={Selmi},
+           familyi={S\bibinitperiod},
+           given={Souheil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ca5db080ba587ba38e6501ec4a55117}{%
+           family={Champ},
+           familyi={C\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=136dffb8c9f3d9fca1078f6f745974f2}{%
+           family={Dufour-Kowalski},
+           familyi={D\bibinithyphendelim K\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2ab129e4708d5a4c8ace089a8b0d40f}{%
+           family={Affouard},
+           familyi={A\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1195d104c5f3c69fe00001e4e70b26df}{%
+           family={Carr{é}},
+           familyi={C\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=505ab7c44c4476c93da311957fb2ea4a}{%
+           family={Molino},
+           familyi={M\bibinitperiod},
+           given={Jean-Fran{ç}ois},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0838508ea4f7c328c69bbfe2637d081f}{%
+           family={Boujemaa},
+           familyi={B\bibinitperiod},
+           given={Nozha},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5ff7595c6542e577835ecfec43bc609}{%
+           family={Barth{é}l{é}my},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{9f2406128a54d35f01ed1f4b5fe9e08d}
+      \strng{fullhash}{6938a7a8576b0778573a4daba4ae6e99}
+      \strng{bibnamehash}{6938a7a8576b0778573a4daba4ae6e99}
+      \strng{authorbibnamehash}{6938a7a8576b0778573a4daba4ae6e99}
+      \strng{authornamehash}{9f2406128a54d35f01ed1f4b5fe9e08d}
+      \strng{authorfullhash}{6938a7a8576b0778573a4daba4ae6e99}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Multimedia Systems}}
+      \field{number}{6}
+      \field{title}{{A look inside the Pl@ntNet experience}}
+      \field{volume}{22}
+      \field{year}{2016}
+      \field{pages}{751\bibrangedash 766}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s00530-015-0462-9
+      \endverb
+      \verb{file}
+      \verb https://hal.inria.fr/hal-01182775/file/A-look-inside-white.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.inria.fr/hal-01182775
+      \endverb
+      \verb{url}
+      \verb https://hal.inria.fr/hal-01182775
+      \endverb
+    \endentry
     \entry{kav2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0b0ee043c5d5ce373995f25c08671606}{%
@@ -514,9 +719,8 @@
       \strng{authorbibnamehash}{0b0ee043c5d5ce373995f25c08671606}
       \strng{authornamehash}{0b0ee043c5d5ce373995f25c08671606}
       \strng{authorfullhash}{0b0ee043c5d5ce373995f25c08671606}
-      \field{labelalpha}{Kavlakoglu2020}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -549,9 +753,8 @@
       \strng{authorbibnamehash}{f9aa0c55a33059d21b829b3c604ebfab}
       \strng{authornamehash}{f9aa0c55a33059d21b829b3c604ebfab}
       \strng{authorfullhash}{f9aa0c55a33059d21b829b3c604ebfab}
-      \field{labelalpha}{Korstanje2021}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -620,9 +823,8 @@
       \strng{authorbibnamehash}{d839d5298b287bd5c0339d506cd83aed}
       \strng{authornamehash}{517b379e45eeadf58722f7d66a42942b}
       \strng{authorfullhash}{d839d5298b287bd5c0339d506cd83aed}
-      \field{labelalpha}{Kulendran+2014}
       \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -634,6 +836,83 @@
       \field{year}{2014}
       \field{pages}{427\bibrangedash 440}
       \range{pages}{14}
+    \endentry
+    \entry{mathworks}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={MathWorks},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Texture Analysis}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mathworks.com/help/images/texture-analysis-1.html
+      \endverb
+      \verb{url}
+      \verb https://www.mathworks.com/help/images/texture-analysis-1.html
+      \endverb
+    \endentry
+    \entry{mingqiang2008survey}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8655fe238cc44ea2f31bcc8435734d23}{%
+           family={Mingqiang},
+           familyi={M\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aea9fcd60aa09f070702a18a410ed157}{%
+           family={Kidiyo},
+           familyi={K\bibinitperiod},
+           given={Kpalma},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5301987fbd308a57ab4fdd2b080c3169}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Ronsin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {In-Tech}%
+      }
+      \strng{namehash}{3932803115ea094d9a9bfd524f9278f2}
+      \strng{fullhash}{3932803115ea094d9a9bfd524f9278f2}
+      \strng{bibnamehash}{3932803115ea094d9a9bfd524f9278f2}
+      \strng{authorbibnamehash}{3932803115ea094d9a9bfd524f9278f2}
+      \strng{authornamehash}{3932803115ea094d9a9bfd524f9278f2}
+      \strng{authorfullhash}{3932803115ea094d9a9bfd524f9278f2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern recognition}
+      \field{number}{7}
+      \field{title}{A survey of shape feature extraction techniques}
+      \field{volume}{15}
+      \field{year}{2008}
+      \field{pages}{43\bibrangedash 90}
+      \range{pages}{48}
     \endentry
     \entry{MohammedMohssen2017Ml:a}{book}{}
       \name{author}{1}{}{%
@@ -659,9 +938,8 @@
       \strng{authorbibnamehash}{269807ad4f8e31db360ebe786638d92f}
       \strng{authornamehash}{269807ad4f8e31db360ebe786638d92f}
       \strng{authorfullhash}{269807ad4f8e31db360ebe786638d92f}
-      \field{labelalpha}{Mohammed2017}
       \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -672,6 +950,42 @@
       \field{title}{Machine learning : algorithms and applications}
       \field{year}{2017}
       \keyw{Machine learning; Computer algorithms; Electronic books}
+    \endentry
+    \entry{Nilsback2008}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b6e16bf7c88798afd517adb27d76d206}{%
+           family={Nilsback},
+           familyi={N\bibinitperiod},
+           given={Maria-Elena},
+           giveni={M\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \strng{fullhash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \strng{bibnamehash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \strng{authorbibnamehash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \strng{authornamehash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \strng{authorfullhash}{9614cc9bcfed730f883e77b2c7ba45f4}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Sixth Indian Conference on Computer Vision, Graphics Image Processing}
+      \field{title}{Automated Flower Classification over a Large Number of Classes}
+      \field{year}{2008}
+      \field{pages}{722\bibrangedash 729}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICVGIP.2008.47
+      \endverb
     \endentry
     \entry{NobleWilliamS2006Wias}{article}{}
       \name{author}{1}{}{%
@@ -697,9 +1011,8 @@
       \strng{authorbibnamehash}{26e8712e76b937f49b896653e76a621f}
       \strng{authornamehash}{26e8712e76b937f49b896653e76a621f}
       \strng{authorfullhash}{26e8712e76b937f49b896653e76a621f}
-      \field{labelalpha}{Noble2006}
       \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -730,9 +1043,8 @@
       \strng{authorbibnamehash}{a9ce55018d3529c396e9239ed65b2246}
       \strng{authornamehash}{a9ce55018d3529c396e9239ed65b2246}
       \strng{authorfullhash}{a9ce55018d3529c396e9239ed65b2246}
-      \field{labelalpha}{ODea2021}
       \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -750,6 +1062,37 @@
       \verb https://www.statista.com/statistics/271496/global-market-share-held-by-smartphone-vendors-since-4th-quarter-2009/
       \endverb
     \endentry
+    \entry{picturethis}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18acf7cd65ad59c5c24c16053bd91409}{%
+           family={PictureThisAI},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{18acf7cd65ad59c5c24c16053bd91409}
+      \strng{fullhash}{18acf7cd65ad59c5c24c16053bd91409}
+      \strng{bibnamehash}{18acf7cd65ad59c5c24c16053bd91409}
+      \strng{authorbibnamehash}{18acf7cd65ad59c5c24c16053bd91409}
+      \strng{authornamehash}{18acf7cd65ad59c5c24c16053bd91409}
+      \strng{authorfullhash}{18acf7cd65ad59c5c24c16053bd91409}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PictureThis AI}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.picturethisai.com/
+      \endverb
+      \verb{url}
+      \verb https://www.picturethisai.com/
+      \endverb
+    \endentry
     \entry{rosebook2016}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=90c90bca519e8a141eae965e33de9a59}{%
@@ -765,9 +1108,8 @@
       \strng{authorbibnamehash}{90c90bca519e8a141eae965e33de9a59}
       \strng{authornamehash}{90c90bca519e8a141eae965e33de9a59}
       \strng{authorfullhash}{90c90bca519e8a141eae965e33de9a59}
-      \field{labelalpha}{Rosebrook2016}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -803,9 +1145,8 @@
       \strng{authorbibnamehash}{9e8511ef13d0cdda3a709b93fa650e71}
       \strng{authornamehash}{9e8511ef13d0cdda3a709b93fa650e71}
       \strng{authorfullhash}{9e8511ef13d0cdda3a709b93fa650e71}
-      \field{labelalpha}{Rosenblatt1961}
       \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -829,9 +1170,8 @@
       \strng{authorbibnamehash}{8f70e57d70d96dc308cd512ddac3eba0}
       \strng{authornamehash}{8f70e57d70d96dc308cd512ddac3eba0}
       \strng{authorfullhash}{8f70e57d70d96dc308cd512ddac3eba0}
-      \field{labelalpha}{Saha2018}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -873,9 +1213,8 @@
       \strng{authorbibnamehash}{62f39f29815b17683bf8e3f31bf33e3a}
       \strng{authornamehash}{62f39f29815b17683bf8e3f31bf33e3a}
       \strng{authorfullhash}{62f39f29815b17683bf8e3f31bf33e3a}
-      \field{labelalpha}{Scarpino2018}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -902,9 +1241,8 @@
       \strng{authorbibnamehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
       \strng{authornamehash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
       \strng{authorfullhash}{9f881b2bdd82b01b43c0b7a6f9dd3208}
-      \field{labelalpha}{Seeger2000}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -927,9 +1265,8 @@
       \strng{authorbibnamehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
       \strng{authornamehash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
       \strng{authorfullhash}{4a2f3c3353e787ef4b0e03922ae6c0ab}
-      \field{labelalpha}{Shung2018}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -971,9 +1308,8 @@
       \strng{authorbibnamehash}{f2e556c93256e7d70895d67702e14f1a}
       \strng{authornamehash}{f2e556c93256e7d70895d67702e14f1a}
       \strng{authorfullhash}{f2e556c93256e7d70895d67702e14f1a}
-      \field{labelalpha}{Szeliski2011}
       \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -998,9 +1334,8 @@
       \strng{authorbibnamehash}{ca8a2087e5557e317599344687a57391}
       \strng{authornamehash}{ca8a2087e5557e317599344687a57391}
       \strng{authorfullhash}{ca8a2087e5557e317599344687a57391}
-      \field{labelalpha}{Three2021}
       \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1017,6 +1352,35 @@
       \verb{url}
       \verb http://www.three.co.uk/samsung/galaxy-s21-ultra-5g?colour=phantom%20black&memory=128&paym=true
       \endverb
+    \endentry
+    \entry{tian2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36d7fed9eac24c5db395dead5ce51017}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Dongping},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36d7fed9eac24c5db395dead5ce51017}
+      \strng{fullhash}{36d7fed9eac24c5db395dead5ce51017}
+      \strng{bibnamehash}{36d7fed9eac24c5db395dead5ce51017}
+      \strng{authorbibnamehash}{36d7fed9eac24c5db395dead5ce51017}
+      \strng{authornamehash}{36d7fed9eac24c5db395dead5ce51017}
+      \strng{authorfullhash}{36d7fed9eac24c5db395dead5ce51017}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Multimedia and Ubiquitous Engineering}
+      \field{month}{01}
+      \field{title}{A review on image feature extraction and representation techniques}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{385\bibrangedash 395}
+      \range{pages}{11}
     \endentry
     \entry{triggs2021}{online}{}
       \name{author}{2}{}{%
@@ -1039,9 +1403,8 @@
       \strng{authorbibnamehash}{45db1522663faac73d3489cf8e3a082e}
       \strng{authornamehash}{45db1522663faac73d3489cf8e3a082e}
       \strng{authorfullhash}{45db1522663faac73d3489cf8e3a082e}
-      \field{labelalpha}{TriggsSimons2021}
       \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1083,9 +1446,8 @@
       \strng{authorbibnamehash}{f0c07e155a8a77f057e1ca825263c6ca}
       \strng{authornamehash}{f0c07e155a8a77f057e1ca825263c6ca}
       \strng{authorfullhash}{f0c07e155a8a77f057e1ca825263c6ca}
-      \field{labelalpha}{TurkPentland1991}
       \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1128,9 +1490,8 @@
       \strng{authorbibnamehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
       \strng{authornamehash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
       \strng{authorfullhash}{c95dc6a97b3f4f0a2f6443b3d69c571b}
-      \field{labelalpha}{WilliamsZanderArmitage2006}
       \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1156,52 +1517,46 @@
       \endverb
       \keyw{machine learning,traffic classification}
     \endentry
-    \entry{wright2017}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=12081392f8b4dc850a235d7a600ed3ec}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod},
+    \entry{Xia2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d478f42e0e19d872e586df93c61c645e}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Xiaoling},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bf743052b767f3beac7f8f4654c4a7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Cui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4617b60672ca9d9e6adb0b174279a08}{%
+           family={Nan},
+           familyi={N\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{12081392f8b4dc850a235d7a600ed3ec}
-      \strng{fullhash}{12081392f8b4dc850a235d7a600ed3ec}
-      \strng{bibnamehash}{12081392f8b4dc850a235d7a600ed3ec}
-      \strng{authorbibnamehash}{12081392f8b4dc850a235d7a600ed3ec}
-      \strng{authornamehash}{12081392f8b4dc850a235d7a600ed3ec}
-      \strng{authorfullhash}{12081392f8b4dc850a235d7a600ed3ec}
-      \field{labelalpha}{Wright2017}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \strng{fullhash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \strng{bibnamehash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \strng{authorbibnamehash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \strng{authornamehash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \strng{authorfullhash}{e9a11c93fd0e0491587b82a7e1140eaf}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A new generation of portable scientific instruments is taking shape, thanks to mobile processors and innovative data-gathering techniques.}
-      \field{issn}{0001-0782}
-      \field{journaltitle}{Commun. ACM}
-      \field{month}{12}
-      \field{number}{1}
-      \field{title}{Smartphone Science}
-      \field{volume}{61}
+      \field{booktitle}{2017 2nd International Conference on Image, Vision and Computing (ICIVC)}
+      \field{title}{Inception-v3 for flower classification}
       \field{year}{2017}
-      \field{pages}{18\bibrangedash 20}
-      \range{pages}{3}
+      \field{pages}{783\bibrangedash 787}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1145/3157079
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3157079
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3157079
+      \verb 10.1109/ICIVC.2017.7984661
       \endverb
     \endentry
     \entry{8359287}{article}{}
@@ -1267,9 +1622,8 @@
       \strng{authorbibnamehash}{c354d97e29179b39743854e752ea8f1e}
       \strng{authornamehash}{989e2561431c9b06548e7d75bdf57429}
       \strng{authorfullhash}{c354d97e29179b39743854e752ea8f1e}
-      \field{labelalpha}{Xin+2018}
       \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1299,9 +1653,8 @@
       \strng{authorbibnamehash}{19dbc5beae2d592ebad24f7b07c64e57}
       \strng{authornamehash}{19dbc5beae2d592ebad24f7b07c64e57}
       \strng{authorfullhash}{19dbc5beae2d592ebad24f7b07c64e57}
-      \field{labelalpha}{Zhang2004}
       \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1332,9 +1685,8 @@
       \strng{authorbibnamehash}{2c1be19288e2f02778ee1943bc08b36b}
       \strng{authornamehash}{2c1be19288e2f02778ee1943bc08b36b}
       \strng{authorfullhash}{2c1be19288e2f02778ee1943bc08b36b}
-      \field{labelalpha}{Zhu2005}
       \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}

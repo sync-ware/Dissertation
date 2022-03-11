@@ -1,31 +1,37 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Mobile Machine Learning}{2}{}%
+\contentsline {section}{\numberline {1}Introduction}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Evolution}{2}{}%
+\contentsline {section}{\numberline {2}Mobile Machine Learning}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Smartphones as a scientific tool}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Evolution}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Where does this lead us to, today?}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Where does this lead us to, today?}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Computer Vision}{6}{}%
+\contentsline {section}{\numberline {3}Computer Vision}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}History}{6}{}%
+\contentsline {subsection}{\numberline {3.1}History}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Machine Learning}{7}{}%
+\contentsline {section}{\numberline {4}Machine Learning}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Classifiers}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Feature Extraction}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Deep Learning}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Classification}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Neurons and Perceptrons}{9}{}%
+\contentsline {section}{\numberline {5}Deep Learning}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Mobile Deep Learning}{10}{}%
+\contentsline {subsection}{\numberline {5.1}Neurons and Perceptrons}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Convolutional Neural Networks}{11}{}%
+\contentsline {subsection}{\numberline {5.2}Convolutional Neural Networks}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}ML vs DL}{12}{}%
+\contentsline {subsection}{\numberline {5.3}ML vs DL}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Evaluation}{13}{}%
+\contentsline {section}{\numberline {6}Flower Classification}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Final Thoughts}{14}{}%
+\contentsline {subsection}{\numberline {6.1}Existing Methods}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Existing Apps}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Evaluation}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Final Thoughts}{16}%
