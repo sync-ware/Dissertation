@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.25)  27 APR 2022 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.25)  27 APR 2022 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,7 +535,7 @@ Overfull \hbox (2.73143pt too wide) in paragraph at lines 104--109
  []
 
 [2] [3]
-<s21ultra.jpg, id=222, 147.825pt x 197.1pt>
+<s21ultra.jpg, id=238, 147.825pt x 197.1pt>
 File: s21ultra.jpg Graphic file (type jpg)
 <use s21ultra.jpg>
 Package pdftex.def Info: s21ultra.jpg  used on input line 167.
@@ -615,114 +615,142 @@ $\OML/cmm/m/it/10 BC$ \OT1/cmr/m/n/10 is our Bayesian clas-si-fier, + and { are 
  []
 
 [10]
-<neuron.png, id=274, 285.31593pt x 197.23688pt>
+<neuron.png, id=290, 285.31593pt x 197.23688pt>
 File: neuron.png Graphic file (type png)
 <use neuron.png>
 Package pdftex.def Info: neuron.png  used on input line 426.
 (pdftex.def)             Requested size: 207.0021pt x 143.0999pt.
-<perceptron.jpg, id=278, 464.4853pt x 181.42781pt>
+<perceptron.jpg, id=294, 464.4853pt x 181.42781pt>
 File: perceptron.jpg Graphic file (type jpg)
 <use perceptron.jpg>
 Package pdftex.def Info: perceptron.jpg  used on input line 446.
 (pdftex.def)             Requested size: 241.49895pt x 94.33192pt.
  [11 <./neuron.png> <./perceptron.jpg>]
-<network.png, id=287, 327.47343pt x 135.50626pt>
+<network.png, id=303, 327.47343pt x 135.50626pt>
 File: network.png Graphic file (type png)
 <use network.png>
 Package pdftex.def Info: network.png  used on input line 461.
 (pdftex.def)             Requested size: 241.49895pt x 99.92981pt.
-<saha.jpg, id=289, 301.8915pt x 161.622pt>
+<saha.jpg, id=305, 301.8915pt x 161.622pt>
 File: saha.jpg Graphic file (type jpg)
 <use saha.jpg>
-Package pdftex.def Info: saha.jpg  used on input line 474.
+Package pdftex.def Info: saha.jpg  used on input line 475.
 (pdftex.def)             Requested size: 241.49895pt x 129.28789pt.
+ [12 <./network.png> <./saha.jpg>] [13] [14] [15]
+<plantnet.png, id=330, 330.48468pt x 248.42813pt>
+File: plantnet.png Graphic file (type png)
+<use plantnet.png>
+Package pdftex.def Info: plantnet.png  used on input line 602.
+(pdftex.def)             Requested size: 241.49895pt x 181.54434pt.
+<picturethis.png, id=333, 205.5178pt x 245.41687pt>
+File: picturethis.png Graphic file (type png)
+<use picturethis.png>
+Package pdftex.def Info: picturethis.png  used on input line 620.
+(pdftex.def)             Requested size: 172.5pt x 205.98773pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./network.png>] [13 <./saha.jpg>] [14] [15]
-<plantnet.png, id=313, 330.48468pt x 248.42813pt>
-File: plantnet.png Graphic file (type png)
-<use plantnet.png>
-Package pdftex.def Info: plantnet.png  used on input line 600.
-(pdftex.def)             Requested size: 241.49895pt x 181.54434pt.
-<picturethis.png, id=316, 205.5178pt x 245.41687pt>
-File: picturethis.png Graphic file (type png)
-<use picturethis.png>
-Package pdftex.def Info: picturethis.png  used on input line 618.
-(pdftex.def)             Requested size: 172.5pt x 205.98773pt.
- [16 <./plantnet.png>] [17 <./picturethis.png>] [18] [19]
-Overfull \hbox (22.83653pt too wide) in paragraph at lines 715--715
+[16 <./plantnet.png>] [17 <./picturethis.png>] [18]
+<ox102examples.png, id=358, 521.95pt x 518.93875pt>
+File: ox102examples.png Graphic file (type png)
+<use ox102examples.png>
+Package pdftex.def Info: ox102examples.png  used on input line 719.
+(pdftex.def)             Requested size: 241.49895pt x 240.10835pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19
+
+] [20 <./ox102examples.png>]
+<inceptionv3.png, id=378, 1003.75pt x 390.45876pt>
+File: inceptionv3.png Graphic file (type png)
+<use inceptionv3.png>
+Package pdftex.def Info: inceptionv3.png  used on input line 754.
+(pdftex.def)             Requested size: 345.0pt x 134.20795pt.
+ [21 <./inceptionv3.png>] [22]
+Overfull \hbox (22.83653pt too wide) in paragraph at lines 796--796
 \OT1/cmr/m/n/10 Avail-able from: []$\OT1/cmtt/m/n/10 https : / / machinelearningmastery . com / gentle -[] introduction -[]
  []
 
-[20
+[23
 
 ]
-Overfull \hbox (15.93633pt too wide) in paragraph at lines 715--715
+Overfull \hbox (15.93633pt too wide) in paragraph at lines 796--796
 [][]\OT1/cmr/m/n/10 Google, 2021b. \OT1/cmr/m/it/10 Ten-sor-flow lite \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . tensorflow .
  []
 
 
-Overfull \hbox (1.48286pt too wide) in paragraph at lines 715--715
+Overfull \hbox (1.48286pt too wide) in paragraph at lines 796--796
 [][]\OT1/cmr/m/n/10 GSMArena, 2021. \OT1/cmr/m/it/10 Gsm arena \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . gsmarena .
  []
 
 
-Overfull \hbox (3.13783pt too wide) in paragraph at lines 715--715
+Overfull \hbox (3.13783pt too wide) in paragraph at lines 796--796
 [][]\OT1/cmr/m/n/10 Joly, A., Bon-net, P., Go^^?eau, H., Barbe, J., Selmi, S., Champ, J., Dufour-Kowalski,
  []
 
 
-Overfull \hbox (44.52567pt too wide) in paragraph at lines 715--715
+Overfull \hbox (44.52567pt too wide) in paragraph at lines 796--796
 [][]\OT1/cmr/m/n/10 Korstanje, J., 2021. \OT1/cmr/m/it/10 The f1 score \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / towardsdatascience .
  []
 
 
-Overfull \hbox (17.66557pt too wide) in paragraph at lines 715--715
+Overfull \hbox (17.66557pt too wide) in paragraph at lines 796--796
 [][]\OT1/cmr/m/n/10 Kulendran, M., Lim, M., Laws, G., Chow, A., Nehme, J., Darzi, A., and Purkayastha,
  []
 
-
-Overfull \hbox (6.99785pt too wide) in paragraph at lines 715--715
+[24]
+Overfull \hbox (6.99785pt too wide) in paragraph at lines 796--796
 \OT1/cmtt/m/n/10 mathworks . com / help / images / texture -[] analysis -[] 1 . html$[] \OT1/cmr/m/n/10 [Ac-cessed March 9,
  []
 
-[21]
-Overfull \hbox (9.74704pt too wide) in paragraph at lines 715--715
+
+Overfull \hbox (9.74704pt too wide) in paragraph at lines 796--796
 \OT1/cmtt/m/n/10 statistics / 271496 / global -[] market -[] share -[] held -[] by -[] smartphone -[] vendors -[]
  []
 
 
-Overfull \hbox (7.19392pt too wide) in paragraph at lines 715--715
+Overfull \hbox (36.2643pt too wide) in paragraph at lines 796--796
+[][]\OT1/cmr/m/n/10 PapersWithCode, 2017. \OT1/cmr/m/it/10 Inat-u-ral-ist \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / paperswithcode .
+ []
+
+[25]
+Overfull \hbox (7.19392pt too wide) in paragraph at lines 796--796
 \OT1/cmr/m/n/10 2011., Texts in Com-puter Sci-ence. Lon-don: Springer Lon-don : Im-print: Springer. 
  []
 
-[22]
-Overfull \hbox (26.06953pt too wide) in paragraph at lines 715--715
+
+Overfull \hbox (5.7201pt too wide) in paragraph at lines 796--796
+\OT1/cmtt/m/n/10 tensorflow . org / datasets / catalog / oxford _ flowers102$[] \OT1/cmr/m/n/10 [Ac-cessed April 17,
+ []
+
+[26]
+Overfull \hbox (26.06953pt too wide) in paragraph at lines 796--796
 \OT1/cmr/m/it/10 pixel 6's chip shapes up \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . androidauthority .
  []
 
-[23] (./Final.aux)
+[27] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: 3E58F4EDF0935B92337B64E90CC90C1A;3717.
+(rerunfilecheck)             Checksum: BA703A1448473AB544BB7AECD799C518;4057.
 Package logreq Info: Writing requests to 'Final.run.xml'.
 \openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16738 strings out of 480247
- 301396 string characters out of 5896151
- 1171992 words of memory out of 5000000
- 34384 multiletter control sequences out of 15000+600000
+ 16842 strings out of 480247
+ 304016 string characters out of 5896151
+ 1174941 words of memory out of 5000000
+ 34465 multiletter control sequences out of 15000+600000
  474970 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,10n,79p,2766b,2473s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/saahil/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Final.pdf (28 pages, 661821 bytes).
+Output written on Final.pdf (32 pages, 1147663 bytes).
 PDF statistics:
- 531 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 624 PDF objects out of 1000 (max. 8388607)
+ 545 compressed objects within 6 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,12 +14,14 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Neurons and Perceptrons}{11}{subsubsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.5}Convolutional Neural Networks}{12}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}ML vs DL}{14}{subsubsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.6}Flower Classification}{15}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Existing Methods}{15}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Existing Apps}{16}{subsubsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6}Flower Classification}{14}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Existing Methods}{14}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Existing Apps}{15}{subsubsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.7}Evaluation}{17}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Summary}{18}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Investigation}{19}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Predictions}{19}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Design of Experiments}{19}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Oxford Flowers 102 Dataset}{19}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Classical Machine Learning}{20}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Deep Learning}{21}{subsubsection.3.2.3}%

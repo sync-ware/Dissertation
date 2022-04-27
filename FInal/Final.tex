@@ -463,6 +463,7 @@ perceptrons and arranging them into layers we get a neural network as shown here
 \end{figure}
 
 \subsection{Convolutional Neural Networks}
+\label{subsec:cnn}
 
 Bengio, Goodfellow and Courville (2015) and Scarpino (2018) go into detail about CNNs, Scarpino in particular is a
 useful source on how it works with image classification in TensorFlow. However, it's useful to have 
@@ -472,7 +473,8 @@ purposes such as the individual layers: convolutional (kernel),  pooling and cla
 \begin{figure}[h]\
     \centering
     \includegraphics[width=0.7\textwidth]{saha.jpg}
-    \caption{Example of a CNN process (\cite{saha2018})}.
+    \caption{Example of a CNN process (\cite{saha2018}).}
+    \label{fig:cnnSimple}
 \end{figure}
 \break
 
@@ -675,6 +677,8 @@ specifically for these tasks. Overall, we have built on the solid foundations of
 to see how the field develops in the future. The project hopes to aid the field by investigating the ML and DL 
 approaches in the mobile format as well as explore why we see certain results from the evaluation.
 
+\clearpage
+
 \section{Investigation}
 
 The main body of this dissertation will be split into two sections: the first being an analysis of TensorFlow's deep 
@@ -706,9 +710,86 @@ itself. First the dataset will be downloaded and managed by the TensorFlow Datas
 the dataset to a generic directory and can directly manage the image and dataset data including filenames, class names 
 and data splits. The data splits defined by TFDS consists of 6,149 images for the test set and 1,020 images for the 
 train and validation sets each. This split is atypical as you would ideally have a larger number of images in the train 
-set rather than the test set. The current split is thought to be a mistake on Google’s side (GitHub issue, 2022). As a 
+set rather than the test set. The current split is thought to be a mistake on Google's side (\cite{githubissue}). As a 
 result, I will swap the train and test datasets and carry out the training process with the larger split which would be 
-75\% of the dataset (TensorFlow OX102, 2022).  
+75\% of the dataset (\cite{TFOX102}).
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.7\textwidth]{ox102examples.png}
+    \caption{Example images from the dataset.}
+\end{figure}
+
+\subsubsection{Classical Machine Learning}
+
+For this approach I decided to go with a Support Vector Machine (SVM) classifier that takes in features generated using 
+“bag-of-words”, HSV (Hue, Saturation, Value) colour values and histogram of gradient values. I went with SVM because 
+good performance has already been achieved with this particular dataset before with \citeauthor{Nilsback2008} (2008) as 
+stated in the 
+literature review. A value of 98.5\% accuracy has also been achieved be using a CNN to extract the features 
+(\cite{mete}). I will not use a CNN to extract the features as the purpose of this investigation is to evaluate both 
+approaches separately instead of combining aspects from both. Bag of words will be used as it is simple to implement, 
+but will also provide consistent information about key points found in the image, despite how the image is presented in 
+terms of factors like rotation and scale (\cite{mohan}). By using an additional library named cv2, we can use a K-Means 
+trainer to produce feature clusters. The “words” will be produced by extracting key points using Scale Invariant Feature
+Transform (SIFT). HSV values are useful as they give us the relevant colour data as well as information about the 
+luminance in the image (\cite{chapelle1999support}). Histogram of gradients values provide information about the general
+shape of 
+the object; this is useful in mapping the various shapes and sizes that flowers come in. The words will then be 
+clustered by the trainer and make up the “vocabulary”. The dataset images will be resized to have a height and width of 
+299 pixels to match the input image conditions of the deep learning approach. All SVM parameters will be set to the 
+default that is defined by the documentation.
+
+\subsubsection{Deep Learning}
+
+The CNN used in this approach will be Inception V3, a pre-trained network, specifically trained on the iNaturalist 
+dataset, which contains 675,170 training and validation images from 5,089 categories (\cite{paperswithcode}). 
+This means that the model has been optimised for recognizing plants and animals which makes it the best candidate to be 
+used for transfer learning to allow it to recognize flower species. It is also listed as the second-best model hosted on
+TensorFlow. Inception V4 exists and has better performance to V3 but there are no fine-tuneable V4 models available that
+will allow transfer learning to take place.   
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=\textwidth]{inceptionv3.png}
+    \caption{The Inception V3 model diagram (\cite{GoogleCloud}).}
+    \label{fig:inception}
+\end{figure}
+
+Compared to the initial research of deep learning models presented in figure \ref{fig:cnnSimple} within the literature 
+review, figure \ref{fig:inception} demonstrates how complex deep learning models can truly be. 
+We discussed the terms convolution and pooling within section \ref{subsec:cnn}, however there are additional layers here that were 
+not discussed:
+
+\begin{itemize}
+    \item Concatenate (Concat) takes a list of tensors and outputs a single combined tensor (\cite{kerasconcat}).
+    \item Fully connected layers map all inputs in the previous layer to every “activation unit” of the layer next to it
+(\cite{singhsurya}).
+    \item Softmax is where probabilities are assigned to each label based on the likelihood of the image belonging to 
+that label. All probabilities add up to 1 (\cite{googledevcnn}). 
+    \item Dropout mitigates overfitting of a dataset by randomly dropping out neurons on each pass of the network when 
+    training (\cite{seb}). 
+\end{itemize}
+
+The images will go through some data pre-processing such as resizing to have a width and height of 299 as that is the 
+requirement of the input tensor for Inception V3. They will also have to have their values rescaled from 0-255 to 
+between 0-1. Random flips and crops will also be added as part of the pre-processing pipeline. Images will be batched 
+into sets of 32 images, this means that 32 images will be trained per step per epoch. Hyper parameter tuning is also 
+required to try and get the best performance possible. These are the hyper parameters will be adjusted and
+their supposed effect:
+
+\begin{itemize}
+    \item \textbf{Optimiser} is used to improve the speed and performance the model by adjusting the parameters of the 
+    model during training to minimise loss and maximise accuracy. (\cite{maithani}). The types of optimiser that will be
+    tested are Adam, Stochastic Gradient Descent (SGD), AdaMax. There are a few more optimisers 
+    available that are not listed, as they are unsuitable for this dataset.
+    \item \textbf{Learning rate} is the rate at which a model learns, a larger value means that the model learns faster 
+    at the expense of producing substandard weights for the model (\cite{andreaperlato}). Values from 0.01-0.0001 will
+    be tested, moving down a magnititude at each step. 
+    \item \textbf{Dropout} which was described earlier when discussing the Inception V3 model. Increasing this value 
+    will mean a larger percentage of nodes will get removed. Values in the range 0.2-0.4 will be tested.
+\end{itemize}
+
 
 \clearpage
 \printbibliography
