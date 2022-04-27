@@ -9,4 +9,7 @@
 \contentsline {figure}{\numberline {9}{\ignorespaces The Inception V3 model diagram (\blx@tocontentsinit {0}\cite {GoogleCloud}).}}{21}{figure.9}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Graph generated in TensorBoard from HP training results.}}{24}{figure.10}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Graph of accuracy against the number of training steps.}}{25}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Graph of loss against the number of training steps.}}{36}{figure.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Table of full HP training results as seen in TensorBoard.}}{44}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Graph of loss against the number of training steps.}}{44}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces The percentage of devices that API level 8 will run according to Android Studio.}}{46}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The list of models and their performance metrics on the TensorFlow site \blx@tocontentsinit {0}\cite {TFhostedmodels}.}}{47}{figure.15}%

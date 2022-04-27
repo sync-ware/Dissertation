@@ -54,6 +54,38 @@
       \verb https://www.analyticsvidhya.com/blog/2021/04/guide-for-feature-extraction-techniques/
       \endverb
     \endentry
+    \entry{ADCameraX}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ace771b22ac28958ff5694e260839cc}{%
+           family={AndroidDevelopers},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
+      \field{labelalpha}{AndroidDevelopers2022}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CameraX}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/training/camerax
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/training/camerax
+      \endverb
+    \endentry
     \entry{diveintodeeplearning}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e7d5253ea94fa9c642303bef9e588cd8}{%
@@ -862,6 +894,38 @@
       \verb https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/softmax
       \endverb
     \endentry
+    \entry{GooglePlayDevCheck}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e129c5b1ef301cef7e50da46c1850c7f}{%
+           family={GooglePlay},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \strng{fullhash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \strng{bibnamehash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \strng{authorbibnamehash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \strng{authornamehash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \strng{authorfullhash}{e129c5b1ef301cef7e50da46c1850c7f}
+      \field{labelalpha}{GooglePlay2022}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DevCheck}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=flar2.devcheck&hl=en_GB&gl=US
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=flar2.devcheck&hl=en_GB&gl=US
+      \endverb
+    \endentry
     \entry{gsm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aa3fd45ce0fdbda627dceb42cee19e51}{%
@@ -1362,6 +1426,38 @@
       \verb https://analyticsindiamag.com/guide-to-tensorflow-keras-optimizers/
       \endverb
     \endentry
+    \entry{material}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d92a8333dd3ccb895cc65f7455b71206}{%
+           family={Material},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d92a8333dd3ccb895cc65f7455b71206}
+      \strng{fullhash}{d92a8333dd3ccb895cc65f7455b71206}
+      \strng{bibnamehash}{d92a8333dd3ccb895cc65f7455b71206}
+      \strng{authorbibnamehash}{d92a8333dd3ccb895cc65f7455b71206}
+      \strng{authornamehash}{d92a8333dd3ccb895cc65f7455b71206}
+      \strng{authorfullhash}{d92a8333dd3ccb895cc65f7455b71206}
+      \field{labelalpha}{Material2021}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Unveiling Material You}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://material.io/blog/announcing-material-you
+      \endverb
+      \verb{url}
+      \verb https://material.io/blog/announcing-material-you
+      \endverb
+    \endentry
     \entry{mathworks}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
@@ -1798,6 +1894,36 @@
       \verb https://www.picturethisai.com/
       \endverb
     \endentry
+    \entry{PlantsState}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5367dde113d0d68bd890e51c69dd897}{%
+           family={PlantToolbox},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5367dde113d0d68bd890e51c69dd897}
+      \strng{fullhash}{d5367dde113d0d68bd890e51c69dd897}
+      \strng{bibnamehash}{d5367dde113d0d68bd890e51c69dd897}
+      \strng{authorbibnamehash}{d5367dde113d0d68bd890e51c69dd897}
+      \strng{authornamehash}{d5367dde113d0d68bd890e51c69dd897}
+      \strng{authorfullhash}{d5367dde113d0d68bd890e51c69dd897}
+      \field{labelalpha}{PlantToolbox}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phalaenopsis}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://plants.ces.ncsu.edu/plants/phalaenopsis/
+      \endverb
+      \verb{url}
+      \verb https://plants.ces.ncsu.edu/plants/phalaenopsis/
+      \endverb
+    \endentry
     \entry{singhsurya}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0db0e38862491006d76a562c96e9d455}{%
@@ -2196,6 +2322,39 @@
       \verb https://github.com/tensorflow/datasets/issues/3022
       \endverb
     \endentry
+    \entry{TFhostedmodels}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=074dd699710da0ec1eb45f13b31788e3}{%
+           family={TensorFlow},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{fullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{bibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \field{extraname}{1}
+      \field{labelalpha}{TensorFlow2021}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hosted Models}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite/guide/hosted_models
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite/guide/hosted_models
+      \endverb
+    \endentry
     \entry{TFOX102}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=074dd699710da0ec1eb45f13b31788e3}{%
@@ -2208,11 +2367,14 @@
       \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
       \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
       \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \field{extraname}{2}
       \field{labelalpha}{TensorFlow2022}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{oxford flowers102}
@@ -2226,6 +2388,41 @@
       \endverb
       \verb{url}
       \verb https://www.tensorflow.org/datasets/catalog/oxford_flowers102
+      \endverb
+    \endentry
+    \entry{TFGPU}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=074dd699710da0ec1eb45f13b31788e3}{%
+           family={TensorFlow},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{fullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{bibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \field{extraname}{3}
+      \field{labelalpha}{TensorFlow2022}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TensorFlow Lite on GPU}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite/performance/gpu_advanced
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite/performance/gpu_advanced
       \endverb
     \endentry
     \entry{three2021}{online}{}

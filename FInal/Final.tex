@@ -27,7 +27,7 @@ Abstract goes here.
 \section*{Acknowledgements}
 \thispagestyle{empty}
 
-I like to acknowledge ...
+I'd like to acknowledge ...
 
 \clearpage
 \pagenumbering{arabic}
@@ -803,6 +803,8 @@ much (\cite{sayak}).
 
 \subsubsection{Environment}
 
+\label{subsec:env}
+
 Both approaches will be developed and ran on the same machine, a custom desktop PC that contains these main components: 
 
 \begin{itemize}
@@ -834,7 +836,8 @@ The key metrics I will analyse along with accuracy, precision, recall and F1 are
 
 Another factor to consider when carrying out training is the number of epochs. An epoch is a full pass over the training
 set. Multiple passes are needed to minimise loss and fully train the model. Through preliminary testing of the model, 
-I found that 5 epochs are more than sufficient as we reach the maximum validation accuracy shown in figure [x]. If we 
+I found that 5 epochs are more than sufficient as we reach the maximum validation accuracy shown in figure 
+\ref{fig:incep_acc}. If we 
 increase the number of epochs, we risk overfitting (\cite{geeksforgeeks}). Optimisers were tested individually to 
 determine how much they would affect the results under standard conditions. I found that SGD was unsuitable for this 
 task, producing accuracy results at almost half of what Adam and AmaMax were producing. Overall, Adam produced the best 
@@ -864,14 +867,14 @@ an issue.
 \par
 
 Overall, the final model will use a learning rate of 0.001 and dropout of 0.3. This was decided after considering the 
-results from the hyper parameter tuning as well as the proposed learning rate being the default one provided by the 
-TensorFlow API.
+results from the hyper parameter tuning (Appendix \ref{subsec:hp}) as well as the proposed learning rate being the 
+default one provided by the TensorFlow API.
 
 \subsubsection*{Performance}
 
 \begin{table}[h!]
     \centering
-    \begin{tabular}{ |m{3cm}|m{3cm}|m{3cm}|| }
+    \begin{tabular}{ |m{3cm}|m{3cm}|m{3cm}| }
         \hline
         Metric & SVM (\%) & Inception V3 (\%) \\
         \hline
@@ -887,8 +890,6 @@ TensorFlow API.
         \hline
         ROC AUC & 89.60 & 99.97 \\
         \hline
-
-
     \end{tabular}
     \caption{Results output from the classifier after predicting against the testing dataset.}
     \label{table:2}
@@ -992,7 +993,7 @@ This data can then be used by the TensorFlow Lite interpreter within Android.
 It is possible to spend more time focusing on improving the individual models, specifically the SVM model. One could 
 develop a better optimised SVM and carry out additional actions to improve the image pre-processing pipeline or extract 
 better features. As the aim of the investigation was to compare the approaches from the perspective of a software 
-developer, rather than develop the best possible models, this isn’t something that was investigated in depth. However, 
+developer, rather than develop the best possible models, this isn't something that was investigated in depth. However, 
 there is certainly value in understanding SVMs and other classical machine learning methods more by dedicating more time
 in implementing them.
 
@@ -1037,6 +1038,8 @@ performance of the final product.
 
 \subsection{Requirements and Specification}
 
+\label{subsec:req}
+
 Requirements were defined based on the findings produced in the literature review. This includes the background research 
 related to the goals of deep learning and the findings from the existing solutions review. I will also use the 
 guidelines produced by Google when it comes to TensorFlow integration, Material You design and Android development. 
@@ -1046,6 +1049,309 @@ Therefore, my aim is to describe the development process and test the performanc
 using deep learning within a mobile phone can be assessed. 
 
 \subsubsection{Literature and Technology Survey Findings}
+
+The Literature and Technology review walked through the evolution of the domain and how DL was the product of many years
+of research and development. It is important, to re-iterate the reason why there is a large number of resources 
+dedicated in the progress of this space. The goal is to imitate human-like decision making within a computer. In the 
+context of flowers, this means the ability for a computer to recognise different flower species accurately and 
+efficiently. This means that the system must be able to recognise the flowers correctly and in a timely manner.
+
+\par
+
+Pl@ntNet is the most robust existing solution I have reviewed with a system that can identify a large number of 
+different plant species. Due to the many different categories of plant life that the app supports, the user interface 
+uses additional settings to narrow the search. The process of taking a picture and then getting the results is quite 
+simple, however they are carried out within separate views.  This means that taking a picture, viewing the picture that 
+was taken afterwards and then getting the results all occur in different views. I believe that we can simplify this 
+process by keeping this three-step process within a single view. The app also shows the different percentages for the 
+different estimates it has in the results page. I believe, this is a useful feature as it can show the user alternative 
+guesses if the classifier makes an inaccurate or unsure suggestion. To summarise, I want to develop a system that has a 
+simple classification process and provides adequate result information to the front end such as the probability 
+percentages. 
+
+Different types of implementations were also discussed within the review such as cloud based or on-device. 
+The PictureThis app used a cloud-based implementation that requires network connectivity in order to function. 
+The obvious downside to this is that it won't work offline, and network latency will have to be taken into account when 
+the classification process occurs. The flower classification app aims to be fully functional offline by having the model
+stored on device. Fortunately, because of the advancements of mobile phone hardware, model sizes that may be over 100MB 
+in size are acceptable, which means more accurate models can be stored.
+
+\subsubsection{Google Developer Practices}
+
+\subsubsection*{TensorFlow}
+
+We will follow the guidelines to transfer a saved model, trained using TensorFlow, into a TensorFlow Lite model, 
+designed for usage on a mobile phone. The Inception V3 model that has been trained and tested in section one is a 
+floating-point model, which means that GPU acceleration can be used in order to decrease inference time 
+(\cite{TFGPU}). The documentation also provides additional advice on tuning the interpreter to get the best 
+performance. Android Studio, the main IDE used by Android App Developers has tools that can help analyse the 
+real-world performance of the interpreter, which will be key during the development process. By following the advice 
+given by the documentation we can identify key areas of optimisation within the app that should improve performance. 
+Areas that will be considered are performance on the GPU, performance using the CPU with varying number of threads and  
+performance after applying model size reduction techniques.
+
+\subsubsection*{Android Developers}
+
+Apart from general UI interactions like button presses and UI updates, the only additional library support we need to 
+consider from the Android platform is the Camera API. The camera plays a big part in the classification process as it 
+provides the input image information for the model. The application will make use of the newest CameraX API which is 
+designed to be easy-to-use and have support for majority of Android devices including legacy devices down to Android 5 
+(\cite{ADCameraX}). Using this API, we can control the input image dimensions and provide image previews to the 
+user.
+
+\subsubsection*{Material You}
+
+This is more of a secondary objective but conforming to the latest Google UI standards may prove beneficial in creating 
+an easy-to-use UI. Material You is the latest iteration of Android's design language with emphasis on helping “make 
+technology simple and beautiful for everyone” (\cite{material}). Since the app revolves around capturing flowers, widely 
+regarded as beautiful objects, having a simple and pleasing UI seems appropriate. 
+
+\subsubsection{Functional Requirements}
+
+The requirements table can be seen in Appendix \ref{subsec:funcreq}. It is worth elaborating on them to get a clearer 
+picture of how the final product will function. 
+
+\par
+
+Firstly, the app must run on Android devices of minimum API level 26 which is Android version 8.0 which 
+consists of approximately 82.7\% of devices (Appendix \ref{subsec:sdk}). 
+There are possible ways to make an app that works for iPhone as well using Google's Flutter development kit that allows 
+for deployment to both ecosystems and compatibility with TensorFlow. However, due to the inability to access an iPhone 
+to test the app, it is best to proceed with an Android only implementation.
+
+\par
+
+Through the use of the CameraX API, the app must be able to capture and display images. The camera viewfinder will be 
+visible to the user. When a picture is captured, the view will transition to showing the image that was captured so 
+that the user can clearly see the quality of the image they have captured and whether the subject of the image is in 
+full view.
+
+\par
+
+The app must integrate the Inception V3 model trained in section one. This model will allow for the classification of 
+images captured in the app. The output information which includes the classification results, and their percentage 
+probabilities will be parsed and outputted to the front end.
+
+\par
+
+Results produced by the app must be shown in an acceptable time frame after capturing the image. It is not ideal for 
+the user to have to wait for a long period of time to get the results. I have defined an inference time of less than 
+half a second as acceptable. This falls in line with the estimated times defined on the TensorFlow site which can also 
+be seen in Appendix \ref{subsec:models}. Within this time period, the app must also display the top three predictions 
+to the front end. 
+If the classifier is unsure about label of the input image, the user can at least see what other possible labels it 
+could be. The predictions will be shown in a clear order from best to third-best prediction. A small thumbnail image of 
+the flower should also accompany the label in the UI so that the user can see if the flower they have captured matches 
+up with the prediction, in case they're not sure of whether the predicted label is correct. 
+
+\par
+
+To track if the classifier is recognising images in an acceptable time, a time will be shown within the UI that outputs 
+how long it took from the picture being taken to the image being classified.
+
+\subsubsection{Non-functional Requirements}
+
+A table of non-functional requirements are also defined in Appendix \ref{subsec:nonreq}.
+
+\par
+
+The app should function with minimal bugs so that the overall experience of using the app is not hindered by unintended 
+behaviour or crashes. It will also make sure testing of the app's performance goes smoother. If there are crashes or 
+bugs it will mean the testing results are less reliable.
+
+\par
+
+The app will be designed around the Material You design specification which involves producing simple and intuitive user
+interfaces that conform to the latest Google standards. The aim is to make the app simple to use and not involve too 
+much background UI processes so that the classification process is not hindered in any way. 
+
+\par
+
+\subsection{Design and Implementation}
+
+This section will consist of the design and implementation process of developing the flower classifier app. 
+The objective is to follow the requirements outlined in section \ref{subsec:req} to produce the app, but first a plan 
+must be outlined to ensure development goes smoothly.
+
+\par
+
+Figure [x] shows the simple actions that the user can take in order to capture a flower photo and get results. 
+
+[FLOWCHART INSERT HERE]
+
+\par
+
+\subsubsection{Classifier}
+
+The Inception V3 model has a set of requirements that need to be filled in order to function. This is where using the 
+TensorFlow and CameraX guidelines is important as we have to ensure these pieces work together. The classifier expects 
+an object named TensorImage. This object requires the loading of a bitmap image in order to be valid. This means that we
+must carry out some pre-processing to convert an image into a bitmap, then load the bitmap into a TensorImage and then 
+finally process the image to be resized to have a height and width of 299 by 299.  The image may also need to be rotated
+as we get the raw image from the camera sensor, which are not normally in the orientation a user would expect. 
+
+[ImageProxy image - Bitmap - TensorImage - Resize and Rotate - Image Classifier - Results]
+
+\subsubsection{Implementation Process}
+
+The environment is the same as what was described in section \ref{subsec:env}. The key differences are that the Android 
+Studio IDE will be used for the development of the app. Testing will take place directly on a Samsung Galaxy S20 5G. 
+This device is one of the flagship Samsung phones released in the year 2020 and has decent specifications for a 
+smartphone. The exact specifications can be seen in appendix \ref{subsec:phone_spec}. Android Studio has an in-built 
+tool that can easily process TensorFlow Lite files that have the extension “.tflite”. By using the tool, the relevant 
+app directories are created for the developer, as well as the relevant library dependencies to use TensorFlow.
+
+
+\subsection{System Testing}
+
+There are two main aims to achieve before the app can be identified as a success. The first aim is to ensure the base 
+functionality is working as intended through functionality testing. We will demonstrate real world examples of the app 
+identifying various flowers. Once, the app is established to be working as intended, the next step will be to carry out 
+performance testing to see how the classifier is performing within the app. By using performance profiling, we can focus
+on specific work threads where the classifier is carrying out the identification process. We will alter certain factors 
+like whether to use the GPU or CPU as well as the number of threads to dedicate to the processor, then discuss the 
+results. Before testing takes place, the phone will use the in-built system clean up tool that clears any unnecessary 
+background apps and processes.
+
+\subsubsection{Functionality Testing}
+
+This will be split into two formats. The first is to try and identify as many different flowers that are available 
+and report the probabilities for the top three labels as well as the inference time when the app is working on the GPU. 
+The second format is to analyse how the app performs using the same metrics but with the same flower, shot at different 
+angles.
+
+Appendix \ref{subsec:functionality} contains the results of identifying eight different flower species found in the 
+vicinity. All of them bar 
+one has a confirmed species. There are also screenshots that go with each result within the appendix where one can view 
+the exact angles and lighting conditions the photos were taken in as well as what the other predictions are for that 
+flower. The results show that six of the species have been correctly identified by the classifier. There are five 
+species within that selection that have probabilities of 88 percent and above, each of these flowers are very common in 
+the UK and have distinctive shapes and colours. This suggests the classifier performs very well with these unique 
+flowers, most likely as they don't have too much of a shape and colour crossover with other species. The classifier also
+works well in identifying the two different dandelion types. These flowers are very different in appearance but are 
+still both dandelions. In the case of the flower identified as a columbine, it is unconfirmed whether the subject 
+flower is in fact a columbine, but by looking at some of the example flowers in the dataset, it is clear why the 
+classifier came to that conclusion. The orchid that is incorrectly identified as a cyclamen has a secondary guess of 
+sweat pea that is also 47\%. This suggests that the classifier cannot make a definitive decision of what the flower is,
+likely due to a lack of orchids within the dataset. Moon orchids are a class within the dataset and are not too 
+dissimilar in appearance to this orchid (\cite{PlantsState}). Therefore, it is unclear as to why that class was not 
+suggested over the other classes. Subsequent classification attempts on this same plant yielded consistent high 
+probabilities for the Cyclamen class, suggesting it didn't matter what angle the picture was taken in. The inference 
+times seem consistent using the GPU. It will be interesting to see what the performance will be like when we adjust the 
+classifier settings in the performance testing.
+
+Some additional testing was carried out on the same rose to see how the classifier dealt with different angles and 
+lighting conditions. The first set of tests will include classifying with different camera distances and angles with 
+estimated measurements. The first was the distance test where the multiple shots of the same rose were taken. The camera
+was angled to have the centre of the rose in the middle of the viewfinder. The rose was always in the same position and 
+location to keep the lighting consistent. The results from this experiment are presented in appendix 
+\ref{subsec:distance} below. The distance has an effect on the classification accuracy. The prediction at 4cm has a low probability of 39\% but still
+ranks rose as the most likely. This indicates that there are not enough unique features that the classifier can pick up 
+on because the rose is too close to the sensor. When the rose is in full view at 15cm, the entirety of the flower can be
+seen including its general shape and petal arrangement. As a result, the probability increases by nearly 39\%. At 35cm 
+and above, the rose drops below the top 3 predictions, showing that the classifier struggles once more of the 
+background can be seen and there is less data on the subject.
+
+\par
+
+Angles testing was carried out using arbitrary angles of the rose. Images taken of the rose that did not have the camera
+angled directly at the centre of the flower still ranked rose as the highest prediction as seen in figure [x] and 
+[x] within the appendix. However, the probability decreased to 19\% with a side angle of the flower, where the centre of
+it cannot be seen (figure [x]).
+
+\par
+
+Next, lighting testing was carried out to see how the classifier performed. The full results can be seen in appendix 
+\ref{subsec:lighting}. Lighting was measured using the lighting 
+sensor within the camera sensor. A free Android app named DevCheck (\cite{GooglePlayDevCheck}) has access to all sensor 
+readings on the device and was used to measure the light hitting the sensor in lux.
+
+The low light performance of the classifier is better than expected. Initially, an inaccurate result was predicted as it
+would be difficult to make out the features of the flower with less light. The reason why it may have resulted in a 
+decent prediction is likely due to the great low-light performance of the camera sensor. When the sensor detects these 
+conditions, it can alter the sensor to let in more light or use software tricks to boost the image clarity. Another 
+unexpected result were the outdoor lighting conditions. These conditions resulted in inaccurate results for the rose, 
+this may be likely due to the colour of the rose becoming whiter in the outdoors which could make it similar to other 
+flowers other than the rose. Additionally, there appears to be less shadows casted within the structure of the rose, 
+which suggests the classifier is having a difficult time making out the edges of the petals due to the flatter look. 
+However, subsequent tests that changed the angle of the flower relative to the direction of sunlight to produce more 
+shadows, still resulted in inaccurate results. 
+
+\subsubsection{Performance Testing}
+
+In this section, the different hardware settings will be tested to see which component is best to carry out the 
+calculations within each layer of the model. The profiler tool within Android Studio will be used to get a detailed 
+report of what is going on, internally. As the profiler pulls in information about all processes going on within the 
+phone, the recording feature will be used to capture specific sections of the profiler output. During the recording, 
+the capture button will be pressed 5 times in a row, the tool will then automatically calculate the average, max, min 
+and standard deviation of the event in milliseconds.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ |m{2cm}|m{1.5cm}|m{1.5cm}|m{1.5cm}|m{1.5cm}| }
+        \hline
+        Type & Avg. & Min & Max & SD \\
+        \hline
+        CPU (1T) & 86.3 & 79.0 & 106.8 & 10.4 \\
+        \hline
+        CPU (2T) & 60.4 & 50.7 & 78.1 & 11.5 \\
+        \hline
+        CPU (4T) & 58.6 & 44.0 & 87.2 & 16.0 \\
+        \hline
+        CPU (8T) & 211.2 & 191.8 & 241.2 & 17.2 \\
+        \hline
+        GPU & 313.1 & 269.4 & 313.1 & 26.8 \\
+        \hline
+
+        
+    \end{tabular}
+    \caption{Results from inference timings for each hardware delegate configuration.}
+    \label{table:timings}
+\end{table}
+
+The full results can be seen in appendix [x] which has the timings of the individual events. Table \ref{table:timings} 
+summarises each test with just the calculated statistics from the profiling tool. It shows that using the CPU with four 
+threads has the shortest inference time out of all the test runs. It is surprising to see that the GPU is out-performed 
+by the CPU especially since the GPU can carry out parallelise workloads better than the CPU and should theoretically 
+execute the layer operations quicker. It may still be worth using the GPU over the CPU simply because of the added 
+benefits of accuracy in doing floating point calculations. GPUs are also more energy efficient as they can carry out the
+same tasks as the CPU, while using less power. Using eight threads does not seem ideal as the average time shoots up. 
+This may be because of scheduling overhead becoming too large due to the lack of CPU resources available. 
+Standard deviation also gets larger as more threads are used, indicating that the inference timings become less 
+consistent, likely due to the state of the CPU at that current time as it juggles other tasks. It may be best to keep 
+using the GPU simply because it's more efficient compared to a CPU. Realistically, a 200ms difference is miniscule in 
+this case. However, it is still worth it for a developer to investigate the best hardware delegate in order to see 
+which one performs best for their problem. For example, if multiple classifications need to occur in sequence, using 
+the GPU may not be ideal as that 200ms difference will slowly add up, especially on slower devices. 
+
+\subsubsection{Summary}
+
+Overall, the requirements for this app were quite simple. The end product was designed to be a simple utility app that 
+could easily fit as part of the latest Android ecosystem. The requirements have all been sourced from the background 
+research conducted as well as my own input as a software developer. A more extensive set of requirements could be 
+produced by using input from potential users of the app such as gardeners and hobbyists, however, the main aim is to 
+demonstrate that this method of using TensorFlow for deep learning is a very valid approach as a backend for your app. 
+Most of the effort was dedicated into investigating the performance of TensorFlow when put up against the challenging 
+task of classifying flowers. The design and implementation process for the app made sure the scope of the app was kept 
+simple so that the focus could be on testing the performance of the Inception V3 model. Designing a complex apps can 
+lead to added performance overhead as more resources are dedicated to tasks that are not related to the classifier. The 
+classifier showed great performance in identifying different flower species in the real world which means that the app 
+functions as it should. Furthermore, while testing, there were no issues with bugs, crashes or performance. It was clear
+there were some areas that the classifier struggled in when it came to the different possible angles, distances and 
+lighting conditions. This may be due to the lack of variety in the dataset for the rose class.  The classifier performed
+the best when the rose was in clear view under normal lighting conditions. Perhaps, doing some additional random image 
+pre-processing before training could artificially produce more variety, making the classifier better at making 
+predictions under different conditions. Different hardware delegations were also looked at to see what can be configured
+on the application side to improve the classifier performance. It appears as though using the CPU is faster than the GPU
+on a smartphone. However, the GPU may still be the best choice for the developer as they can put less stress on the CPU 
+which can carry out other tasks within the app. By purely using the CPU for classification, other tasks within the app 
+may slowdown, making the overall experience for the user worse. 
+
+\clearpage
+
+\section{Conclusion}
+
+Critical Appraisal of sections go here.
 
 \clearpage
 \printbibliography
@@ -1057,6 +1363,18 @@ using deep learning within a mobile phone can be assessed.
 \section*{Appendix}
 
 \section{Inception V3 Results Graphs}
+
+\subsection{Full HP Results}
+
+\label{subsec:hp}
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=\textwidth]{full_hp.png}
+    \caption{Table of full HP training results as seen in TensorBoard.}
+    \label{fig:hp_full}
+\end{figure}
+
 \subsection{Loss}
 
 \label{subsec:loss}
@@ -1067,5 +1385,284 @@ using deep learning within a mobile phone can be assessed.
     \caption{Graph of loss against the number of training steps.}
     \label{fig:incep_loss}
 \end{figure}
+
+\section{Requirements}
+
+Sources:
+\begin{itemize}
+    \item SS: Saahil Shihaz
+    \item AD: Android Developers
+    \item TF: TensorFlow
+    \item MY: Material You
+\end{itemize}
+
+Priorities:
+\begin{itemize}
+    \item H: High
+    \item M: Medium
+    \item L: Low
+\end{itemize}
+
+\subsection{Functional Requirements}
+\label{subsec:funcreq}
+
+\begin{table}[h!]
+    \begin{tabular}{ |m{1cm}|m{5cm}|m{1.5cm}|m{1.5cm}| }
+        \hline
+        No. & Description & Source & Priority \\
+        \hline
+        1 & 
+        The app must run on an Android device.
+        & SS & H \\
+        \hline
+        2 & 
+        The app must be able to capture an image.
+        & SS, AD & H \\
+        \hline
+        2.1 & 
+        The app must be able to display a captured image. 
+        & SS, AD & H \\
+        \hline
+        3 &
+        The app must use the Inception V3 model trained in section one to process captured images. 
+        & SS, TF & H \\
+        \hline
+        4 &
+        The app must display the guesses produced by the model within 500 milliseconds.
+        & SS & H \\
+        \hline
+        4.1 &
+        The app must show the top three guesses as well as their individual percentage probabilities ranked from highest
+        to lowest.
+        & SS & H \\
+        \hline
+        4.2 &
+        The app should show a small preview of the flowers next to the guesses.
+        & SS & M \\
+        \hline
+        5 & 
+        The app must display the time it takes to process an image in milliseconds.
+        & SS & H \\
+        \hline
+        6 &
+        The app could contain additional pages that provide more pictures and information about the flower that can be 
+        accessed by clicking on the flower's icon.
+        & SS & L \\
+        \hline
+    \end{tabular}
+    \label{table:func}
+\end{table}
+\break
+\subsection{Non-functional Requirements}
+\label{subsec:nonreq}
+
+\begin{table}[h!]
+    \begin{tabular}{ |m{1cm}|m{5cm}|m{1.5cm}|m{1.5cm}| }
+        \hline
+        No. & Description & Source & Priority \\
+        \hline
+        1 & 
+        The app must function with minimal bugs. 
+        & SS & H \\
+        \hline
+        2 & 
+        The app must follow the Material You design specifications.
+        & MY & L \\
+        \hline
+    \end{tabular}
+    \label{table:nonfunc}
+\end{table}
+
+\subsection{SDK percentage}
+
+\label{subsec:sdk}
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=\textwidth]{Min_SDK.png}
+    \caption{The percentage of devices that API level 8 will run according to Android Studio.}
+    \label{fig:sdk}
+\end{figure}
+
+\clearpage
+
+\subsection{Model performance list}
+
+\label{subsec:models}
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=\textwidth]{models.png}
+    \caption{The list of models and their performance metrics on the TensorFlow site \cite{TFhostedmodels}.}
+    \label{fig:models}
+\end{figure}
+\clearpage
+
+\section{Testing}
+\subsection{Testing device specifications}
+
+\label{subsec:phone_spec}
+
+Samsung Galaxy S20 5G
+
+\par
+
+Apr 27, 2022 5:57
+
+\par
+
+Hardware \\
+exynos990 \\
+Cores: 8 \\
+CPU: \\
+2 x M5 \\
+2 x Cortex-A76 \\
+4 x Cortex-A55 \\
+Process: 7 nm LPP \\
+Frequencies: \\
+442 MHz - 2002 MHz \\
+507 MHz - 2504 MHz \\ 
+546 MHz - 2730 MHz
+
+\par
+
+GRAPHICS \\
+Vendor: ARM \\
+GPU: Mali-G77 \\
+OpenGL: OpenGL ES 3.2 \\
+Max frequency: 800 MHz \\
+Resolution: 2400 x 1080 \\
+Screen density: 424.48477 ppi \\
+Screen size (estimated): 6.2 in / 158 mm
+
+\par
+
+RAM \\
+RAM size: 12 GB \\
+Type: LPDDR5 2750 MHz \\
+Bandwidth: 44 GB/s \\
+Channels: 16-bit quad channel
+
+\par
+
+Storage \\
+Size: 128 GB \\
+Filesystem: sdcardfs \\
+
+\par
+
+DEVICE \\
+Model: SM-G981B \\
+Codename: x1s \\
+Manufacturer: samsung \\
+Manufacturing date: October 5, 2020
+
+\par
+
+System \\
+Android Version: Android 12 \\
+Build: SP1A.210812.016.G981BXXSDFVC9 \\
+ROM base: G981BXXSDFVC9 \\
+Security patch: April 1, 2022 \\
+Architecture: aarch64 (64-bit) \\
+Instruction sets: arm64-v8a armeabi-v7a armeabi \\
+Kernel: Linux version 4.19.87-23725627 (dpi@21DJ7D03) (Android (dev based on r349610)
+clang version 8.0.8 (based on LLVM 8.0.8svn))
+
+\par
+
+Battery \\
+Technology: Li-ion \\
+Health: Good \\
+Capacity (reported by system): 3880 mAh
+
+\par
+
+CAMERA \\
+Resolution: 12.2 MP (4032x3024) \\
+Focal length: 2.2 mm \\
+35mm equivalent focal length: 13.5 mm \\
+Sensor size: 5.64 x 4.23 mm \\ 
+Crop factor: 6.1x \\
+Field of view: 104.1 degrees \\
+Pixel size: 1.40 micro metres \\
+Aperture: 2.2 \\
+Shutter speed: 1/11764 - 1/10 s \\
+RAW mode: No \\
+ISO sensitivity range: 50 - 3200 \\
+RAW mode: Supported \\
+Optical image stabilization: No \\
+Front camera: 7.1 MP (3216x2208)
+
+\subsection{Results of functionality testing}
+\label{subsec:functionality}
+
+\begin{table}[h!]
+    \begin{tabular}{ |m{1cm}|m{2cm}|m{2cm}|m{2cm}|m{2cm}| }
+        \hline
+        Figure & Prediction & Prob. (\%) & Actual & Time (ms) \\
+        \hline
+        x & Anthurium & 78 & Anthurium & 351 \\
+        \hline
+        x & Columbine & 48 & Unknown & 376 \\
+        \hline
+        x & Cyclamen & 47 & Orchid & 364 \\
+        \hline
+        x & Daffodil & 93 & Daffodil & 378 \\
+        \hline
+        x & Oxeye Daisy & 96 & Oxeye Daisy & 379 \\
+        \hline
+        x & Dandelion & 100 & Dandelion & 393 \\
+        \hline
+        x & Dandelion & 88 & Dandelion & 373 \\
+        \hline
+        x & Rose & 97 & Rose & 316 \\
+        \hline
+    \end{tabular}
+    \caption{Table of predictions for 8 different flowers found in the vicinity.}
+    \label{table:nonfunc}
+\end{table}
+
+\subsection{Results of distance testing}
+\label{subsec:distance}
+
+\begin{table}[h!]
+    \begin{tabular}{ |m{1cm}|m{2.5cm}|m{2cm}|m{2cm}| }
+        \hline
+        Figure & Distance (cm) & Prediction & Prob. (\%)\\
+        \hline
+        x & 4 & Rose & 39 \\
+        \hline
+        x & 15 & Rose & 78 \\
+        \hline
+        x & 35 & Sword Lily & 56 \\
+        \hline
+        x & 60 & Carnation & 72 \\ 
+        \hline
+    \end{tabular}
+    \caption{Results from attempting to identify a rose at different distances.}
+    \label{table:distance}
+\end{table}
+\break
+
+\subsection{Results of lighting testing}
+\label{subsec:lighting}
+
+\begin{table}[h!]
+    \begin{tabular}{ |m{1cm}|m{2.5cm}|m{2cm}|m{2cm}| }
+        \hline
+        Figure & Lighting (lux) & Prediction & Prob. (\%)\\
+        \hline
+        x & 2.9 & Rose & 34 \\
+        \hline
+        x & 25.4 & Rose & 68 \\
+        \hline
+        x & 5333.6 & Thorn Apple & 45 \\
+        \hline
+    \end{tabular}
+    \caption{Results from attempting to identify a rose at different lighting conditions.}
+    \label{table:lighting}
+\end{table}
+\break
 
 \end{document}
