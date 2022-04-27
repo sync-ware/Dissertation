@@ -1,11 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Final.blg'
-[47] biber:340> INFO - === Wed Apr 27, 2022, 16:42:16
-[58] Biber.pm:418> INFO - Reading 'Final.bcf'
-[141] Biber.pm:972> INFO - Found 65 citekeys in bib section 0
-[151] Biber.pm:4383> INFO - Processing section 0
-[157] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
-[159] bibtex.pm:1713> INFO - LaTeX decoding ...
-[202] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
-[415] Utils.pm:398> ERROR - BibTeX subsystem: /tmp/biber_tmp_h8qp/8fe4c9854184545302f21ebf0d47516c_55450.utf8, line 711, syntax error: found "author", expected ","
-[415] Biber.pm:135> INFO - ERRORS: 1
+[50] biber:340> INFO - === Wed Apr 27, 2022, 16:55:38
+[60] Biber.pm:418> INFO - Reading 'Final.bcf'
+[143] Biber.pm:972> INFO - Found 67 citekeys in bib section 0
+[152] Biber.pm:4383> INFO - Processing section 0
+[159] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[161] bibtex.pm:1713> INFO - LaTeX decoding ...
+[207] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[499] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[500] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[500] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[546] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
+[572] bbl.pm:757> INFO - Output to Final.bbl

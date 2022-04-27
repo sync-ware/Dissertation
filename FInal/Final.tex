@@ -604,7 +604,7 @@ go into detail about the overall experience of the app as well as provide insigh
 \end{figure}
 
 Figure 6 shows clearly the type of system in place for the application. The user uses their device to query the search
-engine and get feedback, their image is also transferred the collaboration platform if they chose to. It can then be 
+engine and get feedback, their image is also transferred to the collaboration platform if they chose to. It can then be 
 independently verified and added back to the training set. The search engine is then retrained on a nightly basis. The 
 paper doesn't go into much more detail about the search engine itself apart from mentioning that progress in machine 
 learning and computer vision should improve the performance of identification. Unfortunately, there aren't any new 
@@ -932,7 +932,120 @@ both classifiers, this is because they represent the same thing in non-binary cl
     \frac{TP}{TP+FN}
 \end{equation}
 
-Where \(TP\) is number of true positives and \(FP\) is the number of false negatives ().
+Where \(TP\) is number of true positives and \(FP\) is the number of false negatives (\cite{googledevrecall}).
+
+\par
+
+In this case, FN is every incorrect evaluation of a class. Therefore, if you calculate this recall value for each class,
+you're essentially tallying up the number of times the class has been correctly identified over the total number of 
+images in the class for every class, giving us the total accuracy. F1 gives us a better indication of the accuracy of 
+the classifier, by taking into account the precision and recall, the high F1 score indicates that even with class 
+imbalance, we get good classification results. An AUC of near 100\% means that the predictions are nearly always 
+correct. The other predictions of an image are taken into account, so while the classifier might choose the incorrect 
+overall label, if the true label has a high probability, this means that the classifier is still somewhat good at 
+identifying the correct label.
+
+\par
+
+The SVM falls behind in every aspect, therefore, it is not worth pursuing as a method for flower classification in this 
+dataset. It is still possible to adjust the parameters of the SVM to get better performance or get more feature data 
+from the feature extraction methods. The current implementation, specifically the histogram calculations, use parameters
+that decrease extraction and training time significantly, in exchange for outputting less information. 
+\citeauthor{Nilsback2008} (2008) 
+achieved an accuracy of 88.3\% with the oxford flowers 17 dataset, a smaller subset of the one being used here using 
+very similar methods of combining SIFT, HOG and HSV and using an SVM. Their method is a lot more intuitive than my SVM 
+implementation but still doesn't reach the performance of the Inception V3 model. This doesn't mean that SVM or any 
+other classical machine learning method is obsolete, even in being used as a classifier on mobile phones. They can still
+perform extremely well on smaller and less complex datasets. Therefore, if dataset complexity is not an issue, what 
+else is there to consider? We can also look at the ease of implementation and how easy it is to move the classifier 
+into a mobile phone.
+
+\subsubsection*{Comparison of Development Processes}
+Most of the SVM was implemented with the help of scikit which contains easy to understand documentation on how to 
+implement an SVM as well as many other machine learning algorithms. There is also example code that gives developers an 
+idea on how to implement the algorithms in Python. Scikit provides a more extensive support library for hyper parameter 
+tuning compared to TensorFlow, including in-built functions for grid search. TensorFlow uses TensorBoard as a platform 
+to display the results of tuning as well as the overall results of training, which is very useful, but doesn't provide 
+any additional API level support for finding the right hyper parameters. That is up to the developer to implement 
+themselves. Scikit provides additional tools to allow model persistence so that developer trained models can be saved 
+and reused later. However, allowing these saved models to be used within an android application doesn't appear to be 
+straight forward compared to the TensorFlow approach and there does not seem to be any documentation to help with this. 
+
+\par
+
+The documentation for TensorFlow is extremely robust. This is unsurprising, considering it is developed and maintained 
+by Google. There is a clear-cut development process for the developer, where a beginner, can understand the basics and 
+go onto develop and train their first neural network on any of the supported platforms. The Keras Python API runs on 
+top of the TensorFlow platform and is designed to be easy for developers to use and produce results quickly 
+(\cite{kerasabout}). My approach to this involved adapting the example code provided in the TensorFlow API. This allowed
+me to quickly get a working example that I could adjust by simply searching through the API documentation. The 
+documentation is easy to follow as it provides clear explanations as well as examples on how it would be used. The 
+process to train models for different datasets using transfer learning is simple as well, allowing developers to adapt 
+any model. We can then save the model to storage so that it can be reloaded, and re-training is not required. The saved 
+model can then be converted to be used as a TensorFlow Lite model to be used in a mobile phone app. The process for this
+is simple and requires using the example code provided to implement. The developer needs to adjust and provide the 
+details to describe the model, including the shape of the input tensor, the image data type, and the number of classes. 
+This data can then be used by the TensorFlow Lite interpreter within Android.
+
+\subsubsection*{Improvements}
+
+It is possible to spend more time focusing on improving the individual models, specifically the SVM model. One could 
+develop a better optimised SVM and carry out additional actions to improve the image pre-processing pipeline or extract 
+better features. As the aim of the investigation was to compare the approaches from the perspective of a software 
+developer, rather than develop the best possible models, this isn’t something that was investigated in depth. However, 
+there is certainly value in understanding SVMs and other classical machine learning methods more by dedicating more time
+in implementing them.
+
+\par
+
+Due to time and hardware restrictions, tuning the hyper parameters of the deep learning models had to be short and 
+straight-forward. Given better hardware resources such as dedicated Nvidia GPUs and larger memory capacities, 
+it would've been possible to conduct more efficient hyper parameter tuning that could lead to better model performance.
+
+\subsubsection*{Summary}
+
+This investigation has been very educational and has certainly shown the capabilities of these specially made software 
+libraries. It is worth going back to discuss the main differences of ML and DL discussed in section \ref{subsec:mlvsdl}
+and see if they 
+still hold. Data dependencies are first discussed, and it is certainly impressive how well Inception V3 handles the 
+Oxford flowers 102 dataset compared to the SVM. The model is capable of handling datasets that contain up to 1001 
+classes, therefore, it is possible to push the model even further. It would've been interesting to see how effective a 
+GPU would be with training so that comparisons could be made on how much of an improvement it is over just using a CPU. 
+The DL approach certainly required less set up and thought when it came to actually implementing a classifier. This is 
+because the model can directly extract features and the developer doesn't have to worry about what features to extract 
+like they do with an SVM. The training time is about the same for both approaches. When increasing the number of 
+features produced from the bag of words, HSV and HOG extractors, the training time would also increase significantly. 
+Similarly, with the DL model, when decreasing the learning rate and adding more epochs, the training time will increase.
+Therefore, that comparison is situational. When it comes to understanding the functionality of the two approaches, it 
+was certainly a requirement to understand the SVM approach relatively in depth compared to the DL approach. This is 
+mainly because of the feature extraction process, where developers can clearly see what exactly is being analysed and 
+the exact format of the input data. Whereas, with DL, it appears to be more like a black box, where the complexity of 
+the model is abstracted away from the developer. Therefore, the only requirements were to provide the data in the format
+expected for the model to function properly and you would get the results you need. TensorFlow has shown itself to be a 
+very capable library that allows developers to easily implement deep learning for many use cases and I am excited to see
+how it improves in the future. 
+
+
+\clearpage
+
+\section{Flower Classification App}
+
+The second section of this project involves designing, implementing and testing an Android app that can recognise flower
+species. I will proceed with using the TensorFlow library to seamlessly integrate the deep learning model developed in 
+section one into an app. I will discuss the various processes that will take place, challenges faced and real-world 
+performance of the final product.
+
+\subsection{Requirements and Specification}
+
+Requirements were defined based on the findings produced in the literature review. This includes the background research 
+related to the goals of deep learning and the findings from the existing solutions review. I will also use the 
+guidelines produced by Google when it comes to TensorFlow integration, Material You design and Android development. 
+These guidelines are useful in designing and developing applications that conform to the general Google standards. As we
+don't have a defined client or target market, there are no requirements based on questionnaires and interviews. 
+Therefore, my aim is to describe the development process and test the performance of the app so that the feasibility of 
+using deep learning within a mobile phone can be assessed. 
+
+\subsubsection{Literature and Technology Survey Findings}
 
 \clearpage
 \printbibliography
