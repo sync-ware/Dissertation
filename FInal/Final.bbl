@@ -532,8 +532,10 @@
       \field{labelalpha}{Google2021}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Performance measurement}
@@ -549,7 +551,7 @@
       \verb https://www.tensorflow.org/lite/performance/measurement
       \endverb
     \endentry
-    \entry{googleplay}{online}{}
+    \entry{googleTF2}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
            family={Google},
@@ -562,6 +564,41 @@
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
       \field{extraname}{2}
+      \field{labelalpha}{Google2021}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TensorFlow Lite}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/lite
+      \endverb
+    \endentry
+    \entry{googleplay}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{3}
       \field{labelalpha}{Google2022}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
