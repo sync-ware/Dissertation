@@ -4,6 +4,7 @@
 \usepackage{array}
 \usepackage[parfill]{parskip}
 \usepackage[backend=biber, style=bath,]{biblatex}
+\usepackage{hyperref}
 \graphicspath{{./}}
 \title{Flower Species Recognition on a Smartphone}
 \addbibresource{refs.bib}
@@ -473,6 +474,7 @@ purposes such as the individual layers: convolutional (kernel),  pooling and cla
     \includegraphics[width=0.7\textwidth]{saha.jpg}
     \caption{Example of a CNN process (\cite{saha2018})}.
 \end{figure}
+\break
 
 They also highlight a feature of CNNs that make images easier to process, where it reduces the size of images “into a 
 form that is easier to process, without losing features which are critical for getting a good prediction”. This helps 
@@ -508,6 +510,7 @@ optimisations and ways to increase accuracy that we will need to consider when d
 application.
 
 \subsubsection{ML vs DL}
+\label{subsec:mlvsdl}
 
 DL is an obvious evolution from ML, but it is worth highlighting the key differences for clarity because ultimately this 
 project will compare how ML and DL compete with each other. \citeauthor{kav2020} (2020) breaks down how DL is different 
@@ -624,6 +627,7 @@ the sense that any identification process will be carried out on the device, how
 alternative methods and how they perform, so that we can compare approaches.
 
 \subsection{Evaluation}
+\label{subsec:evaluation}
 
 One of the key points of the project is having to evaluate the ML and DL approach, what we haven't discussed 
 yet however, is how do we go about doing this?
@@ -661,15 +665,50 @@ class and therefore the classifier makes inacurate predictions heavily skewed to
 The F1 score is calculated by:
 \[\frac{2*Precision*Recall}{Precision + Recall}\]
 
-\subsection{Final Thoughts}
+\subsection{Summary}
 
-The review has really highlighted the progression ML and DL from the early concepts and how everything eventually fit 
+The review has highlighted the progression ML and DL from the early concepts and how everything eventually fit 
 together to form what we know today. The area will keep getting more exciting as we learn to optimise our current 
 algorithms, come up with new ones and make use of advancing hardware capabilities. ML and DL is getting more and more 
 accessible as manufacturers allow the use of their specialised hardware to developers who can make use of APIs built 
 specifically for these tasks. Overall, we have built on the solid foundations of previous research and it's interesting 
 to see how the field develops in the future. The project hopes to aid the field by investigating the ML and DL 
 approaches in the mobile format as well as explore why we see certain results from the evaluation.
+
+\section{Investigation}
+
+The main body of this dissertation will be split into two sections: the first being an analysis of TensorFlow's deep 
+learning python API and how it compares to traditional machine learning python libraries like scikit. The second being 
+the design and development of the flower classifier app. We will start with the investigation portion of the project,
+walking through my initial predictions, methodology and findings. The idea is to approach this investigation from the 
+perspective of a software developer that is analysing the best approach for method of flower classification to use in 
+their product. This includes assessing the quality of the resources available and discussing the possible challenges.
+
+\subsection{Predictions}
+
+The main prediction is that implementing a convolutional neural network is more suitable than using classical machine 
+learning methods for this task. Suitability will be judged based on the metrics described in section
+\ref{subsec:evaluation} Evaluation. Furthermore, the process of implementing 
+both approaches and the challenges that were faced will be described. Additional predictions mainly align with what was 
+found in subsection \ref{subsec:mlvsdl} when discussing the key differences between ML and DL.
+
+\subsection{Design of Experiments}
+
+In this section, the implementation of the ML and DL classifiers will be individually described. The results from each
+approach will then be compared to fully understand the advantages of DL over ML. Furthermore, the development process
+including the various challenges faced will be discussed.
+
+\subsubsection{Oxford Flowers 102 Dataset}
+
+This dataset consists of 102 different flower species that occur within the UK. Each class contains between 40 and 258 
+images each. The images are described to have large variations between scale, pose and lighting, even within the classes
+itself. First the dataset will be downloaded and managed by the TensorFlow Datasets module (TFDS) which will download 
+the dataset to a generic directory and can directly manage the image and dataset data including filenames, class names 
+and data splits. The data splits defined by TFDS consists of 6,149 images for the test set and 1,020 images for the 
+train and validation sets each. This split is atypical as you would ideally have a larger number of images in the train 
+set rather than the test set. The current split is thought to be a mistake on Google’s side (GitHub issue, 2022). As a 
+result, I will swap the train and test datasets and carry out the training process with the larger split which would be 
+75\% of the dataset (TensorFlow OX102, 2022).  
 
 \clearpage
 \printbibliography
