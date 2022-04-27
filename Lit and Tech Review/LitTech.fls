@@ -1,10 +1,10 @@
-PWD /home/saahil/Dissertation/Lit and Tech Review
+PWD /home/saahil/Projects/Dissertation/Lit and Tech Review
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.tex
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.log
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.tex
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -78,9 +78,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.aux
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.aux
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.aux
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.aux
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.aux
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -94,10 +94,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.bcf
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.bbl
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.bbl
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.bbl
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.bcf
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.bbl
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.bbl
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -111,40 +111,40 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.toc
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.toc
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.toc
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.toc
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.pdf
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.toc
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/saahil/Dissertation/Lit and Tech Review/s21ultra.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/s21ultra.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/s21ultra.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/s21ultra.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/s21ultra.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/s21ultra.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT /home/saahil/Dissertation/Lit and Tech Review/neuron.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/neuron.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/neuron.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/perceptron.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/perceptron.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/perceptron.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/network.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/network.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/network.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/saha.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/saha.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/saha.jpg
-INPUT /home/saahil/Dissertation/Lit and Tech Review/plantnet.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/plantnet.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/plantnet.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/picturethis.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/picturethis.png
-INPUT /home/saahil/Dissertation/Lit and Tech Review/picturethis.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/neuron.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/neuron.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/neuron.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/perceptron.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/perceptron.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/perceptron.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/network.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/network.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/network.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/saha.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/saha.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/saha.jpg
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/plantnet.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/plantnet.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/plantnet.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/picturethis.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/picturethis.png
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/picturethis.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.aux
-INPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.run.xml
-OUTPUT /home/saahil/Dissertation/Lit and Tech Review/LitTech.run.xml
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.aux
+INPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.run.xml
+OUTPUT /home/saahil/Projects/Dissertation/Lit and Tech Review/LitTech.run.xml
 INPUT /home/saahil/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

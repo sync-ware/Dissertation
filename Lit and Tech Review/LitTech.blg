@@ -1,25 +1,25 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'LitTech.blg'
-[47] biber:322> INFO - === Fri Mar 11, 2022, 14:57:44
-[57] Biber.pm:415> INFO - Reading 'LitTech.bcf'
-[139] Biber.pm:943> INFO - Found 42 citekeys in bib section 0
-[156] Biber.pm:4256> INFO - Processing section 0
-[156] Utils.pm:75> INFO - Globbing data source 'refs.bib'
-[156] Utils.pm:91> INFO - Globbed data source 'refs.bib' to refs.bib
-[164] Biber.pm:4455> INFO - Looking for bibtex format file 'refs.bib' for section 0
-[166] bibtex.pm:1653> INFO - LaTeX decoding ...
-[210] bibtex.pm:1471> INFO - Found BibTeX data source 'refs.bib'
-[272] Utils.pm:293> WARN - month field 'sep' in entry 'tom1995' is not an integer - this will probably not sort properly.
-[280] Utils.pm:293> WARN - year field 'n.d.' in entry 'mathworks' is not an integer - this will probably not sort properly.
-[303] Utils.pm:293> WARN - year field 'n.d.' in entry 'anonpercep' is not an integer - this will probably not sort properly.
-[311] Utils.pm:293> WARN - year field 'n.d.' in entry 'diveintodeeplearning' is not an integer - this will probably not sort properly.
-[330] Utils.pm:293> WARN - year field 'n.d.' in entry 'DataFlairND' is not an integer - this will probably not sort properly.
-[363] Utils.pm:293> WARN - year field 'n.d.' in entry 'picturethis' is not an integer - this will probably not sort properly.
-[368] Utils.pm:293> WARN - month field 'oct' in entry '10.1145/1163593.1163596' is not an integer - this will probably not sort properly.
-[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[426] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[426] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[457] bbl.pm:652> INFO - Writing 'LitTech.bbl' with encoding 'UTF-8'
-[476] bbl.pm:755> INFO - Output to LitTech.bbl
-[477] Biber.pm:128> INFO - WARNINGS: 7
+[47] biber:322> INFO - === Tue Mar 29, 2022, 19:15:02
+[56] Biber.pm:415> INFO - Reading 'LitTech.bcf'
+[124] Biber.pm:943> INFO - Found 42 citekeys in bib section 0
+[134] Biber.pm:4256> INFO - Processing section 0
+[134] Utils.pm:75> INFO - Globbing data source 'refs.bib'
+[134] Utils.pm:91> INFO - Globbed data source 'refs.bib' to refs.bib
+[140] Biber.pm:4455> INFO - Looking for bibtex format file 'refs.bib' for section 0
+[142] bibtex.pm:1653> INFO - LaTeX decoding ...
+[181] bibtex.pm:1471> INFO - Found BibTeX data source 'refs.bib'
+[238] Utils.pm:293> WARN - month field 'sep' in entry 'tom1995' is not an integer - this will probably not sort properly.
+[244] Utils.pm:293> WARN - year field 'n.d.' in entry 'mathworks' is not an integer - this will probably not sort properly.
+[264] Utils.pm:293> WARN - year field 'n.d.' in entry 'anonpercep' is not an integer - this will probably not sort properly.
+[271] Utils.pm:293> WARN - year field 'n.d.' in entry 'diveintodeeplearning' is not an integer - this will probably not sort properly.
+[287] Utils.pm:293> WARN - year field 'n.d.' in entry 'DataFlairND' is not an integer - this will probably not sort properly.
+[323] Utils.pm:293> WARN - year field 'n.d.' in entry 'picturethis' is not an integer - this will probably not sort properly.
+[328] Utils.pm:293> WARN - month field 'oct' in entry '10.1145/1163593.1163596' is not an integer - this will probably not sort properly.
+[382] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[382] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[382] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[382] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[411] bbl.pm:652> INFO - Writing 'LitTech.bbl' with encoding 'UTF-8'
+[427] bbl.pm:755> INFO - Output to LitTech.bbl
+[428] Biber.pm:128> INFO - WARNINGS: 7
