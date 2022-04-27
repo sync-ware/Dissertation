@@ -787,10 +787,172 @@ their supposed effect:
     at the expense of producing substandard weights for the model (\cite{andreaperlato}). Values from 0.01-0.0001 will
     be tested, moving down a magnititude at each step. 
     \item \textbf{Dropout} which was described earlier when discussing the Inception V3 model. Increasing this value 
-    will mean a larger percentage of nodes will get removed. Values in the range 0.2-0.4 will be tested.
+    will mean a larger percentage of nodes will get removed. Values within the range 0.2-0.4, in increments of 0.1 
+    will be tested.
 \end{itemize}
 
+Using a TensorFlow module called TensorBoard, we can test the hyper parameter combinations efficiently and produce the 
+metrics for each combination. TensorBoard allows the developer to view how the hyper parameters affected the results. 
+In an effort to decrease overall training time and save time, I will conduct some preliminary testing to see which 
+optimiser is more suitable with just baseline parameters. Once that is selected, I only need to test the different 
+learning and dropout rates using a grid search. This is when every possible combination is tested. When testing with a 
+large number of hyper parameters, one can use other methods like random search to decrease overall tuning time by 
+randomly sampling hyper parameters from a range based on a statistical distribution, this means that more effective 
+hyper parameters are tested to avoid spending time on hyper parameters that will not affect the overall performance that
+much (\cite{sayak}). 
+
+\subsubsection{Environment}
+
+Both approaches will be developed and ran on the same machine, a custom desktop PC that contains these main components: 
+
+\begin{itemize}
+    \item An AMD Ryzen 3600 4.2Ghz 6 Core/12 Thread CPU
+    \item 16GB 3200Mhz DDR4 Memory
+\end{itemize}
+
+The PC ran on Ubuntu 20.04 LTS with the relevant python3 and TensorFlow libraries needed to run the Jupyter Notebooks 
+locally. VS Code was used as the Integrated Development Environment (IDE) with the Python and Jupyter extensions.  It is
+possible to run model training on the GPU instead of the CPU, however, only Nvidia GPUs are directly supported. As a 
+result of not having access to one, we will be mainly using the power of the CPU to carry out training.
+
+\subsubsection{Metrics}
+
+The key metrics I will analyse along with accuracy, precision, recall and F1 are: 
+
+\begin{itemize}
+    \item Loss, a measure of how bad the model's predictions are (\cite{googletrainloss}). 
+    This metric only applies to the deep learning model as it is calculated during the training process as the model 
+    tries to minimise it.
+    \item Area under the receiving operating characteristic curve (AOC). You get an ROC curve by plotting the true 
+    positive rate against the false positive rate. The area under this curve indicates how well the model is selecting 
+    the correct prediction against all other predictions (\cite{googleroc}).
+\end{itemize}
+
+\subsubsection{Results}
+
+\subsubsection*{Preliminary DL Findings}
+
+Another factor to consider when carrying out training is the number of epochs. An epoch is a full pass over the training
+set. Multiple passes are needed to minimise loss and fully train the model. Through preliminary testing of the model, 
+I found that 5 epochs are more than sufficient as we reach the maximum validation accuracy shown in figure [x]. If we 
+increase the number of epochs, we risk overfitting (\cite{geeksforgeeks}). Optimisers were tested individually to 
+determine how much they would affect the results under standard conditions. I found that SGD was unsuitable for this 
+task, producing accuracy results at almost half of what Adam and AmaMax were producing. Overall, Adam produced the best 
+results, albeit AdaMax was only a percentage point behind. Therefore, I decided to conduct any main hyper parameter 
+tuning, purely using the Adam optimiser. All initial training is done to only the first epoch to reduce overall 
+execution time. 
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.6\textwidth]{cross_graph.png}
+    \caption{Graph generated in TensorBoard from HP training results.}
+    \label{fig:cross}
+\end{figure}
+
+\break
+
+Figure \ref{fig:cross} above is a parallel co-ordinates view shown within TensorBoard that clearly show what accuracy 
+results 
+certain combinations of hyperparameters produce. Highlighted in green shows the joint first highest with a dropout of 
+0.3 and a learning rate of 0.001. A dropout of 0.2 with the same learning rate produces the same result. A learning rate
+of 1e-4 produces a significant reduction of first epoch performance, this is because we would need to increase the 
+number of overall epochs to get optimal results. Ideally, we would test the number of epochs along with the other 
+hyperparameters to produce fairer results, however, that would significantly increase training time with a grid search. 
+If a developer has access to more specialised hardware, suited for machine learning tasks, this would not be too much of
+an issue.
+
+\par
+
+Overall, the final model will use a learning rate of 0.001 and dropout of 0.3. This was decided after considering the 
+results from the hyper parameter tuning as well as the proposed learning rate being the default one provided by the 
+TensorFlow API.
+
+\subsubsection*{Performance}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ |m{3cm}|m{3cm}|m{3cm}|| }
+        \hline
+        Metric & SVM (\%) & Inception V3 (\%) \\
+        \hline
+        Accuracy & 24.30 & 95.69 \\
+        \hline
+        Loss & - & 17.95 \\
+        \hline
+        Precision & 29.40 & 96.14 \\
+        \hline
+        Recall & 24.30 & 95.69 \\
+        \hline
+        F1 & 26.60 & 95.91 \\
+        \hline
+        ROC AUC & 89.60 & 99.97 \\
+        \hline
+
+
+    \end{tabular}
+    \caption{Results output from the classifier after predicting against the testing dataset.}
+    \label{table:2}
+\end{table}
+
+Precision, recall and ROC AUC values are weighted, meaning that they consider class balance as they calculate the metrics
+for each class and find the average weighted by the number of correct instances for each class 
+(\cite{scikitprec}). This was necessary to account for the slight imbalances we have with the number of images 
+in each class. The deep learning approach clearly comes out on top with excellent results.
+
+\par
+
+The Inception V3 test contains additional information about accuracy (figure \ref{fig:incep_acc}) and loss 
+(Appendix \ref{subsec:loss}) for the training and validation datasets 
+while the model is being trained. It tells us how the model improves per epoch.
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.6\textwidth]{inception_acc.png}
+    \caption{Graph of accuracy against the number of training steps.}
+    \label{fig:incep_acc}
+\end{figure}
+
+The model needs to be converted to a TensorFlow lite file in order for it to be allowed to be used in the Android 
+application. Once we convert it, we can reload the model and run inference on it to check if it is still effective. The 
+result after doing that produces an accuracy of 100\% if we just test it on the first batch of 32 images. Of course, 
+his is not indicative of real-world performance, and we will need to do additional real-world performance profiling 
+once the app is developed. 
+
+\subsubsection{Analysis}
+
+\subsubsection*{Outcome}
+
+It is clear that the DL approach is vastly superior in classifying flowers than the SVM in all aspects. The Inception V3
+approach has high accuracy meaning it can correctly identify the classes of most of the images in the test set. 
+High precision indicates that a large portion of correct identification were genuinely correct. High recall demonstrates
+how well the classifier identified correct instances. You might notice that accuracy and recall are the same value for 
+both classifiers, this is because they represent the same thing in non-binary classification. Recall is shown to be:
+
+\begin{equation}
+    \frac{TP}{TP+FN}
+\end{equation}
+
+Where \(TP\) is number of true positives and \(FP\) is the number of false negatives ().
 
 \clearpage
 \printbibliography
+
+\clearpage
+
+\appendix
+
+\section*{Appendix}
+
+\section{Inception V3 Results Graphs}
+\subsection{Loss}
+
+\label{subsec:loss}
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.6\textwidth]{inception_loss.png}
+    \caption{Graph of loss against the number of training steps.}
+    \label{fig:incep_loss}
+\end{figure}
+
 \end{document}
