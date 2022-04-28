@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.25)  27 APR 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.25)  28 APR 2022 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -417,11 +417,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \@quotelevel=\count398
 \@quotereset=\count399
- (./Final.aux
-
-LaTeX Warning: Label `table:nonfunc' multiply defined.
-
-)
+ (./Final.aux)
 \openout1 = `Final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -539,7 +535,7 @@ Overfull \hbox (2.73143pt too wide) in paragraph at lines 104--109
  []
 
 [2] [3]
-<s21ultra.jpg, id=414, 147.825pt x 197.1pt>
+<s21ultra.jpg, id=464, 147.825pt x 197.1pt>
 File: s21ultra.jpg Graphic file (type jpg)
 <use s21ultra.jpg>
 Package pdftex.def Info: s21ultra.jpg  used on input line 167.
@@ -619,47 +615,52 @@ $\OML/cmm/m/it/10 BC$ \OT1/cmr/m/n/10 is our Bayesian clas-si-fier, + and { are 
  []
 
 [10]
-<neuron.png, id=466, 285.31593pt x 197.23688pt>
+<neuron.png, id=515, 285.31593pt x 197.23688pt>
 File: neuron.png Graphic file (type png)
 <use neuron.png>
-Package pdftex.def Info: neuron.png  used on input line 426.
+Package pdftex.def Info: neuron.png  used on input line 425.
 (pdftex.def)             Requested size: 207.0021pt x 143.0999pt.
-<perceptron.jpg, id=470, 464.4853pt x 181.42781pt>
+<perceptron.jpg, id=519, 464.4853pt x 181.42781pt>
 File: perceptron.jpg Graphic file (type jpg)
 <use perceptron.jpg>
-Package pdftex.def Info: perceptron.jpg  used on input line 446.
+Package pdftex.def Info: perceptron.jpg  used on input line 445.
 (pdftex.def)             Requested size: 241.49895pt x 94.33192pt.
  [11 <./neuron.png> <./perceptron.jpg>]
-<network.png, id=480, 327.47343pt x 135.50626pt>
+<network.png, id=528, 327.47343pt x 135.50626pt>
 File: network.png Graphic file (type png)
 <use network.png>
-Package pdftex.def Info: network.png  used on input line 461.
+Package pdftex.def Info: network.png  used on input line 460.
 (pdftex.def)             Requested size: 241.49895pt x 99.92981pt.
-<saha.jpg, id=482, 301.8915pt x 161.622pt>
+<saha.jpg, id=530, 301.8915pt x 161.622pt>
 File: saha.jpg Graphic file (type jpg)
 <use saha.jpg>
-Package pdftex.def Info: saha.jpg  used on input line 475.
+Package pdftex.def Info: saha.jpg  used on input line 474.
 (pdftex.def)             Requested size: 241.49895pt x 129.28789pt.
- [12 <./network.png> <./saha.jpg>] [13] [14] [15]
-<plantnet.png, id=506, 330.48468pt x 248.42813pt>
+ [12 <./network.png> <./saha.jpg>] [13] [14]
+<plantnet.png, id=549, 330.48468pt x 248.42813pt>
 File: plantnet.png Graphic file (type png)
 <use plantnet.png>
-Package pdftex.def Info: plantnet.png  used on input line 602.
+Package pdftex.def Info: plantnet.png  used on input line 599.
 (pdftex.def)             Requested size: 241.49895pt x 181.54434pt.
-<picturethis.png, id=509, 205.5178pt x 245.41687pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
+<picturethis.png, id=557, 205.5178pt x 245.41687pt>
 File: picturethis.png Graphic file (type png)
 <use picturethis.png>
-Package pdftex.def Info: picturethis.png  used on input line 620.
+Package pdftex.def Info: picturethis.png  used on input line 617.
 (pdftex.def)             Requested size: 172.5pt x 205.98773pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./plantnet.png>] [17 <./picturethis.png>] [18]
-<ox102examples.png, id=534, 521.95pt x 518.93875pt>
+<ox102examples.png, id=583, 521.95pt x 518.93875pt>
 File: ox102examples.png Graphic file (type png)
 <use ox102examples.png>
-Package pdftex.def Info: ox102examples.png  used on input line 719.
+Package pdftex.def Info: ox102examples.png  used on input line 716.
 (pdftex.def)             Requested size: 241.49895pt x 240.10835pt.
 
 
@@ -668,159 +669,341 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [19
 
 ] [20 <./ox102examples.png>]
-<inceptionv3.png, id=554, 1003.75pt x 390.45876pt>
+<inceptionv3.png, id=603, 1003.75pt x 390.45876pt>
 File: inceptionv3.png Graphic file (type png)
 <use inceptionv3.png>
-Package pdftex.def Info: inceptionv3.png  used on input line 754.
+Package pdftex.def Info: inceptionv3.png  used on input line 752.
 (pdftex.def)             Requested size: 345.0pt x 134.20795pt.
  [21 <./inceptionv3.png>] [22]
-<cross_graph.png, id=587, 705.63625pt x 547.04375pt>
+<cross_graph.png, id=637, 705.63625pt x 547.04375pt>
 File: cross_graph.png Graphic file (type png)
 <use cross_graph.png>
-Package pdftex.def Info: cross_graph.png  used on input line 850.
+Package pdftex.def Info: cross_graph.png  used on input line 849.
 (pdftex.def)             Requested size: 207.0021pt x 160.475pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] [24 <./cross_graph.png>]
-<inception_acc.png, id=609, 387.4475pt x 266.9975pt>
+[23]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./cross_graph.png>]
+<inception_acc.png, id=657, 387.4475pt x 266.9975pt>
 File: inception_acc.png Graphic file (type png)
 <use inception_acc.png>
-Package pdftex.def Info: inception_acc.png  used on input line 911.
+Package pdftex.def Info: inception_acc.png  used on input line 914.
 (pdftex.def)             Requested size: 207.0021pt x 142.64871pt.
  [25 <./inception_acc.png>] [26] [27] [28] [29
 
 ] [30] [31] [32] [33] [34] [35] [36] [37
 
 ]
-Overfull \hbox (12.28125pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (12.28125pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 AndroidDevelopers, 2022. \OT1/cmr/m/it/10 Cam-erax \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / developer .
  []
 
 
-Overfull \hbox (22.83653pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (22.83653pt too wide) in paragraph at lines 1365--1365
 \OT1/cmr/m/n/10 Avail-able from: []$\OT1/cmtt/m/n/10 https : / / machinelearningmastery . com / gentle -[] introduction -[]
  []
 
 [38
 
 ]
-Overfull \hbox (15.93633pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (15.93633pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 Google, 2021b. \OT1/cmr/m/it/10 Ten-sor-flow lite \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . tensorflow .
  []
 
 [39]
-Overfull \hbox (1.48286pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (1.48286pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 GSMArena, 2021. \OT1/cmr/m/it/10 Gsm arena \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . gsmarena .
  []
 
 
-Overfull \hbox (3.13783pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (3.13783pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 Joly, A., Bon-net, P., Go^^?eau, H., Barbe, J., Selmi, S., Champ, J., Dufour-Kowalski,
  []
 
 
-Overfull \hbox (44.52567pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (44.52567pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 Korstanje, J., 2021. \OT1/cmr/m/it/10 The f1 score \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / towardsdatascience .
  []
 
 
-Overfull \hbox (17.66557pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (17.66557pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 Kulendran, M., Lim, M., Laws, G., Chow, A., Nehme, J., Darzi, A., and Purkayastha,
  []
 
 
-Overfull \hbox (6.99785pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (6.99785pt too wide) in paragraph at lines 1365--1365
 \OT1/cmtt/m/n/10 mathworks . com / help / images / texture -[] analysis -[] 1 . html$[] \OT1/cmr/m/n/10 [Ac-cessed March 9,
  []
 
 [40]
-Overfull \hbox (9.74704pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (9.74704pt too wide) in paragraph at lines 1365--1365
 \OT1/cmtt/m/n/10 statistics / 271496 / global -[] market -[] share -[] held -[] by -[] smartphone -[] vendors -[]
  []
 
 
-Overfull \hbox (36.2643pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (36.2643pt too wide) in paragraph at lines 1365--1365
 [][]\OT1/cmr/m/n/10 PapersWithCode, 2017. \OT1/cmr/m/it/10 Inat-u-ral-ist \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / paperswithcode .
  []
 
 [41]
-Overfull \hbox (7.19392pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (7.19392pt too wide) in paragraph at lines 1365--1365
 \OT1/cmr/m/n/10 2011., Texts in Com-puter Sci-ence. Lon-don: Springer Lon-don : Im-print: Springer. 
  []
 
 
-Overfull \hbox (5.7201pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (5.7201pt too wide) in paragraph at lines 1365--1365
 \OT1/cmtt/m/n/10 tensorflow . org / datasets / catalog / oxford _ flowers102$[] \OT1/cmr/m/n/10 [Ac-cessed April 17,
  []
 
 [42]
-Overfull \hbox (26.06953pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (26.06953pt too wide) in paragraph at lines 1365--1365
 \OT1/cmr/m/it/10 pixel 6's chip shapes up \OT1/cmr/m/n/10 [On-line]. Avail-able from: []$\OT1/cmtt/m/n/10 https : / / www . androidauthority .
  []
 
 [43]
-<full_hp.png, id=875, 712.6625pt x 319.1925pt>
+<full_hp.png, id=926, 712.6625pt x 319.1925pt>
 File: full_hp.png Graphic file (type png)
 <use full_hp.png>
-Package pdftex.def Info: full_hp.png  used on input line 1373.
+Package pdftex.def Info: full_hp.png  used on input line 1380.
 (pdftex.def)             Requested size: 345.0pt x 154.52081pt.
-<inception_loss.png, id=876, 393.47pt x 266.9975pt>
+<inception_loss.png, id=927, 393.47pt x 266.9975pt>
 File: inception_loss.png Graphic file (type png)
 <use inception_loss.png>
-Package pdftex.def Info: inception_loss.png  used on input line 1384.
+Package pdftex.def Info: inception_loss.png  used on input line 1391.
 (pdftex.def)             Requested size: 207.0021pt x 140.46503pt.
  [44
 
  <./full_hp.png> <./inception_loss.png>] [45]
-<Min_SDK.png, id=888, 787.94376pt x 96.36pt>
+<Min_SDK.png, id=939, 787.94376pt x 96.36pt>
 File: Min_SDK.png Graphic file (type png)
 <use Min_SDK.png>
-Package pdftex.def Info: Min_SDK.png  used on input line 1482.
+Package pdftex.def Info: Min_SDK.png  used on input line 1489.
 (pdftex.def)             Requested size: 345.0pt x 42.1912pt.
  [46 <./Min_SDK.png>]
-<models.png, id=894, 791.95876pt x 879.285pt>
+<models.png, id=945, 791.95876pt x 879.285pt>
 File: models.png Graphic file (type png)
 <use models.png>
-Package pdftex.def Info: models.png  used on input line 1495.
+Package pdftex.def Info: models.png  used on input line 1502.
 (pdftex.def)             Requested size: 345.0pt x 383.0494pt.
  [47
 
  <./models.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1548--1551
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1558
 
  []
 
 [48
 
-]
+] [49]
+<anthurium.jpg, id=971, 1084.05pt x 2409.0pt>
+File: anthurium.jpg Graphic file (type jpg)
+<use anthurium.jpg>
+Package pdftex.def Info: anthurium.jpg  used on input line 1636.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+<columbine.jpg, id=972, 1084.05pt x 2409.0pt>
+File: columbine.jpg Graphic file (type jpg)
+<use columbine.jpg>
+Package pdftex.def Info: columbine.jpg  used on input line 1642.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49] [50] (./Final.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: There were multiply-defined labels.
+<cyclamen.jpg, id=973, 1084.05pt x 2409.0pt>
+File: cyclamen.jpg Graphic file (type jpg)
+<use cyclamen.jpg>
+Package pdftex.def Info: cyclamen.jpg  used on input line 1649.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<daffodil.jpg, id=974, 1084.05pt x 2409.0pt>
+File: daffodil.jpg Graphic file (type jpg)
+<use daffodil.jpg>
+Package pdftex.def Info: daffodil.jpg  used on input line 1655.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<daisy.jpg, id=975, 1084.05pt x 2409.0pt>
+File: daisy.jpg Graphic file (type jpg)
+<use daisy.jpg>
+Package pdftex.def Info: daisy.jpg  used on input line 1661.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<dandelion.jpg, id=976, 1084.05pt x 2409.0pt>
+File: dandelion.jpg Graphic file (type jpg)
+<use dandelion.jpg>
+Package pdftex.def Info: dandelion.jpg  used on input line 1667.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<dandelion_2.jpg, id=977, 1084.05pt x 2409.0pt>
+File: dandelion_2.jpg Graphic file (type jpg)
+<use dandelion_2.jpg>
+Package pdftex.def Info: dandelion_2.jpg  used on input line 1673.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<rose.jpg, id=978, 1084.05pt x 2409.0pt>
+File: rose.jpg Graphic file (type jpg)
+<use rose.jpg>
+Package pdftex.def Info: rose.jpg  used on input line 1680.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50
+
+ <./anthurium.jpg>] [51 <./columbine.jpg> <./cyclamen.jpg>] [52 <./daffodil.jpg> <./daisy.jpg>] [53 <./dandelion.jpg> <./dandelion_2.jpg>] [54 <./rose.jpg>]
+<rose_4cm.jpg, id=1003, 1084.05pt x 2409.0pt>
+File: rose_4cm.jpg Graphic file (type jpg)
+<use rose_4cm.jpg>
+Package pdftex.def Info: rose_4cm.jpg  used on input line 1710.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+<rose_15cm.jpg, id=1004, 1084.05pt x 2409.0pt>
+File: rose_15cm.jpg Graphic file (type jpg)
+<use rose_15cm.jpg>
+Package pdftex.def Info: rose_15cm.jpg  used on input line 1716.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<rose_35cm.jpg, id=1005, 1084.05pt x 2409.0pt>
+File: rose_35cm.jpg Graphic file (type jpg)
+<use rose_35cm.jpg>
+Package pdftex.def Info: rose_35cm.jpg  used on input line 1722.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<rose_60cm.jpg, id=1006, 1084.05pt x 2409.0pt>
+File: rose_60cm.jpg Graphic file (type jpg)
+<use rose_60cm.jpg>
+Package pdftex.def Info: rose_60cm.jpg  used on input line 1728.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55
+
+ <./rose_4cm.jpg>] [56 <./rose_15cm.jpg> <./rose_35cm.jpg>] [57 <./rose_60cm.jpg>]
+<rose_light_1.jpg, id=1025, 1084.05pt x 2409.0pt>
+File: rose_light_1.jpg Graphic file (type jpg)
+<use rose_light_1.jpg>
+Package pdftex.def Info: rose_light_1.jpg  used on input line 1755.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+<rose_light_2.jpg, id=1026, 1084.05pt x 2409.0pt>
+File: rose_light_2.jpg Graphic file (type jpg)
+<use rose_light_2.jpg>
+Package pdftex.def Info: rose_light_2.jpg  used on input line 1761.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<rose_light_3.jpg, id=1027, 1084.05pt x 2409.0pt>
+File: rose_light_3.jpg Graphic file (type jpg)
+<use rose_light_3.jpg>
+Package pdftex.def Info: rose_light_3.jpg  used on input line 1767.
+(pdftex.def)             Requested size: 103.50105pt x 229.99689pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[58
+
+ <./rose_light_1.jpg>] [59 <./rose_light_2.jpg> <./rose_light_3.jpg>]
+<CPU1_Time.png, id=1037, 573.14125pt x 241.90375pt>
+File: CPU1_Time.png Graphic file (type png)
+<use CPU1_Time.png>
+Package pdftex.def Info: CPU1_Time.png  used on input line 1779.
+(pdftex.def)             Requested size: 345.0pt x 145.61583pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 1778--1780
+[] [] 
+ []
+
+<CPU2_Time.png, id=1038, 574.145pt x 237.88875pt>
+File: CPU2_Time.png Graphic file (type png)
+<use CPU2_Time.png>
+Package pdftex.def Info: CPU2_Time.png  used on input line 1786.
+(pdftex.def)             Requested size: 345.0pt x 142.9485pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 1785--1787
+[] [] 
+ []
+
+<CPU4_Time.png, id=1039, 574.145pt x 237.88875pt>
+File: CPU4_Time.png Graphic file (type png)
+<use CPU4_Time.png>
+Package pdftex.def Info: CPU4_Time.png  used on input line 1792.
+(pdftex.def)             Requested size: 345.0pt x 142.9485pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 1791--1793
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<CPU8_Time.png, id=1040, 574.145pt x 237.88875pt>
+File: CPU8_Time.png Graphic file (type png)
+<use CPU8_Time.png>
+Package pdftex.def Info: CPU8_Time.png  used on input line 1798.
+(pdftex.def)             Requested size: 345.0pt x 142.9485pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 1797--1799
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<GPU_Time.png, id=1041, 575.14874pt x 227.85126pt>
+File: GPU_Time.png Graphic file (type png)
+<use GPU_Time.png>
+Package pdftex.def Info: GPU_Time.png  used on input line 1804.
+(pdftex.def)             Requested size: 345.0pt x 136.68051pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 1803--1805
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60
+
+ <./CPU1_Time.png> <./CPU2_Time.png>] [61 <./CPU4_Time.png> <./CPU8_Time.png> <./GPU_Time.png>] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: 39049A81CCFC460F70AE7F43F206E49D;9040.
+(rerunfilecheck)             Checksum: 59AAA9FD742F4AEEE5A478066C047322;9376.
 Package logreq Info: Writing requests to 'Final.run.xml'.
 \openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17092 strings out of 480247
- 308723 string characters out of 5896151
- 1183459 words of memory out of 5000000
- 34620 multiletter control sequences out of 15000+600000
+ 17290 strings out of 480247
+ 311779 string characters out of 5896151
+ 1182939 words of memory out of 5000000
+ 34765 multiletter control sequences out of 15000+600000
  474970 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,10n,79p,2766b,2473s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/saahil/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Final.pdf (56 pages, 1485089 bytes).
+Output written on Final.pdf (67 pages, 13919016 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 903 compressed objects within 10 object streams
- 225 named destinations out of 1000 (max. 500000)
- 540 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1167 PDF objects out of 1200 (max. 8388607)
+ 1010 compressed objects within 11 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 

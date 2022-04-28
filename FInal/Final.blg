@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Final.blg'
-[48] biber:340> INFO - === Wed Apr 27, 2022, 19:12:14
-[59] Biber.pm:418> INFO - Reading 'Final.bcf'
-[143] Biber.pm:972> INFO - Found 73 citekeys in bib section 0
-[153] Biber.pm:4383> INFO - Processing section 0
-[160] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
-[162] bibtex.pm:1713> INFO - LaTeX decoding ...
-[207] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
-[540] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[541] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[541] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[541] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[590] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
-[618] bbl.pm:757> INFO - Output to Final.bbl
+[46] biber:340> INFO - === Thu Apr 28, 2022, 11:59:25
+[56] Biber.pm:418> INFO - Reading 'Final.bcf'
+[139] Biber.pm:972> INFO - Found 73 citekeys in bib section 0
+[148] Biber.pm:4383> INFO - Processing section 0
+[154] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[156] bibtex.pm:1713> INFO - LaTeX decoding ...
+[198] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[521] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[522] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[522] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[522] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[569] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
+[595] bbl.pm:757> INFO - Output to Final.bbl

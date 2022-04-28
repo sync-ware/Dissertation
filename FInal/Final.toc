@@ -28,7 +28,7 @@
 \contentsline {subsubsection}{\numberline {3.2.4}Environment}{22}{subsubsection.3.2.4}%
 \contentsline {subsubsection}{\numberline {3.2.5}Metrics}{23}{subsubsection.3.2.5}%
 \contentsline {subsubsection}{\numberline {3.2.6}Results}{23}{subsubsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.7}Analysis}{25}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.7}Analysis}{26}{subsubsection.3.2.7}%
 \contentsline {section}{\numberline {4}Flower Classification App}{29}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Requirements and Specification}{29}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Literature and Technology Survey Findings}{29}{subsubsection.4.1.1}%
@@ -38,6 +38,7 @@
 \contentsline {subsection}{\numberline {4.2}Design and Implementation}{32}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Classifier}{32}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Implementation Process}{32}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}User Interface Design}{32}{subsubsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.3}System Testing}{33}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Functionality Testing}{33}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Performance Testing}{35}{subsubsection.4.3.2}%
@@ -54,5 +55,6 @@
 \contentsline {section}{\numberline {C}Testing}{48}{appendix.C}%
 \contentsline {subsection}{\numberline {C.1}Testing device specifications}{48}{subsection.C.1}%
 \contentsline {subsection}{\numberline {C.2}Results of functionality testing}{49}{subsection.C.2}%
-\contentsline {subsection}{\numberline {C.3}Results of distance testing}{49}{subsection.C.3}%
-\contentsline {subsection}{\numberline {C.4}Results of lighting testing}{50}{subsection.C.4}%
+\contentsline {subsection}{\numberline {C.3}Results of distance testing}{55}{subsection.C.3}%
+\contentsline {subsection}{\numberline {C.4}Results of lighting testing}{58}{subsection.C.4}%
+\contentsline {subsection}{\numberline {C.5}Performance Timings}{60}{subsection.C.5}%
