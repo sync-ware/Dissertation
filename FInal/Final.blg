@@ -1,15 +1,48 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'Final.blg'
-[46] biber:340> INFO - === Thu Apr 28, 2022, 11:59:25
-[56] Biber.pm:418> INFO - Reading 'Final.bcf'
-[139] Biber.pm:972> INFO - Found 73 citekeys in bib section 0
-[148] Biber.pm:4383> INFO - Processing section 0
-[154] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
-[156] bibtex.pm:1713> INFO - LaTeX decoding ...
-[198] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
-[521] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[522] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[522] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[522] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[569] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
-[595] bbl.pm:757> INFO - Output to Final.bbl
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Final.aux
+The style file: bathx.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: refs.bib
+You've used 73 entries,
+            5466 wiz_defined-function locations,
+            1322 strings with 18489 characters,
+and the built_in function-call counts, 54190 in all, are:
+= -- 5631
+> -- 1446
+< -- 6
++ -- 582
+- -- 486
+* -- 3663
+:= -- 7010
+add.period$ -- 236
+call.type$ -- 73
+change.case$ -- 518
+chr.to.int$ -- 92
+cite$ -- 73
+duplicate$ -- 3924
+empty$ -- 5106
+format.name$ -- 539
+if$ -- 12636
+int.to.chr$ -- 9
+int.to.str$ -- 1
+missing$ -- 487
+newline$ -- 384
+num.names$ -- 292
+pop$ -- 1590
+preamble$ -- 1
+purify$ -- 421
+quote$ -- 0
+skip$ -- 3249
+stack$ -- 0
+substring$ -- 1282
+swap$ -- 1904
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1236
+warning$ -- 0
+while$ -- 331
+width$ -- 0
+write$ -- 982
