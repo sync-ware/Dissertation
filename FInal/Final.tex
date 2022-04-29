@@ -1153,9 +1153,76 @@ must be outlined to ensure development goes smoothly.
 
 \par
 
-Figure [x] shows the simple actions that the user can take in order to capture a flower photo and get results. 
+Figure \ref{fig:flow} shows the simple actions that the user can take in order to capture a flower photo and get results. 
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \node[draw,
+        rounded rectangle,
+        minimum width=2.5cm,
+        minimum height=1cm] (block1) {START};
 
-[FLOWCHART INSERT HERE]
+        \node[draw,
+        minimum width=1cm,
+        minimum height=1cm,
+        right= of block1] (block2) {Locate flower};
+
+        \node[draw,
+        trapezium, 
+        trapezium left angle = 65,
+        trapezium right angle = 115,
+        trapezium stretches,
+        right=of block2,
+        minimum width=3.5cm,
+        minimum height=1cm
+        ] (block3) { Capture image };
+
+        \node[draw,
+        minimum width=1cm,
+        minimum height=1cm,
+        right= of block3] (block4) {Classification};
+
+        \node[draw,
+        trapezium, 
+        trapezium left angle = 65,
+        trapezium right angle = 115,
+        trapezium stretches,
+        below=of block4,
+        minimum width=3.5cm,
+        minimum height=1cm
+        ] (block5) { Results };
+
+        \node[draw,
+        diamond,
+        below=of block2,
+        minimum width=3cm,
+        inner sep=0] (block6) { Clear image? };
+
+        \node[draw,
+        rounded rectangle,
+        minimum width=2.5cm,
+        minimum height=1cm,
+        left= of block6] (block7) {END};
+
+        \draw[-latex] (block1) edge (block2);
+
+        \draw[-latex] (block2) edge (block3);
+
+        \draw[-latex] (block3) edge (block4);
+
+        \draw[-latex] (block4) edge (block5);
+
+        \draw[-latex] (block5) |- (block6);
+
+        \draw[-latex] (block6) edge node[pos=0.45,fill=white,inner sep=2pt]{No}(block7)
+        (block6) edge 
+            node[pos=0.4,fill=white,inner sep=0]{Yes}(block2);
+
+
+    \end{tikzpicture}
+    \caption{Flowchart that shows the actions that need to take place to classify a flower in the app.}
+    \label{fig:flow}
+\end{figure}
 
 \par
 
@@ -1166,9 +1233,55 @@ TensorFlow and CameraX guidelines is important as we have to ensure these pieces
 an object named TensorImage. This object requires the loading of a bitmap image in order to be valid. This means that we
 must carry out some pre-processing to convert an image into a bitmap, then load the bitmap into a TensorImage and then 
 finally process the image to be resized to have a height and width of 299 by 299.  The image may also need to be rotated
-as we get the raw image from the camera sensor, which are not normally in the orientation a user would expect. 
+as we get the raw image from the camera sensor, which are not normally in the orientation a user would expect.
+Figure \ref{fig:classify} outlines the full process that needs to be carried out to classify a raw image.
 
-[DIAGRAM HERE]
+\begin{figure}[h]
+    \centering
+
+    \begin{tikzpicture}
+
+        \node[draw,
+            minimum width=1cm,
+            minimum height=1cm,
+            ] (block1) {Raw Image};
+
+        \node[draw,
+            minimum width=1cm,
+            minimum height=1cm,
+            right=of block1
+            ] (block2) {Bitmap};
+
+        \node[draw,
+            minimum width=1cm,
+            minimum height=1cm,
+            right=of block2
+            ] (block3) {Tensor Image};
+        
+        \node[draw,
+            minimum width=1cm,
+            minimum height=1cm,
+            right=of block3
+            ] (block4) {Resize and Rotated};
+
+        \node[draw,
+            minimum width=1cm,
+            minimum height=1cm,
+            right=of block4
+            ] (block5) {Classifier};
+
+        \draw[-latex] (block1) edge (block2);
+
+        \draw[-latex] (block2) edge (block3);
+
+        \draw[-latex] (block3) edge (block4);
+
+        \draw[-latex] (block4) edge (block5);
+
+    \end{tikzpicture}
+    \caption{Diagram that shows the processing the image has to go through until it gets fed to the classifier.}
+    \label{fig:classify}
+\end{figure}
 
 \subsection{Implementation Process}
 
@@ -1181,8 +1294,18 @@ app directories are created for the developer, as well as the relevant library d
 
 \subsection{User Interface Design}
 
-This small section will include UI designs from high-level to low-level.
+While this is not relevant to the base functionality of the application. It is still important to plan a user interface 
+that will allow the user to carry out the simple operation of classifying flowers on their device. Therefore, some rough
+sketches were produced to plan out the single view that will encompass everything the camera and results interface as 
+seen in figure \ref{fig:sketch_main}. There is also an additional view as seen in figure \ref{fig:sketch_info} that outlines a description page for the 
+flowers.
 
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.6\textwidth]{Main_Sketch.jpg}
+    \caption{Sketch of the home page.}
+    \label{fig:sketch_main}
+\end{figure}
 
 \section{System Testing}
 
@@ -1273,6 +1396,7 @@ and standard deviation of the event in milliseconds.
     \begin{tabular}{ |l|l|l|l|l| }
         \hline
         Type & Avg. & Min & Max & SD \\
+        \hline
         \hline
         CPU (1T) & 86.3 & 79.0 & 106.8 & 10.4 \\
         \hline
@@ -1530,6 +1654,17 @@ Priorities:
     \label{fig:models}
 \end{figure}
 \clearpage
+
+\section{Design}
+
+\subsection{Prototype}
+
+\begin{figure}[h]\
+    \centering
+    \includegraphics[width=0.6\textwidth]{Info_Sketch.jpg}
+    \caption{Sketch of the flower information page}
+    \label{fig:sketch_info}
+\end{figure}
 
 \section{Testing}
 \subsection{Testing device specifications}

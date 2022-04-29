@@ -48,13 +48,13 @@
 \contentsline {section}{\numberline {4.2}Design and Implementation}{30}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Classifier}{30}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Implementation Process}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}User Interface Design}{30}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}System Testing}{30}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Functionality Testing}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Performance Testing}{32}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Summary}{33}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Conclusion}{34}{section.4.5}%
-\contentsline {chapter}{Bibliography}{35}{chapter*.14}%
+\contentsline {subsection}{\numberline {4.2.3}User Interface Design}{31}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}System Testing}{31}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Functionality Testing}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Performance Testing}{33}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Summary}{34}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conclusion}{35}{section.4.5}%
+\contentsline {chapter}{Bibliography}{36}{chapter*.14}%
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
@@ -63,19 +63,21 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{40}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Table of Smartphones}{40}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Inception V3 Results Graphs}{42}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Full HP Results}{42}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Loss}{42}{subsection.A.2.2}%
-\contentsline {section}{\numberline {A.3}Requirements}{43}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Functional Requirements}{43}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Non-functional Requirements}{45}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}SDK percentage}{45}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Model performance list}{46}{subsection.A.3.4}%
-\contentsline {section}{\numberline {A.4}Testing}{47}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Testing device specifications}{47}{subsection.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Results of functionality testing}{48}{subsection.A.4.2}%
-\contentsline {subsection}{\numberline {A.4.3}Results of distance testing}{54}{subsection.A.4.3}%
-\contentsline {subsection}{\numberline {A.4.4}Results of lighting testing}{57}{subsection.A.4.4}%
-\contentsline {subsection}{\numberline {A.4.5}Performance Timings}{59}{subsection.A.4.5}%
+\contentsline {chapter}{\numberline {A}Appendix}{41}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Table of Smartphones}{41}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Inception V3 Results Graphs}{43}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Full HP Results}{43}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Loss}{43}{subsection.A.2.2}%
+\contentsline {section}{\numberline {A.3}Requirements}{44}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Functional Requirements}{44}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Non-functional Requirements}{46}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}SDK percentage}{46}{subsection.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}Model performance list}{47}{subsection.A.3.4}%
+\contentsline {section}{\numberline {A.4}Design}{48}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Prototype}{48}{subsection.A.4.1}%
+\contentsline {section}{\numberline {A.5}Testing}{48}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Testing device specifications}{48}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}Results of functionality testing}{50}{subsection.A.5.2}%
+\contentsline {subsection}{\numberline {A.5.3}Results of distance testing}{56}{subsection.A.5.3}%
+\contentsline {subsection}{\numberline {A.5.4}Results of lighting testing}{59}{subsection.A.5.4}%
+\contentsline {subsection}{\numberline {A.5.5}Performance Timings}{61}{subsection.A.5.5}%

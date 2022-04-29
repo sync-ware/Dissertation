@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  28 APR 2022 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  29 APR 2022 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -483,20 +483,248 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@delta=\dimen181
 \TX@cols=\count302
 \TX@ftn=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen182
+\pgfutil@tempdimb=\dimen183
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box102
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen184
+\pgf@y=\dimen185
+\pgf@xa=\dimen186
+\pgf@ya=\dimen187
+\pgf@xb=\dimen188
+\pgf@yb=\dimen189
+\pgf@xc=\dimen190
+\pgf@yc=\dimen191
+\pgf@xd=\dimen192
+\pgf@yd=\dimen193
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count303
+\c@pgf@countb=\count304
+\c@pgf@countc=\count305
+\c@pgf@countd=\count306
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count307
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count308
+\pgfsyssoftpath@bigbuffer@items=\count309
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen194
+\pgfmath@count=\count310
+\pgfmath@box=\box103
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count311
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen195
+\pgf@picmaxx=\dimen196
+\pgf@picminy=\dimen197
+\pgf@picmaxy=\dimen198
+\pgf@pathminx=\dimen199
+\pgf@pathmaxx=\dimen256
+\pgf@pathminy=\dimen257
+\pgf@pathmaxy=\dimen258
+\pgf@xx=\dimen259
+\pgf@xy=\dimen260
+\pgf@yx=\dimen261
+\pgf@yy=\dimen262
+\pgf@zx=\dimen263
+\pgf@zy=\dimen264
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen265
+\pgf@path@lasty=\dimen266
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen267
+\pgf@shorten@start@additional=\dimen268
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box104
+\pgf@hbox=\box105
+\pgf@layerbox@main=\box106
+\pgf@picture@serial@count=\count312
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen269
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen270
+\pgf@pt@y=\dimen271
+\pgf@pt@temp=\dimen272
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen273
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen274
+\pgf@sys@shading@range@num=\count313
+\pgf@shadingcount=\count314
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box107
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box108
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen275
+\pgf@nodesepend=\dimen276
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen277
+\pgffor@skip=\dimen278
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count315
+\pgfplotmarksize=\dimen279
+)
+\tikz@lastx=\dimen280
+\tikz@lasty=\dimen281
+\tikz@lastxsaved=\dimen282
+\tikz@lastysaved=\dimen283
+\tikz@lastmovetox=\dimen284
+\tikz@lastmovetoy=\dimen285
+\tikzleveldistance=\dimen286
+\tikzsiblingdistance=\dimen287
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count316
+\tikznumberofchildren=\count317
+\tikznumberofcurrentchild=\count318
+\tikz@fig@count=\count319
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count320
+\pgfmatrixcurrentcolumn=\count321
+\pgf@matrix@numberofcolumns=\count322
+)
+\tikz@expandcount=\count323
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box113
+\pgfnodeparttwobox=\box114
+\pgfnodepartthreebox=\box115
+\pgfnodepartfourbox=\box116
+\pgfnodeparttwentybox=\box117
+\pgfnodepartnineteenbox=\box118
+\pgfnodeparteighteenbox=\box119
+\pgfnodepartseventeenbox=\box120
+\pgfnodepartsixteenbox=\box121
+\pgfnodepartfifteenbox=\box122
+\pgfnodepartfourteenbox=\box123
+\pgfnodepartthirteenbox=\box124
+\pgfnodeparttwelvebox=\box125
+\pgfnodepartelevenbox=\box126
+\pgfnodeparttenbox=\box127
+\pgfnodepartninebox=\box128
+\pgfnodeparteightbox=\box129
+\pgfnodepartsevenbox=\box130
+\pgfnodepartsixbox=\box131
+\pgfnodepartfivebox=\box132
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen288
+\pgfarrowlength=\dimen289
+\pgfarrowwidth=\dimen290
+\pgfarrowlinewidth=\dimen291
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip58
 \bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count303
+\c@NAT@ctr=\count324
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
-\l__pdf_internal_box=\box102
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box133
 ) (./Final.aux)
 \openout1 = `Final.aux'.
 
@@ -520,17 +748,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen182
-\scratchbox=\box103
-\nofMPsegments=\count306
-\nofMParguments=\count307
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen183
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count326
+\scratchdimen=\dimen292
+\scratchbox=\box134
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen293
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -545,16 +773,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count332
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
  (./Final.out) (./Final.out)
-\@outlinefile=\write3
-\openout3 = `Final.out'.
+\@outlinefile=\write4
+\openout4 = `Final.out'.
 
-\c@lstlisting=\count312
+\c@lstlisting=\count333
 LaTeX Info: Redefining \microtypecontext on input line 9.
 Package microtype Info: Applying patch `item' on input line 9.
 Package microtype Info: Applying patch `toc' on input line 9.
@@ -665,17 +893,17 @@ l.42 ...Developer Practices}{28}{subsection.4.1.2}
 
 
 ])
-\tf@toc=\write4
-\openout4 = `Final.toc'.
+\tf@toc=\write5
+\openout5 = `Final.toc'.
 
- [2] (./Final.lof)
-\tf@lof=\write5
-\openout5 = `Final.lof'.
-
- [3
+ [2] (./Final.lof [3
 
 
-] [4] [5
+])
+\tf@lof=\write6
+\openout6 = `Final.lof'.
+
+ [4] [5
 
 
 ]
@@ -694,7 +922,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
  [2] [3]
 Chapter 2.
-<s21ultra.jpg, id=517, 147.825pt x 197.1pt>
+<s21ultra.jpg, id=540, 147.825pt x 197.1pt>
 File: s21ultra.jpg Graphic file (type jpg)
 <use s21ultra.jpg>
 Package pdftex.def Info: s21ultra.jpg  used on input line 171.
@@ -706,7 +934,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [5 <./s21ultra.jpg>] [6] [7] [8]
-<neuron.png, id=608, 285.31593pt x 197.23688pt>
+<neuron.png, id=631, 285.31593pt x 197.23688pt>
 File: neuron.png Graphic file (type png)
 <use neuron.png>
 Package pdftex.def Info: neuron.png  used on input line 396.
@@ -716,12 +944,12 @@ Package pdftex.def Info: neuron.png  used on input line 396.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-<perceptron.jpg, id=623, 464.4853pt x 181.42781pt>
+<perceptron.jpg, id=647, 464.4853pt x 181.42781pt>
 File: perceptron.jpg Graphic file (type jpg)
 <use perceptron.jpg>
 Package pdftex.def Info: perceptron.jpg  used on input line 416.
 (pdftex.def)             Requested size: 317.07614pt x 123.85374pt.
-<network.png, id=628, 327.47343pt x 135.50626pt>
+<network.png, id=652, 327.47343pt x 135.50626pt>
 File: network.png Graphic file (type png)
 <use network.png>
 Package pdftex.def Info: network.png  used on input line 431.
@@ -731,18 +959,18 @@ Package pdftex.def Info: network.png  used on input line 431.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./neuron.png> <./perceptron.jpg>]
-<saha.jpg, id=646, 301.8915pt x 161.622pt>
+<saha.jpg, id=669, 301.8915pt x 161.622pt>
 File: saha.jpg Graphic file (type jpg)
 <use saha.jpg>
 Package pdftex.def Info: saha.jpg  used on input line 446.
 (pdftex.def)             Requested size: 317.07614pt x 169.75987pt.
  [11 <./network.png> <./saha.jpg>] [12] [13]
-<plantnet.png, id=690, 330.48468pt x 248.42813pt>
+<plantnet.png, id=713, 330.48468pt x 248.42813pt>
 File: plantnet.png Graphic file (type png)
 <use plantnet.png>
 Package pdftex.def Info: plantnet.png  used on input line 569.
 (pdftex.def)             Requested size: 317.07614pt x 238.3594pt.
-<picturethis.png, id=696, 205.5178pt x 245.41687pt>
+<picturethis.png, id=719, 205.5178pt x 245.41687pt>
 File: picturethis.png Graphic file (type png)
 <use picturethis.png>
 Package pdftex.def Info: picturethis.png  used on input line 589.
@@ -757,25 +985,25 @@ Chapter 3.
 
 
 ]
-<ox102examples.png, id=750, 521.95pt x 518.93875pt>
+<ox102examples.png, id=773, 521.95pt x 518.93875pt>
 File: ox102examples.png Graphic file (type png)
 <use ox102examples.png>
 Package pdftex.def Info: ox102examples.png  used on input line 690.
 (pdftex.def)             Requested size: 317.07614pt x 315.25357pt.
  [18 <./ox102examples.png>]
-<inceptionv3.png, id=772, 1003.75pt x 390.45876pt>
+<inceptionv3.png, id=795, 1003.75pt x 390.45876pt>
 File: inceptionv3.png Graphic file (type png)
 <use inceptionv3.png>
 Package pdftex.def Info: inceptionv3.png  used on input line 726.
 (pdftex.def)             Requested size: 452.9679pt x 176.20528pt.
  [19 <./inceptionv3.png>] [20]
-<cross_graph.png, id=817, 705.63625pt x 547.04375pt>
+<cross_graph.png, id=840, 705.63625pt x 547.04375pt>
 File: cross_graph.png Graphic file (type png)
 <use cross_graph.png>
 Package pdftex.def Info: cross_graph.png  used on input line 823.
 (pdftex.def)             Requested size: 271.7835pt x 210.70013pt.
  [21 <./cross_graph.png>] [22]
-<inception_acc.png, id=839, 387.4475pt x 266.9975pt>
+<inception_acc.png, id=862, 387.4475pt x 266.9975pt>
 File: inception_acc.png Graphic file (type png)
 <use inception_acc.png>
 Package pdftex.def Info: inception_acc.png  used on input line 889.
@@ -785,7 +1013,13 @@ Chapter 4.
 [27
 
 
-] [28] [29] [30] [31] [32] [33] [34
+] [28] [29] [30]
+<Main_Sketch.jpg, id=937, 1358.07375pt x 1358.07375pt>
+File: Main_Sketch.jpg Graphic file (type jpg)
+<use Main_Sketch.jpg>
+Package pdftex.def Info: Main_Sketch.jpg  used on input line 1305.
+(pdftex.def)             Requested size: 271.7835pt x 271.77571pt.
+ [31 <./Main_Sketch.jpg>] [32] [33] [34] [35
 
 ] (./Final.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
@@ -825,7 +1059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--61
 \T1/lmtt/m/n/12 ~ : text = A % 20confusion % 20matrix % 20is % 20a % 20summary % 20of % 20prediction %
  []
 
-[35
+[36
 
 
 ]
@@ -888,7 +1122,7 @@ Underfull \hbox (badness 1742) in paragraph at lines 179--185
 \T1/lmss/m/n/12 (+20) able from: []$\T1/lmtt/m/n/12 https : / / developers . google . com / machine-[]learning / crash-[]course /
  []
 
-[36]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 231--236
 \T1/lmtt/m/n/12 ~ : text = Keras % 20is % 20the % 20high % 2Dlevel ,[] solutions % 20with % 20high %
  []
@@ -908,7 +1142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--329
 \T1/lmtt/m/n/12 image-[]classification-[]using-[]bag-[]of-[]visual-[]words-[]model/$[] \T1/lmss/m/n/12 (+20) [Ac-cessed 2022-
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 347--353
 \T1/lmtt/m/n/12 global-[]market-[]share-[]held-[]by-[]smartphone-[]vendors-[]since-[]4th-[]quarter-[]2009/$[]
  []
@@ -968,7 +1202,7 @@ Overfull \hbox (20.49446pt too wide) in paragraph at lines 437--443
 \T1/lmtt/m/n/12 dropout-[]regularization-[]in-[]neural-[]networks-[]how-[]it-[]works-[]and-[]when-[]to-[]use-[]it/$[]
  []
 
-[38]
+[39]
 Underfull \hbox (badness 1946) in paragraph at lines 490--495
 []\T1/lmss/m/n/12 (+20) Three, 2021.  \T1/lmss/m/sl/12 (+20) Sam-sung galaxy s21 ul-tra 5g \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 http :
  []
@@ -978,258 +1212,264 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--495
 \T1/lmtt/m/n/12 / / www . three . co . uk / samsung / galaxy-[]s21-[]ultra-[]5g ? colour = phantom % 20black &
  []
 
-) [39]
+) [40]
 Appendix A.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40
+[41
 
 
-] [41]
-<full_hp.png, id=1083, 712.6625pt x 319.1925pt>
+] [42]
+<full_hp.png, id=1117, 712.6625pt x 319.1925pt>
 File: full_hp.png Graphic file (type png)
 <use full_hp.png>
-Package pdftex.def Info: full_hp.png  used on input line 1400.
+Package pdftex.def Info: full_hp.png  used on input line 1524.
 (pdftex.def)             Requested size: 452.9679pt x 202.87979pt.
-<inception_loss.png, id=1084, 393.47pt x 266.9975pt>
+<inception_loss.png, id=1118, 393.47pt x 266.9975pt>
 File: inception_loss.png Graphic file (type png)
 <use inception_loss.png>
-Package pdftex.def Info: inception_loss.png  used on input line 1411.
+Package pdftex.def Info: inception_loss.png  used on input line 1535.
 (pdftex.def)             Requested size: 271.7835pt x 184.42401pt.
- [42
+ [43
 
  <./full_hp.png> <./inception_loss.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43
+[44
 
-] [44]
-<Min_SDK.png, id=1100, 787.94376pt x 96.36pt>
+] [45]
+<Min_SDK.png, id=1133, 787.94376pt x 96.36pt>
 File: Min_SDK.png Graphic file (type png)
 <use Min_SDK.png>
-Package pdftex.def Info: Min_SDK.png  used on input line 1515.
+Package pdftex.def Info: Min_SDK.png  used on input line 1639.
 (pdftex.def)             Requested size: 452.9679pt x 55.39479pt.
- [45
-
- <./Min_SDK.png>]
-<models.png, id=1106, 791.95876pt x 879.285pt>
-File: models.png Graphic file (type png)
-<use models.png>
-Package pdftex.def Info: models.png  used on input line 1528.
-(pdftex.def)             Requested size: 452.9679pt x 502.91502pt.
  [46
 
+ <./Min_SDK.png>]
+<models.png, id=1140, 791.95876pt x 879.285pt>
+File: models.png Graphic file (type png)
+<use models.png>
+Package pdftex.def Info: models.png  used on input line 1652.
+(pdftex.def)             Requested size: 452.9679pt x 502.91502pt.
+ [47
+
  <./models.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1581--1584
+<Info_Sketch.jpg, id=1151, 949.5475pt x 1257.69875pt>
+File: Info_Sketch.jpg Graphic file (type jpg)
+<use Info_Sketch.jpg>
+Package pdftex.def Info: Info_Sketch.jpg  used on input line 1664.
+(pdftex.def)             Requested size: 271.7835pt x 359.98314pt.
+ [48
+
+ <./Info_Sketch.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1716--1719
 
  []
 
-[47
-
-] [48]
-<anthurium.jpg, id=1135, 1084.05pt x 2409.0pt>
+[49] [50]
+<anthurium.jpg, id=1173, 1084.05pt x 2409.0pt>
 File: anthurium.jpg Graphic file (type jpg)
 <use anthurium.jpg>
-Package pdftex.def Info: anthurium.jpg  used on input line 1662.
+Package pdftex.def Info: anthurium.jpg  used on input line 1797.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<columbine.jpg, id=1136, 1084.05pt x 2409.0pt>
+<columbine.jpg, id=1174, 1084.05pt x 2409.0pt>
 File: columbine.jpg Graphic file (type jpg)
 <use columbine.jpg>
-Package pdftex.def Info: columbine.jpg  used on input line 1668.
+Package pdftex.def Info: columbine.jpg  used on input line 1803.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cyclamen.jpg, id=1137, 1084.05pt x 2409.0pt>
+<cyclamen.jpg, id=1175, 1084.05pt x 2409.0pt>
 File: cyclamen.jpg Graphic file (type jpg)
 <use cyclamen.jpg>
-Package pdftex.def Info: cyclamen.jpg  used on input line 1675.
+Package pdftex.def Info: cyclamen.jpg  used on input line 1810.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daffodil.jpg, id=1138, 1084.05pt x 2409.0pt>
+<daffodil.jpg, id=1176, 1084.05pt x 2409.0pt>
 File: daffodil.jpg Graphic file (type jpg)
 <use daffodil.jpg>
-Package pdftex.def Info: daffodil.jpg  used on input line 1681.
+Package pdftex.def Info: daffodil.jpg  used on input line 1816.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daisy.jpg, id=1139, 1084.05pt x 2409.0pt>
+<daisy.jpg, id=1177, 1084.05pt x 2409.0pt>
 File: daisy.jpg Graphic file (type jpg)
 <use daisy.jpg>
-Package pdftex.def Info: daisy.jpg  used on input line 1687.
+Package pdftex.def Info: daisy.jpg  used on input line 1822.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion.jpg, id=1140, 1084.05pt x 2409.0pt>
+<dandelion.jpg, id=1178, 1084.05pt x 2409.0pt>
 File: dandelion.jpg Graphic file (type jpg)
 <use dandelion.jpg>
-Package pdftex.def Info: dandelion.jpg  used on input line 1693.
+Package pdftex.def Info: dandelion.jpg  used on input line 1828.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion_2.jpg, id=1141, 1084.05pt x 2409.0pt>
+<dandelion_2.jpg, id=1179, 1084.05pt x 2409.0pt>
 File: dandelion_2.jpg Graphic file (type jpg)
 <use dandelion_2.jpg>
-Package pdftex.def Info: dandelion_2.jpg  used on input line 1699.
+Package pdftex.def Info: dandelion_2.jpg  used on input line 1834.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose.jpg, id=1142, 1084.05pt x 2409.0pt>
+<rose.jpg, id=1180, 1084.05pt x 2409.0pt>
 File: rose.jpg Graphic file (type jpg)
 <use rose.jpg>
-Package pdftex.def Info: rose.jpg  used on input line 1706.
+Package pdftex.def Info: rose.jpg  used on input line 1841.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49
+[51
 
- <./anthurium.jpg>] [50 <./columbine.jpg> <./cyclamen.jpg>] [51 <./daffodil.jpg> <./daisy.jpg>] [52 <./dandelion.jpg> <./dandelion_2.jpg>] [53 <./rose.jpg>]
-<rose_4cm.jpg, id=1168, 1084.05pt x 2409.0pt>
+ <./anthurium.jpg>] [52 <./columbine.jpg> <./cyclamen.jpg>] [53 <./daffodil.jpg> <./daisy.jpg>] [54 <./dandelion.jpg> <./dandelion_2.jpg>] [55 <./rose.jpg>]
+<rose_4cm.jpg, id=1206, 1084.05pt x 2409.0pt>
 File: rose_4cm.jpg Graphic file (type jpg)
 <use rose_4cm.jpg>
-Package pdftex.def Info: rose_4cm.jpg  used on input line 1736.
+Package pdftex.def Info: rose_4cm.jpg  used on input line 1871.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_15cm.jpg, id=1169, 1084.05pt x 2409.0pt>
+<rose_15cm.jpg, id=1207, 1084.05pt x 2409.0pt>
 File: rose_15cm.jpg Graphic file (type jpg)
 <use rose_15cm.jpg>
-Package pdftex.def Info: rose_15cm.jpg  used on input line 1742.
+Package pdftex.def Info: rose_15cm.jpg  used on input line 1877.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_35cm.jpg, id=1170, 1084.05pt x 2409.0pt>
+<rose_35cm.jpg, id=1208, 1084.05pt x 2409.0pt>
 File: rose_35cm.jpg Graphic file (type jpg)
 <use rose_35cm.jpg>
-Package pdftex.def Info: rose_35cm.jpg  used on input line 1748.
+Package pdftex.def Info: rose_35cm.jpg  used on input line 1883.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_60cm.jpg, id=1171, 1084.05pt x 2409.0pt>
+<rose_60cm.jpg, id=1209, 1084.05pt x 2409.0pt>
 File: rose_60cm.jpg Graphic file (type jpg)
 <use rose_60cm.jpg>
-Package pdftex.def Info: rose_60cm.jpg  used on input line 1754.
+Package pdftex.def Info: rose_60cm.jpg  used on input line 1889.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54
+[56
 
- <./rose_4cm.jpg>] [55 <./rose_15cm.jpg> <./rose_35cm.jpg>] [56 <./rose_60cm.jpg>]
-<rose_light_1.jpg, id=1188, 1084.05pt x 2409.0pt>
+ <./rose_4cm.jpg>] [57 <./rose_15cm.jpg> <./rose_35cm.jpg>] [58 <./rose_60cm.jpg>]
+<rose_light_1.jpg, id=1228, 1084.05pt x 2409.0pt>
 File: rose_light_1.jpg Graphic file (type jpg)
 <use rose_light_1.jpg>
-Package pdftex.def Info: rose_light_1.jpg  used on input line 1781.
+Package pdftex.def Info: rose_light_1.jpg  used on input line 1916.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_light_2.jpg, id=1189, 1084.05pt x 2409.0pt>
+<rose_light_2.jpg, id=1229, 1084.05pt x 2409.0pt>
 File: rose_light_2.jpg Graphic file (type jpg)
 <use rose_light_2.jpg>
-Package pdftex.def Info: rose_light_2.jpg  used on input line 1787.
+Package pdftex.def Info: rose_light_2.jpg  used on input line 1922.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_light_3.jpg, id=1190, 1084.05pt x 2409.0pt>
+<rose_light_3.jpg, id=1230, 1084.05pt x 2409.0pt>
 File: rose_light_3.jpg Graphic file (type jpg)
 <use rose_light_3.jpg>
-Package pdftex.def Info: rose_light_3.jpg  used on input line 1793.
+Package pdftex.def Info: rose_light_3.jpg  used on input line 1928.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[57
-
- <./rose_light_1.jpg>] [58 <./rose_light_2.jpg> <./rose_light_3.jpg>]
-<CPU1_Time.png, id=1201, 573.14125pt x 241.90375pt>
-File: CPU1_Time.png Graphic file (type png)
-<use CPU1_Time.png>
-Package pdftex.def Info: CPU1_Time.png  used on input line 1805.
-(pdftex.def)             Requested size: 452.9679pt x 191.18675pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 1804--1806
-[] [] 
- []
-
-<CPU2_Time.png, id=1202, 574.145pt x 237.88875pt>
-File: CPU2_Time.png Graphic file (type png)
-<use CPU2_Time.png>
-Package pdftex.def Info: CPU2_Time.png  used on input line 1812.
-(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 1811--1813
-[] [] 
- []
-
-<CPU4_Time.png, id=1203, 574.145pt x 237.88875pt>
-File: CPU4_Time.png Graphic file (type png)
-<use CPU4_Time.png>
-Package pdftex.def Info: CPU4_Time.png  used on input line 1818.
-(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 1817--1819
-[] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<CPU8_Time.png, id=1204, 574.145pt x 237.88875pt>
-File: CPU8_Time.png Graphic file (type png)
-<use CPU8_Time.png>
-Package pdftex.def Info: CPU8_Time.png  used on input line 1824.
-(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 1823--1825
-[] [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<GPU_Time.png, id=1205, 575.14874pt x 227.85126pt>
-File: GPU_Time.png Graphic file (type png)
-<use GPU_Time.png>
-Package pdftex.def Info: GPU_Time.png  used on input line 1830.
-(pdftex.def)             Requested size: 452.9679pt x 179.45467pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 1829--1831
-[] [] 
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [59
 
- <./CPU1_Time.png> <./CPU2_Time.png>] [60 <./CPU4_Time.png> <./CPU8_Time.png> <./GPU_Time.png>] (./Final.aux)
+ <./rose_light_1.jpg>] [60 <./rose_light_2.jpg> <./rose_light_3.jpg>]
+<CPU1_Time.png, id=1240, 573.14125pt x 241.90375pt>
+File: CPU1_Time.png Graphic file (type png)
+<use CPU1_Time.png>
+Package pdftex.def Info: CPU1_Time.png  used on input line 1940.
+(pdftex.def)             Requested size: 452.9679pt x 191.18675pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 1939--1941
+[] [] 
+ []
+
+<CPU2_Time.png, id=1241, 574.145pt x 237.88875pt>
+File: CPU2_Time.png Graphic file (type png)
+<use CPU2_Time.png>
+Package pdftex.def Info: CPU2_Time.png  used on input line 1947.
+(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 1946--1948
+[] [] 
+ []
+
+<CPU4_Time.png, id=1242, 574.145pt x 237.88875pt>
+File: CPU4_Time.png Graphic file (type png)
+<use CPU4_Time.png>
+Package pdftex.def Info: CPU4_Time.png  used on input line 1953.
+(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 1952--1954
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<CPU8_Time.png, id=1243, 574.145pt x 237.88875pt>
+File: CPU8_Time.png Graphic file (type png)
+<use CPU8_Time.png>
+Package pdftex.def Info: CPU8_Time.png  used on input line 1959.
+(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 1958--1960
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<GPU_Time.png, id=1244, 575.14874pt x 227.85126pt>
+File: GPU_Time.png Graphic file (type png)
+<use GPU_Time.png>
+Package pdftex.def Info: GPU_Time.png  used on input line 1965.
+(pdftex.def)             Requested size: 452.9679pt x 179.45467pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 1964--1966
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[61
+
+ <./CPU1_Time.png> <./CPU2_Time.png>] [62 <./CPU4_Time.png> <./CPU8_Time.png> <./GPU_Time.png>] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: F42D260C3EFB0283700B61BF8A7C8B74;9695.
+(rerunfilecheck)             Checksum: A9019726D6D050015333F3F31F9B03E9;9888.
  ) 
 Here is how much of TeX's memory you used:
- 16485 strings out of 478287
- 262772 string characters out of 5849289
- 617675 words of memory out of 5000000
- 33957 multiletter control sequences out of 15000+600000
+ 28867 strings out of 478287
+ 550899 string characters out of 5849289
+ 897562 words of memory out of 5000000
+ 46074 multiletter control sequences out of 15000+600000
  547222 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,10n,89p,1043b,666s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,11n,94p,1043b,891s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Final.pdf (69 pages, 13881138 bytes).
+Output written on Final.pdf (71 pages, 14415616 bytes).
 PDF statistics:
- 1308 PDF objects out of 1440 (max. 8388607)
- 1158 compressed objects within 12 object streams
- 259 named destinations out of 1000 (max. 500000)
- 49328 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1347 PDF objects out of 1440 (max. 8388607)
+ 1193 compressed objects within 12 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 49366 words of extra memory for PDF output out of 51595 (max. 10000000)
 
