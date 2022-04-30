@@ -1248,6 +1248,11 @@ INPUT ./GPU_Time.png
 INPUT GPU_Time.png
 INPUT ./GPU_Time.png
 INPUT ./GPU_Time.png
+INPUT ./Depracated.png
+INPUT ./Depracated.png
+INPUT Depracated.png
+INPUT ./Depracated.png
+INPUT ./Depracated.png
 INPUT Final.aux
 INPUT ./Final.out
 INPUT ./Final.out

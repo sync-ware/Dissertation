@@ -20,7 +20,21 @@
 \hypersetup{pageanchor=true}
 \begin{abstract}
 
-Abstract goes here.
+    The evolution of smartphones over time has made them more capable of complex tasks. One such task is image 
+    classification. This is where a computer attempts to identify an object or many objects within an image and give 
+    them a label. Classifiers can be built using machine learning (ML) by training models with example data so that it 
+    can attempt to recognise new data it hasn't seen before. 
+    
+    \par
+    
+    Deep learning (DL) is a part of ML that has seen massive 
+    growth in recent years. Recently, libraries like TensorFlow allow developers to implement DL models within 
+    smartphones. The state of the art will be highlighted within the project to provide a deep understanding of the 
+    context. Then an investigation is conducted to compare classification approaches for recognising flower species. The
+    Inception V3 model is demonstrated to be very effective in identifying flowers within the Oxford Flowers 102 
+    dataset, with an accuracy of 95.7\%. An Android app will then be designed and developed using the latest available 
+    APIs to demonstrate the capabilities of the DL model within a smartphone by analysing how well the classifier 
+    performs. 
 
 \end{abstract}
 \clearpage
@@ -31,7 +45,19 @@ Abstract goes here.
 \chapter*{Acknowledgements}
 \thispagestyle{empty}
 
-I'd like to acknowledge ...
+I would like to thank my supervisor, Hongping Cai, for their valuable feedback and insight which helped improve the 
+quality of the project. They provided me with great resources to help my understanding of the research topic and
+supported me through the entire year.
+
+\par
+
+I would also like to thank my fellow coursemates for providing me with reassurace and support throughout the year. They
+really helped motivate me.
+
+\par
+
+Finally, I would like to thank my friends and family as they would happily listen to me discuss my project and allow me
+to test my app on some of their flowers.
 
 \clearpage
 \pagenumbering{arabic}
@@ -807,9 +833,9 @@ The key metrics I will analyse along with accuracy, precision, recall and F1 are
     the correct prediction against all other predictions \citep{googleroc}.
 \end{itemize}
 
-\subsection{Results}
+\section{Results}
 
-\subsubsection{Preliminary DL Findings}
+\subsection{Preliminary DL Findings}
 
 Another factor to consider when carrying out training is the number of epochs. An epoch is a full pass over the training
 set (REFERENCE HERE). Multiple passes are needed to minimise loss and fully train the model. Through preliminary testing of the model, 
@@ -847,7 +873,7 @@ Overall, the final model will use a learning rate of 0.001 and dropout of 0.3. T
 results from the hyper parameter tuning (Appendix \ref{subsec:hp}) as well as the proposed learning rate being the 
 default one provided by the TensorFlow API.
 
-\subsubsection{Performance}
+\subsection{Performance}
 
 Here are the overall performance metrics produced from both approaches:
 
@@ -901,9 +927,9 @@ result after doing that produces an accuracy of 100\% if we just test it on the 
 this is not indicative of real-world performance, and we will need to do additional real-world performance profiling 
 once the app is developed. 
 
-\subsection{Analysis}
+\section{Analysis}
 
-\subsubsection{Outcome}
+\subsection{Outcome}
 
 It is clear that the DL approach is vastly superior in classifying flowers than the SVM in all aspects. The Inception V3
 approach has high accuracy meaning it can correctly identify the classes of most of the images in the test set. 
@@ -943,7 +969,7 @@ perform extremely well on smaller and less complex datasets. Therefore, if datas
 else is there to consider? We can also look at the ease of implementation and how easy it is to move the classifier 
 into a mobile phone.
 
-\subsubsection{Comparison of Development Processes}
+\subsection{Comparison of Development Processes}
 Most of the SVM was implemented with the help of scikit which contains easy to understand documentation on how to 
 implement an SVM as well as many other machine learning algorithms. There is also example code that gives developers an 
 idea on how to implement the algorithms in Python. Scikit provides a more extensive support library for hyper parameter 
@@ -969,15 +995,6 @@ model can then be converted to be used as a TensorFlow Lite model to be used in 
 is simple and requires using the example code provided to implement. The developer needs to adjust and provide the 
 details to describe the model, including the shape of the input tensor, the image data type, and the number of classes. 
 This data can then be used by the TensorFlow Lite interpreter within Android.
-
-\subsubsection{Improvements}
-
-It is possible to spend more time focusing on improving the individual models, specifically the SVM model. One could 
-develop a better optimised SVM and carry out additional actions to improve the image pre-processing pipeline or extract 
-better features. As the aim of the investigation was to compare the approaches from the perspective of a software 
-developer, rather than develop the best possible models, this isn't something that was investigated in depth. However, 
-there is certainly value in understanding SVMs and other classical machine learning methods more by dedicating more time
-in implementing them.
 
 \par
 
@@ -1481,9 +1498,92 @@ may slowdown, making the overall experience for the user worse.
 
 \clearpage
 
-\section{Conclusion}
+\chapter{Conclusion}
 
-Critical Appraisal of dissertation go here.
+\section{Contributions}
+
+This project has provided an in-depth insight into the stages of developing a smartphone application that makes use of 
+the Deep Learning technology available. It serves as a good starting point for developers by first providing the 
+relevant background information about the domain. Then, identifying key sources of information that will prove useful to
+them. Finally, going through the development work required to implement a solution.
+
+\par
+
+The project was able to demonstrate how much of an improvement deep learning is over classical machine learning by 
+comparing the results of two classifiers trained on the same dataset. It was also surprising to see how accessible deep
+learning is to developers with the tools provided by TensorFlow. Additionally, it's a good opportunity to demonstrate 
+the maturity of classical machine learning resources and code libraries.
+
+\par
+
+In terms of mobile app development, the project shows an updated process of how to train a model through transfer 
+learning and then make it compatible for mobile phones through TensorFlow lite. The steps required to make image 
+classification in general work were also highlighted by demonstrating how to convert a raw image into the format 
+required for the classifier. These steps were generated through studying the available documentation and making use of 
+the CameraX and TensorFlow API to convert the image correctly. There are example apps provided by Google for image 
+classification but contain deprecated camera APIs (see \ref{fig:depracated}). This solution consists of APIs that are 
+currently supported.
+
+\section{Critical Appraisal}
+
+Due to limitations in the available hardware, the scope of the experiment had to decreased. This means there was limited
+range of hyperparameters that could be tested for the Inception V3 model as my hardware configuration isn't suited for 
+these tasks and therefore cannot carry out the training processes in a timely manner. Given better hardware resources 
+such as dedicated Nvidia GPUs and larger memory capacities, it would've been possible to conduct more efficient hyper 
+parameter tuning that could lead to better model performance. 
+
+\par
+
+It is possible to spend more time focusing on improving the individual models, specifically the SVM model. One could 
+develop a better optimised SVM and carry out additional actions to improve the image pre-processing pipeline or extract 
+better features. As the aim of the investigation was to compare the approaches from the perspective of a software 
+developer, rather than develop the best possible models, this isn't something that was investigated in-depth. However, 
+there is certainly value in understanding SVMs and other classical machine learning methods more by dedicating more time
+in implementing them. If one wants to conduct a fairer comparison of DL vs classical ML, they would dedicate more time 
+developing both approaches to get the best possible results for each. 
+
+\par
+
+For the development of the app, having user input and testing of potential users would be very helpful in designing a 
+more useful product. There was a lot of focus on implementing an app that uses the DL model effectively rather than the 
+actual usability of the app. As a result, the feature to show additional information about flowers within the app was 
+left out. It would've been useful for testing to show a more featureful app experience to collect results on performance
+when there are other tasks taking up system resources as well. Then, comparisons could've been made with the results 
+gathered in this project. 
+
+\section{Future Work}
+
+There is a lot of potential for deep learning within the smartphone space. There are two areas that we will see 
+improvements in that would require future re-evaluations. The first area are the models such as Inception V4. 
+Researchers will consistently develop new models which can then be potentially re-trained. These models may get larger 
+in size, but could also be more accurate. When new models are produced, future work can be done to see how they compare 
+with the implementation produced in this project. The second area is the dataset. More testing can be done on larger 
+flower datasets that has support for more species in potentially different countries. One could potentially expand on 
+the Oxford Flowers dataset by adding more images into each category.
+
+\par
+
+On-device training is possible through TensorFlow. It would be interesting to see how that compares with the training 
+approach presented in this project. This would effectively remove the need of having a high-powered computer to do the 
+training. There are certainly advantages to this, however, it would be useful to see what the potential caveats with 
+this are and whether it would be a better solution for classifying flowers on a smartphone.
+
+\par
+
+Developers would also be interested in deployment mechanisms of their model to their app. Technically the model is just 
+a file within applications project directory. As long as the input conditions remain the same, the developer could 
+potentially just redeploy an improved model instead of updating the entire application. A potential improvement for the 
+app would be to design such a system so that users could get improved models without the overhead of retraining them, as
+that has already been carried out by the developer themselves.
+
+\section{Reflection}
+
+This project was a good learning opportunity to explore the capabilities of deep learning on a smartphone. It was 
+surprising to see how effective it is in tackling challenging classification problems such as identifying flowers. 
+By going through 
+the entire process of researching to implementing, I have gained a much better understanding of how to design software 
+of this nature. I believe that the available tools make it surprisingly simple for developers to implement their own 
+models for their own use cases. By leveraging this technology, overall smartphone experiences will improve over time.
 
 \clearpage
 \bibliography{refs}
@@ -1993,7 +2093,16 @@ Front camera: 7.1 MP (3216x2208)
     \label{fig:gpu}
 \end{figure}
 
-\break
+\clearpage
 
+\section{Google Image Classifier Example}
+
+\begin{figure}[h]\
+    \includegraphics[width=\textwidth]{Depracated.png}
+    \caption{Output from the IDE when loading the example project.}
+    \label{fig:depracated}
+\end{figure}
+
+\break
 
 \end{document}
