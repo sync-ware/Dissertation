@@ -21,13 +21,13 @@
 \contentsline {section}{\numberline {2.7}Evaluation}{15}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Summary}{16}{section.2.8}%
 \contentsline {chapter}{\numberline {3}Investigation}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Predictions}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Hypotheses}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Design of Experiments}{17}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Oxford Flowers 102 Dataset}{17}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Classical Machine Learning}{18}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Deep Learning}{19}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Environment}{20}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Metrics}{20}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.4}Environment}{21}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Metrics}{21}{subsection.3.2.5}%
 \contentsline {section}{\numberline {3.3}Results}{21}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Preliminary DL Findings}{21}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Performance}{22}{subsection.3.3.2}%
@@ -66,22 +66,24 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{43}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Table of Smartphones}{43}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Inception V3 Results Graphs}{45}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Full HP Results}{45}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Loss}{45}{subsection.A.2.2}%
-\contentsline {section}{\numberline {A.3}Requirements}{46}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Functional Requirements}{46}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Non-functional Requirements}{48}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}SDK percentage}{48}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Model performance list}{49}{subsection.A.3.4}%
-\contentsline {section}{\numberline {A.4}Design}{50}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Prototype}{50}{subsection.A.4.1}%
-\contentsline {section}{\numberline {A.5}Testing}{50}{section.A.5}%
-\contentsline {subsection}{\numberline {A.5.1}Testing device specifications}{50}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {A.5.2}Results of functionality testing}{52}{subsection.A.5.2}%
-\contentsline {subsection}{\numberline {A.5.3}Results of distance testing}{58}{subsection.A.5.3}%
-\contentsline {subsection}{\numberline {A.5.4}Results of lighting testing}{61}{subsection.A.5.4}%
-\contentsline {subsection}{\numberline {A.5.5}Performance Timings}{63}{subsection.A.5.5}%
-\contentsline {section}{\numberline {A.6}Google Image Classifier Example}{65}{section.A.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{44}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Table of Smartphones}{44}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Oxford Flowers Histogram}{46}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Inception V3 Results Graphs}{47}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Full HP Results}{47}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Loss}{47}{subsection.A.3.2}%
+\contentsline {section}{\numberline {A.4}Requirements}{48}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Functional Requirements}{48}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Non-functional Requirements}{50}{subsection.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}SDK percentage}{50}{subsection.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Model performance list}{51}{subsection.A.4.4}%
+\contentsline {section}{\numberline {A.5}Design}{52}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Prototype}{52}{subsection.A.5.1}%
+\contentsline {section}{\numberline {A.6}Testing}{52}{section.A.6}%
+\contentsline {subsection}{\numberline {A.6.1}Testing device specifications}{52}{subsection.A.6.1}%
+\contentsline {subsection}{\numberline {A.6.2}Fine-tuning test}{54}{subsection.A.6.2}%
+\contentsline {subsection}{\numberline {A.6.3}Results of functionality testing}{54}{subsection.A.6.3}%
+\contentsline {subsection}{\numberline {A.6.4}Results of distance testing}{60}{subsection.A.6.4}%
+\contentsline {subsection}{\numberline {A.6.5}Results of lighting testing}{63}{subsection.A.6.5}%
+\contentsline {subsection}{\numberline {A.6.6}Performance Timings}{65}{subsection.A.6.6}%
+\contentsline {section}{\numberline {A.7}Google Image Classifier Example}{67}{section.A.7}%

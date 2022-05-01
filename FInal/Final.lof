@@ -11,7 +11,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Example images from the dataset.}}{18}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The Inception V3 model diagram \citep {GoogleCloud}.}}{19}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Graph generated in TensorBoard from HP training results.}}{21}{figure.3.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Graph generated in TensorBoard from HP training results.}}{22}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Graph of accuracy against the number of training steps.}}{23}{figure.3.4}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart that shows the actions that need to take place to classify a flower in the app.}}{29}{figure.4.1}%
@@ -28,29 +28,31 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Table of full HP training results as seen in TensorBoard.}}{45}{figure.A.1}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Graph of loss against the number of training steps.}}{45}{figure.A.2}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The percentage of devices that API level 8 will run according to Android Studio.}}{48}{figure.A.3}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces The list of models and their performance metrics on the TensorFlow site \citep {TFhostedmodels}.}}{49}{figure.A.4}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Sketch of the flower information page}}{50}{figure.A.5}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Classifying an Anthurium using the app.}}{53}{figure.A.6}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Classifying a Columbine using the app.}}{54}{figure.A.7}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Classifying an Orchid using the app.}}{54}{figure.A.8}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Classifying a Daffodil using the app.}}{55}{figure.A.9}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Classifying a Daisy using the app.}}{55}{figure.A.10}%
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Classifying a yellow Dandelion using the app.}}{56}{figure.A.11}%
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Classifying a white Dandelion using the app.}}{56}{figure.A.12}%
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Classifying a Rose using the app.}}{57}{figure.A.13}%
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Classifying a Rose at 4cm distance using the app.}}{58}{figure.A.14}%
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Classifying a Rose at 15cm distance using the app.}}{59}{figure.A.15}%
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Classifying a Rose at 35cm distance using the app.}}{59}{figure.A.16}%
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Classifying a Rose at 60cm distance using the app.}}{60}{figure.A.17}%
-\contentsline {figure}{\numberline {A.18}{\ignorespaces Classifying a Rose in dark conditions using the app.}}{61}{figure.A.18}%
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Classifying a Rose in normal conditions using the app.}}{62}{figure.A.19}%
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Classifying a Rose in outdoor conditions using the app.}}{62}{figure.A.20}%
-\contentsline {figure}{\numberline {A.21}{\ignorespaces Execution timings of the CPU with 1 Thread.}}{63}{figure.A.21}%
-\contentsline {figure}{\numberline {A.22}{\ignorespaces Execution timings of the CPU with 2 Threads.}}{63}{figure.A.22}%
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Execution timings of the CPU with 4 Threads.}}{64}{figure.A.23}%
-\contentsline {figure}{\numberline {A.24}{\ignorespaces Execution timings of the CPU with 8 Threads.}}{64}{figure.A.24}%
-\contentsline {figure}{\numberline {A.25}{\ignorespaces Execution timings of the GPU.}}{64}{figure.A.25}%
-\contentsline {figure}{\numberline {A.26}{\ignorespaces Output from the IDE when loading the example project.}}{65}{figure.A.26}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Histogram breakdown of the oxford flowers dataset, the X axis is the class label index.}}{46}{figure.A.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Table of full HP training results as seen in TensorBoard.}}{47}{figure.A.2}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Graph of loss against the number of training steps.}}{47}{figure.A.3}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces The percentage of devices that API level 8 will run according to Android Studio.}}{50}{figure.A.4}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces The list of models and their performance metrics on the TensorFlow site \citep {TFhostedmodels}.}}{51}{figure.A.5}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Sketch of the flower information page}}{52}{figure.A.6}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Error message due to the program being killed for using too much memory.}}{54}{figure.A.7}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Classifying an Anthurium using the app.}}{55}{figure.A.8}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Classifying a Columbine using the app.}}{56}{figure.A.9}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Classifying an Orchid using the app.}}{56}{figure.A.10}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Classifying a Daffodil using the app.}}{57}{figure.A.11}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Classifying a Daisy using the app.}}{57}{figure.A.12}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Classifying a yellow Dandelion using the app.}}{58}{figure.A.13}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Classifying a white Dandelion using the app.}}{58}{figure.A.14}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Classifying a Rose using the app.}}{59}{figure.A.15}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Classifying a Rose at 4cm distance using the app.}}{60}{figure.A.16}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Classifying a Rose at 15cm distance using the app.}}{61}{figure.A.17}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Classifying a Rose at 35cm distance using the app.}}{61}{figure.A.18}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Classifying a Rose at 60cm distance using the app.}}{62}{figure.A.19}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Classifying a Rose in dark conditions using the app.}}{63}{figure.A.20}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Classifying a Rose in normal conditions using the app.}}{64}{figure.A.21}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Classifying a Rose in outdoor conditions using the app.}}{64}{figure.A.22}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Execution timings of the CPU with 1 Thread.}}{65}{figure.A.23}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Execution timings of the CPU with 2 Threads.}}{65}{figure.A.24}%
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Execution timings of the CPU with 4 Threads.}}{66}{figure.A.25}%
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Execution timings of the CPU with 8 Threads.}}{66}{figure.A.26}%
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Execution timings of the GPU.}}{66}{figure.A.27}%
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Output from the IDE when loading the example project.}}{67}{figure.A.28}%

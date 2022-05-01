@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Available from: }
@@ -98,6 +98,14 @@
 \newblock \emph{\bibinfo{journal}{Acm comput. surv.}} [Online],
   \bibinfo{volume}{27}(\bibinfo{number}{3}), pp.\bibinfo{pages}{326--327}.
 \newblock \urlprefix\url{https://doi.org/10.1145/212094.212114}.
+
+\bibitem[{Gaillard and Bell(2020)}]{epoch}
+\bibinfo{author}{Gaillard, F.} and \bibinfo{author}{Bell, D.},
+  \bibinfo{year}{2020}.
+\newblock \emph{\bibinfo{title}{Epoch (machine learning)}} [Online].
+\newblock
+  \urlprefix\url{https://radiopaedia.org/articles/epoch-machine-learning?lang=gb}
+  [\urldateprefix{}2022-05-01].
 
 \bibitem[{Garcin et~al.(2021)Garcin, Joly, Bonnet, Affouard, Lombardo, Chouet,
   Servajean, Lorieul and Salmon}]{camille_garcin_2021_5645731}
@@ -241,6 +249,12 @@
   \urlprefix\url{https://keras.io/api/layers/merging_layers/concatenate/}
   [\urldateprefix{}2022-04-21].
 
+\bibitem[{Keras(n.d.{\natexlab{c}})}]{denselayer}
+\bibinfo{author}{Keras}, n.d.{\natexlab{c}}.
+\newblock \emph{\bibinfo{title}{Dense layer}} [Online].
+\newblock \urlprefix\url{https://keras.io/api/layers/core_layers/dense/}
+  [\urldateprefix{}2022-05-01].
+
 \bibitem[{Korstanje(2021)}]{kors2021}
 \bibinfo{author}{Korstanje, J.}, \bibinfo{year}{2021}.
 \newblock \emph{\bibinfo{title}{The f1 score}} [Online].
@@ -280,6 +294,14 @@
 \newblock
   \urlprefix\url{https://analyticsindiamag.com/guide-to-tensorflow-keras-optimizers/}
   [\urldateprefix{}2022-04-18].
+
+\bibitem[{Malato(2021)}]{gridsearch}
+\bibinfo{author}{Malato, G.}, \bibinfo{year}{2021}.
+\newblock \emph{\bibinfo{title}{Hyperparameter tuning. grid search and random
+  search}} [Online].
+\newblock
+  \urlprefix\url{https://www.yourdatateacher.com/2021/05/19/hyperparameter-tuning-grid-search-and-random-search/}
+  [\urldateprefix{}2022-05-01].
 
 \bibitem[{Material(2021)}]{material}
 \bibinfo{author}{Material}, \bibinfo{year}{2021}.
@@ -426,12 +448,18 @@
   dummies}}}, For dummies.
 \newblock \bibinfo{address}{Newark}: \bibinfo{publisher}{Wiley}.
 
-\bibitem[{Scikit(n.d.)}]{scikitprec}
-\bibinfo{author}{Scikit}, n.d.
+\bibitem[{Scikit(n.d.{\natexlab{a}})}]{scikitprec}
+\bibinfo{author}{Scikit}, n.d.{\natexlab{a}}.
 \newblock \emph{\bibinfo{title}{Precision score}} [Online].
 \newblock
   \urlprefix\url{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html}
   [\urldateprefix{}2022-04-17].
+
+\bibitem[{Scikit(n.d.{\natexlab{b}})}]{sckikitsvm}
+\bibinfo{author}{Scikit}, n.d.{\natexlab{b}}.
+\newblock \emph{\bibinfo{title}{Support vector machines}} [Online].
+\newblock \urlprefix\url{https://scikit-learn.org/stable/modules/svm.html}
+  [\urldateprefix{}2022-05-01].
 
 \bibitem[{Sebastian(2021)}]{seb}
 \bibinfo{author}{Sebastian}, \bibinfo{year}{2021}.
@@ -485,6 +513,13 @@
 \newblock
   \urlprefix\url{https://www.tensorflow.org/lite/performance/gpu_advanced}
   [\urldateprefix{}2022-04-26].
+
+\bibitem[{TensorFlow(2022{\natexlab{c}})}]{transfer}
+\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{c}}.
+\newblock \emph{\bibinfo{title}{Transfer learning and fine-tuning}} [Online].
+\newblock
+  \urlprefix\url{https://www.tensorflow.org/tutorials/images/transfer_learning}
+  [\urldateprefix{}2022-05-01].
 
 \bibitem[{Three(2021)}]{three2021}
 \bibinfo{author}{Three}, \bibinfo{year}{2021}.

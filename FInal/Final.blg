@@ -5,44 +5,44 @@ The style file: bathx.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: refs.bib
-You've used 73 entries,
+You've used 78 entries,
             5466 wiz_defined-function locations,
-            1322 strings with 18489 characters,
-and the built_in function-call counts, 54190 in all, are:
-= -- 5631
-> -- 1446
+            1340 strings with 19039 characters,
+and the built_in function-call counts, 57522 in all, are:
+= -- 5989
+> -- 1524
 < -- 6
-+ -- 582
-- -- 486
-* -- 3663
-:= -- 7010
-add.period$ -- 236
-call.type$ -- 73
-change.case$ -- 518
-chr.to.int$ -- 92
-cite$ -- 73
-duplicate$ -- 3924
-empty$ -- 5106
-format.name$ -- 539
-if$ -- 12636
-int.to.chr$ -- 9
++ -- 614
+- -- 510
+* -- 3856
+:= -- 7440
+add.period$ -- 251
+call.type$ -- 78
+change.case$ -- 549
+chr.to.int$ -- 97
+cite$ -- 78
+duplicate$ -- 4171
+empty$ -- 5444
+format.name$ -- 566
+if$ -- 13432
+int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 487
-newline$ -- 384
-num.names$ -- 292
-pop$ -- 1590
+missing$ -- 513
+newline$ -- 409
+num.names$ -- 312
+pop$ -- 1709
 preamble$ -- 1
-purify$ -- 421
+purify$ -- 447
 quote$ -- 0
-skip$ -- 3249
+skip$ -- 3463
 stack$ -- 0
-substring$ -- 1282
-swap$ -- 1904
+substring$ -- 1337
+swap$ -- 1994
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1236
+type$ -- 1321
 warning$ -- 0
-while$ -- 331
+while$ -- 351
 width$ -- 0
-write$ -- 982
+write$ -- 1047
