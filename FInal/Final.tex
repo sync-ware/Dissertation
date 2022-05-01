@@ -70,50 +70,45 @@ brief look at the domain.
 
 The technological era that we live in has introduced many ground breaking achievements that constantly push the barrier 
 of what is possible as well as introduce many new challenges that require complex solutions. One such challenge is big 
-data processing, specifically, recognising patterns in data and drawing conclusions. Unfortunately machines don't have 
-the ability to understand data the way that humans do and humans don't have the processing capability of modern 
+data processing, specifically, recognising patterns in data and drawing conclusions. Unfortunately, machines don't have 
+the ability to understand data the way that humans do and humans don't have the processing capabilities of modern 
 machines. Due to obvious ethical and biological barriers, we cannot make humans fill the role of computers that compute 
 data on a large scale, therefore, we must explore the alternative, making computers as smart as humans. This is where 
-machine learning steps in, with which we have made great advancements in. What this project will focus on in particular,
-is granting the advanced capabilities of machine learning to lower end hardware.
+Machine Learning (ML) steps in. What this project will focus on in particular,
+is granting the advanced capabilities of ML to smartphones.
 
 \par
 
-This project aims to investigate the application of machine learning techniques to recognize images of flowers species 
-on mobile devices. I will look at implementing standard machine learning algorithms that are effective in image 
-classification as well as alternative deep learning techniques which are more effective in carrying out the same task. 
-It will be interesting to compare both types of implementations in terms of accuracy, speed and performance and then 
-transferring them to a mobile hardware environment which is traditionally weaker than standard machines such as desktops
-and laptops. Ultimately, we want to understand the best way in making a mobile software solution that can make use of 
-machine learning methods and still maintain a seamless user experience.
+This project aims to investigate the application of ML techniques to recognize images of flowers species 
+on mobile devices. I will look at implementing classical ML algorithms that are effective in image 
+classification as well as Deep Learning (DL) algorithms which are stated to be more effective in carrying out the same 
+task. It will be interesting to compare both types of implementations in terms of accuracy and speed.
 
 \par
 
 Mobile devices have the advantage of portability and flexibility compared to PCs at the expense of pure processing 
-power, storage and battery life. Advancements in machine learning can boost the abilities of mobile devices by allowing 
-them to make informed decisions to aid the user. Traditional algorithms can't make decisions like “What is this flower?”
-without being cumbersome and inaccurate, we need something that can make good decisions and evolve, similar to human 
-thinking. Smart phones and tablets are packed with more advanced technology than they've ever had like high resolution 
-camera, sensors, displays and mobile processors, each of these are resources that a well written machine learning 
-algorithm can take advantage of, for example, in our case, a mobile phone that can provide high resolution photos of 
-flowers. The more detailed data we can use to aid our machine learning process, the better. 
+power, storage and battery life. Advancements in ML can boost the abilities of mobile devices by allowing 
+them to make informed decisions to aid the user. Traditional algorithms can't answer questions
+like “What is this flower?”
+without being cumbersome and inaccurate, that's why ML is required.
+Smart phones and tablets are packed with more advanced technology than they've ever had like high resolution 
+cameras, sensors, displays and mobile processors. Each of these are resources that a model can take advantage of.
 
 \par
 
 Traditionally, mobile devices as well as similar devices with sensors do some light pre-processing of data, then they 
 send it to the cloud which can handle actions that require intensive processing, this introduces some level of latency 
 because of the communication between device and the cloud \citep[p. 3]{olascoaga2021hardware}. 
-Latency, being a key issue, is important in some use cases such as autonomous vehicles, mobile gaming, activity tracking
-for vulnerable populations, etc \citep[pp. 3-4]{olascoaga2021hardware}.
-
+Latency is important to consider in some use cases such as autonomous vehicles \citep[pp. 3-4]{olascoaga2021hardware} 
+where it may be important for a vehicle to make quick decisions about potential obstacles.
 
 \par
 
-With some raw information, a (classical) machine learning process can identify features, these could be used by a 
+With some raw information, a classical ML process can identify features, these could be used by a 
 classifier that can make predictions given a set of data it hasn't seen before \citep{lecun2015deep}. Features are 
 sourced from the representation of an object, in turn the representation is defined by the 
 data input. An example of a feature would be the presence or absence of thorns on the stem of a flower 
-\citep[p. 22]{goodfellow2016deep}. Traditional machine learning practices incorporated 
+\citep[p. 22]{goodfellow2016deep}. Traditional ML practices incorporated 
 feature engineering that required designing custom algorithms for particular task which can be time consuming 
 \citep{liu2020representation}. There is also difficulty in understanding what features should be extracted, 
 for example, it may be hard to represent flower petal shapes properly from raw pixel values if there are shadows being 
@@ -127,16 +122,17 @@ appearance. Factors like this make it difficult to get representations in the fi
 
 \par
 
-Deep learning is a part of machine learning that aims to overcome limitations of classical machine learning techniques 
+DL is a part of ML that aims to overcome limitations of classical ML techniques 
 by expanding upon representation learning. Deep learning can be split into two unique parts:
 
 \begin{itemize}
-    \item \textbf{Distributed Representation:} These are used to represent objects within a more compact and dense manner, 
-instead of having representations for each type of object, for example a collection of words in a sentence, we could 
+    \item \textbf{Distributed Representation:} These are used to represent objects within a more compact and dense manner.
+Instead of having representations for each type of object, for example a collection of words in a sentence, we could 
 store the frequency of each word like the bag-of-words problem \citep{liu2020representation}. This is a sparse
-representation and introduces problems with space and time complexity. Therefore distributed representations aim to 
+representation and introduces problems with space and time complexity. Therefore, distributed representations aim to 
 tackle the sparsity problem as they are harder to model \citep{Brownlee2017}.
-    \item \textbf{Deep Architecture:} The idea of layering to represent neurons in a human brain. You can imagine it as a map of 
+    \item \textbf{Deep Architecture:} The idea of layering to represent neurons in a human brain. It can be imagined 
+    as a map of 
 nodes that takes an input, processes it through the different layers where at each step, a set of units calculate a 
 weighted sum of their inputs from the previous layer and pass the result to the next layer until it gets to output units
 that generate a result. This is an example of a feedforward neural network \citep{lecun2015deep}.
@@ -144,20 +140,21 @@ that generate a result. This is an example of a feedforward neural network \cite
 
 \par
 
-Input into a deep learning algorithm starts at the visible layer, which contains our set of input pixels that we can 
-directly observe. This data is passed into a network of hidden layers, each of these layers represent an abstract 
-feature that we can't normally observe by looking at the input data such as locations of edges and contours 
+Input into a DL algorithm starts at the visible layer, which contains a set of input pixels that can be
+directly observed. This data is passed into a network of hidden layers, each of these layers represent an abstract 
+feature that can't normally be observed by looking at the input data such as locations of edges and contours 
 \citep[p. 26]{goodfellow2016deep}.
 
 \par
 
-By making use of TensorFlow (Lite) we can produce classification models using languages like Python, C++ or Java, then 
+By making use of TensorFlow, developers can produce classification models using languages like Python, C++ or Java, then 
 convert said models into small packages that an Android/IOS application can use to generate predictions based on an 
 input. TensorFlow is developed by Google and provides a suite of tools to design, test and 
-deploy ML solutions. The Lite version that we will be using is designed specifically for mobile devices and IoT devices 
-that may not have the support of powerful hardware. Using TensorFlow we can write models that use classical ML 
-techniques as well as deep learning techniques like Convolutional Neural Networks (CNN) \citep{googleTF2}. 
-There are examples that can be built specifically for flower classification within the API documentation which can serve
+deploy ML solutions. The Lite version of TensorFlow will be used in this project and is designed specifically for mobile and Internet of 
+Things (IoT) devices 
+that may not have the support of powerful hardware. Using TensorFlow, it is possible to develop DL models like 
+Convolutional Neural Networks (CNN) \citep{googleTF2}. 
+There are examples that can be built specifically for flower classification within the documentation which can serve
 as a starting point for the project.
 
 \section{Main Objectives}
@@ -670,13 +667,14 @@ The F1 score is calculated by:
 
 \section{Summary}
 
-The review has highlighted the progression ML and DL from the early concepts and how everything eventually fit 
-together to form what we know today. The area will keep getting more exciting as we learn to optimise our current 
-algorithms, come up with new ones and make use of advancing hardware capabilities. ML and DL is getting more and more 
-accessible as manufacturers allow the use of their specialised hardware to developers who can make use of APIs built 
-specifically for these tasks. Overall, we have built on the solid foundations of previous research and it's interesting 
-to see how the field develops in the future. The project hopes to aid the field by investigating the ML and DL 
-approaches in the mobile format as well as explore why we see certain results from the evaluation.
+The review has highlighted the progression of the space from the early concepts to what is known today. 
+The area will keep getting more exciting as reasearchers learn to develop more advanced
+algorithms and make use of advancing hardware capabilities. DL is getting more
+accessible as manufacturers allow developers access to their specialised hardware who can make use of APIs to easily
+run complex models. Overall, a solid foundation of previous research has been built and it will be interesting 
+to see how the field develops in the future. The research that has been conducted will prove useful for the rest of the 
+project such as the metrics outlined in the Evalutation section which will be used to compare the 
+two classification approaches that will be investigated.
 
 \clearpage
 
