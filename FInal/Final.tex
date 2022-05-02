@@ -174,24 +174,26 @@ using analysis tools, this will be done on PC hardware.
 \clearpage
 \chapter{Literature and Technology Review}
 
-Ground-breaking achievements in technology and specifically machine learning have given us the tools and capabilities to
-tackle the key problem of image recognition. What this project aims to demonstrate is the application of deep learning 
-within a mobile application to recognise flowers. It will be interesting to see how deep learning performs on mobile 
-hardware which is generally less powerful than desktop PCs and laptops. Additionally, we will get to explore what sort 
-of optimisations need to take place in order to get a feasible mobile based solution.  The limited computing resources 
-that we have to work with when creating our solutions is what makes this project challenging. Mobile devices typically 
+Ground-breaking achievements in technology have given developers the tools and capabilities to
+tackle the key problem of image recognition. What this project aims to demonstrate is the application of DL 
+within a mobile application to recognise flowers. It will be interesting to see how it performs on mobile 
+hardware which is generally less powerful than desktop PCs and laptops. Additionally, it will be beneficial to explore 
+what sort 
+of optimisations need to take place in order to get a feasible mobile based solution. The limited computing resources 
+that are available to developers when creating their solutions is what makes DL on smartphones challenging. 
+Mobile devices typically 
 contain smaller mobile processors, limited storage and batteries. These restrictions are in place to 
 make mobile phones more efficient and to ensure that they last longer when not connected to a power source. In addition
-to this, the subject of machine and deep learning is complex and many find the concepts challenging to understand. 
-What this literature review aims to do is identify key sources of information to help breaking down the underlying 
+to this, the subject of ML (and subsequently DL) is complex and many find the concepts challenging to understand. 
+What this literature review aims to do is identify key sources of information to help break down the underlying 
 subject and discuss the quality of the research available.
 
 \section{Mobile Machine Learning}
 
-The potential of smartphones has still not been fully realised. With advancements in machine learning we can take the 
+The potential of smartphones has still not been fully realised. With advancements in ML, developers can take the 
 capabilities of smartphones to the next level by leveraging the advanced hardware within them to carry out complex 
-tasks. This section will identify the key milestones within smartphone technology and how it leads us to integrating 
-machine learning to make full use of the hardware.
+tasks. This section will identify the key milestones within smartphone technology and how it leads to integrating 
+ML to make full use of the hardware.
 
 \begin{figure}[h]\
     \centering
@@ -203,24 +205,25 @@ machine learning to make full use of the hardware.
 
 \subsection{Evolution}
 
-Firstly, we want to look at the last 10 years of technological advancements within the smartphone space. 
-With this information, we can hopefully gain some insight into the how much their capabilities have evolved. To do this, 
-we will collect key aspects of specification data from the Samsung Galaxy flagship line of smartphones. Samsung 
+Firstly, it is worth looking at the last 10 years of technological advancements within the smartphone space. 
+With this information, some insight may be gained into the how much their capabilities have evolved. To do this, some
+aspects of specification data have been collected from the Samsung Galaxy flagship line of smartphones. Samsung 
 currently hold the top spot in global market share at 20.8\% as of Q3' 2021, this position is typically held by Apple or
 Samsung and can vary from a quarter to quarter basis \citep{odea2021}.
 
 \par
 
-By looking at the table in appendix \ref{sec:smartphones} we can see a clear increase in smartphone capability in 
+By looking at the table in appendix \ref{sec:smartphones}, it is clear their has been an increase in 
+smartphone capabilities within 
 multiple categories like the processor speed, core count, 
-storage, memory and camera capabilities. There are of course may more different areas that are not listed like sensors, 
-screen size and battery life which have also seen massive improvements over the last 10 years. We have only been seeing 
-improvements in this space, therefore we can assume that we will continue to see improvements in the near future. 
-What we must also consider is price and accessibility, flagship smartphones represent the top of the line offerings from
-each smartphone manufacturer and are of course priced as such. Low-end to mid-end smartphones are still more capable 
+storage, memory and camera capabilities. There are of course, many more different areas that are not listed like sensors, 
+screen size and battery life which have also seen massive improvements over the last 10 years. It is safe to
+assume that improvements will continue to be seen in the near future. 
+What must also be considered is price and accessibility; flagship smartphones represent the top of the line offerings from
+each manufacturer and are of course priced as such. Low to mid-end smartphones are still more capable 
 than their predecessors albeit their spec sheet may not be as impressive as high-end versions in the same generation. 
-Therefore, we must ensure some level of scalability within our machine and deep learning processes. How can we make 
-sure our processes can run efficiently on lower end hardware as well as high end hardware?
+Developers must ensure some level of scalability within their ML processes to ensure it can run on a wide range of
+devices and not just the most powerful.
 
 \par
 
@@ -228,21 +231,21 @@ sure our processes can run efficiently on lower end hardware as well as high end
 smartphone based application designed to aid surgeons and patients in multiple facets of the medical industry like 
 plastic, orthopaedic and general surgery. They conduct an expansive review of different solutions and analyse how the 
 evolution of smartphones got them to the point that make them extremely useful as a tool to aid us. Ultimately, what 
-this project aims to do is provide a robust software solution to recognise flower species on a smartphone, but we 
-cannot ignore the fact that smartphones have come a long way in the hardware and operating system space to allow us to 
-even conceive of a system.
+this project aims to do is provide a robust software solution to recognise flower species on a smartphone, however it
+cannot be ignored that smartphones have come a long way in the hardware and software space to allow the
+conception of such a system.
 
 \subsection{Where does this lead us to, today?}
 
-ML and AI has become such an important part of smartphones that manufacturers now have dedicated processors for ML and 
-AI tasks. Google includes a Tenor Processing Unit (TPU) in their Pixel line of phones \citep{triggs2021}. Samsung, 
-Qualcomm and Apple use their own solutions for machine learning processing by having their own bespoke processors. These 
-processors are used to compute specific actions that require the decision making and accuracy capabilities of machine 
-learning. Google Tensor in particular aids tasks such as speech recognition that is accurate but not taxing, therefore 
+ML and AI has become such an important part of smartphones that manufacturers now have dedicated processors for these
+type of tasks. Google includes a Tenor Processing Unit (TPU) in their Pixel line of phones \citep{triggs2021}. Samsung, 
+Qualcomm and Apple use their own solutions for ML processing by having their own bespoke processors. These 
+processors are used to compute specific actions that require the decision making and accuracy capabilities of ML.
+Google Tensor in particular aids tasks such as speech recognition that is accurate but not taxing, therefore 
 saving battery life. Tensor also applies to processing photographs and provides additional features to videos 
-\citep{gupta2021}. With such a focus on smartphones, to the point that they get dedicated hardware for ML, we should be 
-seeing a huge increase in applications that integrate ML in some way, as well as the entire process of designing and 
-implementing such solutions being carried out more rapidly, as developers learn to leverage the hardware.
+\citep{gupta2021}. With such a focus on smartphones, to the point that they get dedicated hardware for ML,
+a huge increase in applications that integrate ML in some way should be seen, as well as the entire process of designing
+and implementing such solutions being carried out more rapidly, as developers learn to leverage the hardware. %Here
 
 \section{Computer Vision}
 
