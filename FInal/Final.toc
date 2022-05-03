@@ -84,6 +84,7 @@
 \contentsline {subsection}{\numberline {A.6.2}Fine-tuning test}{54}{subsection.A.6.2}%
 \contentsline {subsection}{\numberline {A.6.3}Results of functionality testing}{54}{subsection.A.6.3}%
 \contentsline {subsection}{\numberline {A.6.4}Results of distance testing}{60}{subsection.A.6.4}%
-\contentsline {subsection}{\numberline {A.6.5}Results of lighting testing}{63}{subsection.A.6.5}%
-\contentsline {subsection}{\numberline {A.6.6}Performance Timings}{65}{subsection.A.6.6}%
-\contentsline {section}{\numberline {A.7}Google Image Classifier Example}{67}{section.A.7}%
+\contentsline {subsection}{\numberline {A.6.5}Results of anlge testing}{63}{subsection.A.6.5}%
+\contentsline {subsection}{\numberline {A.6.6}Results of lighting testing}{65}{subsection.A.6.6}%
+\contentsline {subsection}{\numberline {A.6.7}Performance Timings}{67}{subsection.A.6.7}%
+\contentsline {section}{\numberline {A.7}Google Image Classifier Example}{69}{section.A.7}%

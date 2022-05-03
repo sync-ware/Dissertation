@@ -1404,13 +1404,13 @@ of all Material You elements which were located and sized based on the guideline
 \section{System Testing}
 
 There are two main aims for the testing portion of this section. The first aim is to ensure the base 
-functionality is working as intended through functionality testing. We will demonstrate real world examples of the app 
-identifying various flowers. Once, the app is established to be working as intended, the next step will be to carry out 
-performance testing to see how the classifier is performing within the app. By using performance profiling, we can focus
-on specific work threads where the classifier is carrying out the identification process. We will alter certain factors 
-like whether to use the GPU or CPU as well as the number of threads to dedicate to the processor, then discuss the 
-results. Before testing takes place, the phone will use the in-built system clean up tool that clears any unnecessary 
-background apps and processes.
+functionality is working as intended through functionality testing. To show this, some real world examples of the app 
+identifying various flowers will be demonstrated. Once, the app is established to be working as intended, the next step will be to carry out 
+performance testing to see how the classifier is performing within the app. By using performance profiling, there can be a focus
+on specific work threads where the classifier is carrying out the identification process. Certain factors 
+like whether to use the GPU or CPU as well as the number of threads to dedicate to the classifier will be altered. Then,
+the results will be discussed. Before testing takes place, the phone will use the in-built system clean up tool that 
+clears any unnecessary background apps and processes.
 
 \subsection{Functionality Testing}
 
@@ -1422,7 +1422,7 @@ angles.
 Appendix \ref{subsec:functionality} contains the results of identifying eight different flower species found in the 
 vicinity. All of them bar 
 one has a confirmed species. There are also screenshots that go with each result within the appendix where one can view 
-the exact angles and lighting conditions the photos were taken in as well as what the other predictions are for that 
+the exact angles and lighting conditions the photos were taken in as well as what the other predictions are, for that 
 flower. The results show that six of the species have been correctly identified by the classifier. There are five 
 species within that selection that have probabilities of 88 percent and above, each of these flowers are very common in 
 the UK and have distinctive shapes and colours. This suggests the classifier performs very well with these unique 
@@ -1435,16 +1435,17 @@ sweat pea that is also 47\%. This suggests that the classifier cannot make a def
 likely due to a lack of orchids within the dataset. Moon orchids are a class within the dataset and are not too 
 dissimilar in appearance to this orchid \citep{PlantsState}. Therefore, it is unclear as to why that class was not 
 suggested over the other classes. Subsequent classification attempts on this same plant yielded consistent high 
-probabilities for the Cyclamen class, suggesting it didn't matter what angle the picture was taken in. The inference 
-times seem consistent using the GPU. It will be interesting to see what the performance will be like when we adjust the 
-classifier settings in the performance testing.
+probabilities for the cyclamen class, suggesting it didn't matter what angle the picture was taken in. The inference 
+times seem consistent using the GPU. It will be interesting to see what the performance will be like when using the
+different hardware configuration types.
 
 Some additional testing was carried out on the same rose to see how the classifier dealt with different angles and 
 lighting conditions. The first set of tests will include classifying with different camera distances and angles with 
 estimated measurements. The first was the distance test where the multiple shots of the same rose were taken. The camera
 was angled to have the centre of the rose in the middle of the viewfinder. The rose was always in the same position and 
 location to keep the lighting consistent. The results from this experiment are presented in appendix 
-\ref{subsec:distance} below. The distance has an effect on the classification accuracy. The prediction at 4cm has a low probability of 39\% but still
+\ref{subsec:distance}. The distance appears to have an effect on the classification accuracy. The prediction at 4cm has a 
+low probability of 39\% but still
 ranks rose as the most likely. This indicates that there are not enough unique features that the classifier can pick up 
 on because the rose is too close to the sensor. When the rose is in full view at 15cm, the entirety of the flower can be
 seen including its general shape and petal arrangement. As a result, the probability increases by 39\%. At 35cm 
@@ -1454,9 +1455,9 @@ background can be seen and there is less data on the subject.
 \par
 
 Angles testing was carried out using arbitrary angles of the rose. Images taken of the rose that did not have the camera
-angled directly at the centre of the flower still ranked rose as the highest prediction as seen in figure [x] and 
-[x] within the appendix. However, the probability decreased to 19\% with a side angle of the flower, where the centre of
-it cannot be seen (figure [x]).
+angled directly at the centre of the flower still ranked rose as the highest prediction as seen in figure \ref{fig:rose_left} and 
+\ref{fig:rose_right} within the appendix. However, the probability decreased to 19\% with a side angle of the flower, where the centre of
+it cannot be seen (see figure \ref{fig:rose_side}).
 
 \par
 
@@ -1509,13 +1510,14 @@ and standard deviation of the event in milliseconds.
     \label{table:timings}
 \end{table}
 
-The full results can be seen in appendix \ref{subsec:perf_timings} which has the timings of the individual events. Table \ref{table:timings} 
+The full results can be seen in appendix \ref{subsec:perf_timings} which has the timings of the individual events. 
+Table \ref{table:timings} 
 summarises each test with just the calculated statistics from the profiling tool. It shows that using the CPU with four 
 threads has the shortest inference time out of all the test runs. It is surprising to see that the GPU is out-performed 
-by the CPU especially since the GPU can carry out parallelise workloads better than the CPU and should theoretically 
+by the CPU especially since the GPU can carry out parallelised workloads better than the CPU and should theoretically 
 execute the layer operations quicker. It may still be worth using the GPU over the CPU simply because of the added 
 benefits of accuracy in doing floating point calculations. GPUs are also more energy efficient as they can carry out the
-same tasks as the CPU, while using less power. Using eight threads does not seem ideal as the average time shoots up. 
+same tasks as the CPU, while using less power \citep{TFGPU}. Using eight threads does not seem ideal as the average time shoots up. 
 This may be because of scheduling overhead becoming too large due to the lack of CPU resources available. 
 Standard deviation also gets larger as more threads are used, indicating that the inference timings become less 
 consistent, likely due to the state of the CPU at that current time as it juggles other tasks. It may be best to keep 
@@ -1528,9 +1530,9 @@ the GPU may not be ideal as that 200ms difference will slowly add up, especially
 
 Overall, the requirements for this app were quite simple. The end product was designed to be a simple utility app that 
 could easily fit as part of the latest Android ecosystem. The requirements have all been sourced from the background 
-research conducted as well as my own input as a software developer. A more extensive set of requirements could be 
-produced by using input from potential users of the app such as gardeners and hobbyists, however, the main aim is to 
-demonstrate that this method of using TensorFlow for deep learning is a very valid approach as a backend for your app. 
+research conducted as well as personal input as a software developer. A more extensive set of requirements could be 
+produced by using input from potential users of the app such as gardeners and hobbyists, however the main aim is to 
+demonstrate that this method of using TensorFlow for DL is a very valid approach as a backend for your app. 
 Most of the effort was dedicated into investigating the performance of TensorFlow when put up against the challenging 
 task of classifying flowers. The design and implementation process for the app made sure the scope of the app was kept 
 simple so that the focus could be on testing the performance of the Inception V3 model. Designing complex apps can 
@@ -1554,16 +1556,16 @@ may slowdown, making the overall experience for the user worse.
 \section{Contributions}
 
 This project has provided an in-depth insight into the stages of developing a smartphone application that makes use of 
-the Deep Learning technology available. It serves as a good starting point for developers by first providing the 
+the DL technology available. It serves as a good starting point for developers by first providing the 
 relevant background information about the domain. Then, identifying key sources of information that will prove useful to
 them. Finally, going through the development work required to implement a solution.
 
 \par
 
-The project was able to demonstrate how much of an improvement deep learning is over classical machine learning by 
-comparing the results of two classifiers trained on the same dataset. It was also surprising to see how accessible deep
-learning is to developers with the tools provided by TensorFlow. Additionally, it's a good opportunity to demonstrate 
-the maturity of classical machine learning resources and code libraries.
+The project was able to demonstrate how much of an improvement DL is over classical ML by 
+comparing the results of two classifiers trained on the same dataset. It was also surprising to see how accessible DL 
+is to developers with the tools provided by TensorFlow. Additionally, it's a good opportunity to demonstrate 
+the maturity of classical ML resources and code libraries.
 
 \par
 
@@ -1622,14 +1624,14 @@ this are and whether it would be a better solution for classifying flowers on a 
 \par
 
 Developers would also be interested in deployment mechanisms of their model to their app. Technically the model is just 
-a file within applications project directory. As long as the input conditions remain the same, the developer could 
+a file within the applications project directory. As long as the input conditions remain the same, the developer could 
 potentially just redeploy an improved model instead of updating the entire application. A potential improvement for the 
 app would be to design such a system so that users could get improved models without the overhead of retraining them, as
 that has already been carried out by the developer themselves.
 
 \section{Reflection}
 
-This project was a good learning opportunity to explore the capabilities of deep learning on a smartphone. It was 
+This project was a good learning opportunity to explore the capabilities of DL on a smartphone. It was 
 surprising to see how effective it is in tackling challenging classification problems such as identifying flowers. 
 By going through 
 the entire process of researching to implementing, I have gained a much better understanding of how to design software 
@@ -1769,7 +1771,7 @@ Priorities:
         & SS, AD & H \\
         \hline
         3 &
-        The app must use the Inception V3 model trained in section one to process captured images. 
+        The app must use the Inception V3 model trained in chapter 3 to process captured images. 
         & SS, TF & H \\
         \hline
         4 &
@@ -2086,6 +2088,28 @@ Front camera: 7.1 MP (3216x2208)
     \includegraphics[width=0.3\textwidth]{rose_60cm.jpg}
     \caption{Classifying a Rose at 60cm distance using the app.}
     \label{fig:rose_60}
+\end{figure}
+
+\clearpage
+
+\subsection{Results of anlge testing}
+
+\begin{figure}[h]\
+    \includegraphics[width=0.3\textwidth]{rose_left.jpg}
+    \caption{Classifying a Rose from the left.}
+    \label{fig:rose_left}
+\end{figure}
+
+\begin{figure}[h]\
+    \includegraphics[width=0.3\textwidth]{rose_right.jpg}
+    \caption{Classifying a Rose from the right.}
+    \label{fig:rose_right}
+\end{figure}
+
+\begin{figure}[h]\
+    \includegraphics[width=0.3\textwidth]{rose_side.jpg}
+    \caption{Classifying a Rose from the side.}
+    \label{fig:rose_side}
 \end{figure}
 
 \clearpage

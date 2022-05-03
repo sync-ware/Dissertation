@@ -47,12 +47,15 @@
 \contentsline {figure}{\numberline {A.17}{\ignorespaces Classifying a Rose at 15cm distance using the app.}}{61}{figure.A.17}%
 \contentsline {figure}{\numberline {A.18}{\ignorespaces Classifying a Rose at 35cm distance using the app.}}{61}{figure.A.18}%
 \contentsline {figure}{\numberline {A.19}{\ignorespaces Classifying a Rose at 60cm distance using the app.}}{62}{figure.A.19}%
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Classifying a Rose in dark conditions using the app.}}{63}{figure.A.20}%
-\contentsline {figure}{\numberline {A.21}{\ignorespaces Classifying a Rose in normal conditions using the app.}}{64}{figure.A.21}%
-\contentsline {figure}{\numberline {A.22}{\ignorespaces Classifying a Rose in outdoor conditions using the app.}}{64}{figure.A.22}%
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Execution timings of the CPU with 1 Thread.}}{65}{figure.A.23}%
-\contentsline {figure}{\numberline {A.24}{\ignorespaces Execution timings of the CPU with 2 Threads.}}{65}{figure.A.24}%
-\contentsline {figure}{\numberline {A.25}{\ignorespaces Execution timings of the CPU with 4 Threads.}}{66}{figure.A.25}%
-\contentsline {figure}{\numberline {A.26}{\ignorespaces Execution timings of the CPU with 8 Threads.}}{66}{figure.A.26}%
-\contentsline {figure}{\numberline {A.27}{\ignorespaces Execution timings of the GPU.}}{66}{figure.A.27}%
-\contentsline {figure}{\numberline {A.28}{\ignorespaces Output from the IDE when loading the example project.}}{67}{figure.A.28}%
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Classifying a Rose from the left.}}{63}{figure.A.20}%
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Classifying a Rose from the right.}}{64}{figure.A.21}%
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Classifying a Rose from the side.}}{64}{figure.A.22}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Classifying a Rose in dark conditions using the app.}}{65}{figure.A.23}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Classifying a Rose in normal conditions using the app.}}{66}{figure.A.24}%
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Classifying a Rose in outdoor conditions using the app.}}{66}{figure.A.25}%
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Execution timings of the CPU with 1 Thread.}}{67}{figure.A.26}%
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Execution timings of the CPU with 2 Threads.}}{67}{figure.A.27}%
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Execution timings of the CPU with 4 Threads.}}{68}{figure.A.28}%
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Execution timings of the CPU with 8 Threads.}}{68}{figure.A.29}%
+\contentsline {figure}{\numberline {A.30}{\ignorespaces Execution timings of the GPU.}}{68}{figure.A.30}%
+\contentsline {figure}{\numberline {A.31}{\ignorespaces Output from the IDE when loading the example project.}}{69}{figure.A.31}%
