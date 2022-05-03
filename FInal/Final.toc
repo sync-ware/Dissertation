@@ -42,12 +42,12 @@
 \contentsline {subsubsection}{TensorFlow}{27}{section*.6}%
 \contentsline {subsubsection}{Android Developers}{27}{section*.7}%
 \contentsline {subsubsection}{Material You}{27}{section*.8}%
-\contentsline {subsection}{\numberline {4.1.3}Functional Requirements}{28}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Functional Requirements}{27}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.1.4}Non-functional Requirements}{28}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Design and Implementation}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Design and Implementation}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Classifier}{29}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Implementation Process}{29}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}User Interface Design}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}User Interface Design}{29}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}System Testing}{31}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Functionality Testing}{31}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Performance Testing}{33}{subsection.4.3.2}%

@@ -1108,6 +1108,7 @@ INPUT ./Accuracy.png
 INPUT Accuracy.png
 INPUT ./Accuracy.png
 INPUT ./Accuracy.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./Main_Sketch.jpg
 INPUT ./Main_Sketch.jpg
 INPUT Main_Sketch.jpg
@@ -1122,7 +1123,6 @@ INPUT ./Final.bbl
 INPUT Final.bbl
 INPUT ./Final.bbl
 INPUT Final.bbl
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./dataset_hist.png
 INPUT ./dataset_hist.png
 INPUT dataset_hist.png
