@@ -2,6 +2,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Problem Description}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Main Objectives}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Structure}{3}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Literature and Technology Review}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Mobile Machine Learning}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Evolution}{5}{subsection.2.1.1}%
@@ -39,9 +40,9 @@
 \contentsline {section}{\numberline {4.1}Requirements and Specification}{26}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Literature and Technology Survey Findings}{26}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Google Developer Practices}{27}{subsection.4.1.2}%
-\contentsline {subsubsection}{TensorFlow}{27}{section*.6}%
-\contentsline {subsubsection}{Android Developers}{27}{section*.7}%
-\contentsline {subsubsection}{Material You}{27}{section*.8}%
+\contentsline {subsubsection}{TensorFlow}{27}{section*.11}%
+\contentsline {subsubsection}{Android Developers}{27}{section*.12}%
+\contentsline {subsubsection}{Material You}{27}{section*.13}%
 \contentsline {subsection}{\numberline {4.1.3}Functional Requirements}{28}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.1.4}Non-functional Requirements}{28}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}Design and Implementation}{29}{section.4.2}%
@@ -57,7 +58,7 @@
 \contentsline {section}{\numberline {5.2}Critical Appraisal}{35}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Future Work}{36}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Reflection}{36}{section.5.4}%
-\contentsline {chapter}{Bibliography}{38}{chapter*.9}%
+\contentsline {chapter}{Bibliography}{38}{chapter*.14}%
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
