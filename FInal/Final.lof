@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Graph of accuracy against the number of training steps.}}{23}{figure.3.4}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart that shows the actions that need to take place to classify a flower in the app.}}{29}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagram that shows the processing the image has to go through until it gets fed to the classifier.}}{29}{figure.4.2}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagram that shows the processing an image has to go through until it gets fed to the classifier.}}{29}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Sketch of the home page.}}{30}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces IDE preview of the home page.}}{31}{figure.4.4}%
 \addvspace {10\p@ }
