@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Results output from the classifier after predicting against the testing dataset.}}{22}{table.3.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Results from inference timings for each hardware delegate configuration.}}{33}{table.4.1}%
+\addvspace {10\p@ }
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces All data is sourced from \citet {gsm}.}}{45}{table.A.1}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Table of predictions for 8 different flowers found in the vicinity.}}{54}{table.A.2}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Results from attempting to identify a rose at different distances.}}{60}{table.A.3}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Results from attempting to identify a rose at different lighting conditions.}}{65}{table.A.4}%

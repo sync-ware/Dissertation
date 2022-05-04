@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Final"] 1651680311 "Final.aux" "Final.bbl" "Final" 1651680842
+["bibtex Final"] 1651682308 "Final.aux" "Final.bbl" "Final" 1651682309
   "./bathx.bst" 1651151111 49581 be831b8c9da99de90d48d9e06251e392 ""
-  "Final.aux" 1651680842 34529 18b1990bd769c69c1dca779aac89c683 "pdflatex"
+  "Final.aux" 1651682309 34544 3f6023d04c644adc6952d2df62ebee80 "pdflatex"
   "refs.bib" 1651419182 28918 3405d854d34fcd853f142fbc8589cf95 ""
   (generated)
   "Final.bbl"
   "Final.blg"
-["pdflatex"] 1651680841 "/home/saahil/Projects/Dissertation/FInal/Final.tex" "Final.pdf" "Final" 1651680842
+["pdflatex"] 1651682308 "/home/saahil/Projects/Dissertation/FInal/Final.tex" "Final.pdf" "Final" 1651682309
   "/etc/texmf/web2c/texmf.cnf" 1650879266 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/saahil/Projects/Dissertation/FInal/Final.tex" 1651680840 117818 c980c347c91ea8ec693c8c585274220d ""
+  "/home/saahil/Projects/Dissertation/FInal/Final.tex" 1651682302 117810 d8149e92c67b1a7ad74a645b5f598832 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -212,12 +212,13 @@
   "CPU8_Time.png" 1650981425 25798 4d8b9efc93ecd7ab6f6e37c4f1a41c27 ""
   "Depracated.png" 1651313662 103432 faa2de8775137e99b75b84bf1dc59b2f ""
   "Error_Trainable.png" 1651405145 150884 6a786eb670bb211fe66c277ab6350bc8 ""
-  "Final.aux" 1651680842 34529 18b1990bd769c69c1dca779aac89c683 "pdflatex"
-  "Final.bbl" 1651680311 27637 6569174bf1cad236b86ffa1059d700c9 "bibtex Final"
-  "Final.lof" 1651680842 6261 c975adde56b0a18339ea6166d694ca6b "pdflatex"
-  "Final.out" 1651680842 11825 4117b8eb0113341c0b2a0642799b8005 "pdflatex"
-  "Final.tex" 1651680840 117818 c980c347c91ea8ec693c8c585274220d ""
-  "Final.toc" 1651680842 7040 1af50cfadd62ef9e5a62190c81644b8e "pdflatex"
+  "Final.aux" 1651682309 34544 3f6023d04c644adc6952d2df62ebee80 "pdflatex"
+  "Final.bbl" 1651682308 27637 6569174bf1cad236b86ffa1059d700c9 "bibtex Final"
+  "Final.lof" 1651682309 6261 c975adde56b0a18339ea6166d694ca6b "pdflatex"
+  "Final.lot" 1651682309 1227 0ff820b17eaa50e20dca6fa9e9f0f971 "pdflatex"
+  "Final.out" 1651682309 11825 e00c9691cc22d7af53cbec5793dab91b "pdflatex"
+  "Final.tex" 1651682302 117810 d8149e92c67b1a7ad74a645b5f598832 ""
+  "Final.toc" 1651682309 7040 e790d4adeaafedeeb2bb73f38409d4c4 "pdflatex"
   "GPU_Time.png" 1650978692 27443 58c84f8c8d28ed330f07db0a05adb445 ""
   "IDE_Ver.png" 1651231264 24258 ae55fa5874f408308c46d794670e3a1f ""
   "Info_Sketch.jpg" 1651230017 258726 78e0391e8b13859c21d3050e99924fcb ""
@@ -259,6 +260,7 @@
   "Final.aux"
   "Final.lof"
   "Final.log"
+  "Final.lot"
   "Final.out"
   "Final.pdf"
   "Final.toc"

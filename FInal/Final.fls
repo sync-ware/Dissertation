@@ -1047,6 +1047,10 @@ INPUT ./Final.lof
 INPUT Final.lof
 INPUT Final.lof
 OUTPUT Final.lof
+INPUT ./Final.lot
+INPUT Final.lot
+INPUT Final.lot
+OUTPUT Final.lot
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmss.fd
