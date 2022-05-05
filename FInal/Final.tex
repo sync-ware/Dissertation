@@ -72,15 +72,15 @@ The technological era that we live in has introduced many groundbreaking achieve
 of what is possible as well as introduce many new challenges that require complex solutions. One such challenge is big 
 data processing, specifically, recognising patterns in data and drawing conclusions. Unfortunately, machines don't have 
 the ability to understand data the way that humans do and humans don't have the processing capabilities of modern 
-machines. Due to obvious ethical and biological barriers, we cannot make humans fill the role of computers that compute 
-data on a large scale, therefore, we must explore the alternative, making computers as smart as humans. This is where 
+machines. Due to obvious ethical and biological barriers, humans cannot fill the role of computers that compute 
+data on a large scale therefore, the alternative must be explored; making computers as smart as humans. This is where 
 Machine Learning (ML) steps in. What this project will focus on in particular,
 is granting the advanced capabilities of ML to smartphones.
 
 \par
 
 This project aims to investigate the application of ML techniques to recognize images of flower species 
-on mobile devices. I will look at implementing classical ML algorithms that are effective in image 
+on mobile devices. This will be done by implementing classical ML algorithms that are effective in image 
 classification as well as Deep Learning (DL) algorithms which are stated to be more effective in carrying out the same 
 task. It will be interesting to compare both types of implementations in terms of accuracy and speed.
 
@@ -92,7 +92,7 @@ them to make informed decisions to aid the user. Traditional algorithms can't an
 like “What is this flower?”
 without being cumbersome and inaccurate, that's why ML is required.
 Smartphones and tablets are packed with more advanced technology than they've ever had like high-resolution 
-cameras, sensors, displays and mobile processors. Each of these are resources that a model can take advantage of.
+cameras, sensors, displays and mobile processors. Each of these are resources that an ML model can take advantage of.
 
 \par
 
@@ -106,7 +106,7 @@ where it may be important for a vehicle to make quick decisions about potential 
 
 With some raw information, a classical ML process can identify features, these could be used by a 
 classifier that can make predictions given a set of data it hasn't seen before \citep{lecun2015deep}. Features are 
-sourced from the representation of an object, in turn the representation is defined by the 
+sourced from the representation of an object, in turn, the representation is defined by the 
 data input. An example of a feature would be the presence or absence of thorns on the stem of a flower 
 \citep[p. 22]{goodfellow2016deep}. Traditional ML practices incorporated 
 feature engineering that required designing custom algorithms for a particular task which can be time-consuming 
@@ -127,14 +127,14 @@ by expanding upon representation learning. Deep learning can be split into two u
 
 \begin{itemize}
     \item \textbf{Distributed Representation:} These are used to represent objects in a more compact and dense manner.
-Instead of having representations for each type of object, for example, a collection of words in a sentence, we could 
+Instead of having representations for each type of object, for example, a collection of words in a sentence, one could 
 store the frequency of each word like the bag-of-words problem \citep{liu2020representation}. This is a sparse
 representation and introduces problems with space and time complexity. Therefore, distributed representations aim to 
 tackle the sparsity problem as they are harder to model \citep{Brownlee2017}.
     \item \textbf{Deep Architecture:} The idea of layering to represent neurons in a human brain. It can be imagined 
     as a map of 
-nodes that takes an input, processes it through the different layers where at each step, a set of units calculate a 
-weighted sum of their inputs from the previous layer and pass the result to the next layer until it gets to output units
+nodes that takes an input and then processes it through the different layers where at each step, a set of units calculate a 
+weighted sum of their inputs from the previous layer to then pass the result to the next layer until it gets to output units
 that generate a result. This is an example of a feedforward neural network \citep{lecun2015deep}.
 \end{itemize}
 
@@ -238,7 +238,7 @@ Samsung and can vary from a quarter to quarter basis \citep{odea2021}.
 By looking at the table in Appendix \ref{sec:smartphones}, it is clear there has been an increase in 
 smartphone capabilities within 
 multiple categories like the processor speed, core count, 
-storage, memory and camera capabilities. There are, of course, many more different areas that are not listed like sensors, 
+storage, memory and camera. There are, of course, many more different areas that are not listed like sensors, 
 screen size and battery life which have also seen massive improvements over the last 10 years. It is safe to
 assume that improvements will continue to be seen in the near future. 
 What must also be considered is price and accessibility; flagship smartphones represent the top of the line offerings from
@@ -249,10 +249,10 @@ devices and not just the most powerful.
 
 \par
 
-\citet{kulendran2014}, highlights how improvements in smartphones have created a boom in the number of 
-smartphone-based application designed to aid surgeons and patients in multiple facets of the medical industry like 
+\citet{kulendran2014} highlights how improvements in smartphones have created a boom in the number of 
+smartphone-based applications designed to aid surgeons and patients in multiple facets of the medical industry like 
 plastic, orthopaedic and general surgery. They conduct an expansive review of different solutions and analyse how the 
-evolution of smartphones got them to the point that makes them extremely useful as a tool to aid us. Ultimately, what 
+evolution of smartphones got them to the point that makes them extremely useful as a tool to aid people. Ultimately, what 
 this project aims to do is provide a robust software solution to recognise flower species on a smartphone, however it
 cannot be ignored that smartphones have come a long way in the hardware and software space to allow the
 conception of such a system.
@@ -261,7 +261,7 @@ conception of such a system.
 
 ML and AI have become such an important part of smartphones that manufacturers now have dedicated processors for these
 types of tasks. Google includes a Tensor Processing Unit (TPU) in their Pixel line of phones \citep{triggs2021}. Samsung, 
-Qualcomm and Apple use their own solutions for ML processing by having their own bespoke processors. These 
+Qualcomm and Apple use their own solutions for ML by having their own bespoke processors. These 
 processors are used to compute specific actions that require the decision making and accuracy capabilities of ML.
 Google Tensor in particular powers tasks such as speech recognition in a way that makes it more accurate and less taxing,
 therefore 
@@ -356,7 +356,7 @@ predictions is described as a “security belt” by Seeger. The model will basi
 scope, this is called “overfitting” \citep{tom1995}. Unsupervised learning heavily relies on prior assumptions for 
 its final result, this is because it doesn't have a knowledge base to rely on. By using a combination of both 
 implementations, one can “balance the impact of prior assumptions”. Seeger also highlights the fact that labelling the 
-data is a taxing process. Fortunately for this project, data sets already exist with labelled images for 
+data is a taxing process. Fortunately for this project, datasets already exist with labelled images for 
 flower species.
 
 \subsection{Feature Extraction}
@@ -376,8 +376,8 @@ compute but also having sensitivity to noise. The texture of an image can also b
 groups of pixels begin to be analysed together. Texture in the 
 context of images is a way to describe the perceived smoothness, roughness or bumpiness of an image through spatial 
 variations in pixel intensity levels \citep{mathworks}. Lastly, the paper goes into depth about shape features and 
-points to different sources that go into the subject with more depth. To summarise, shape features are 
-split into two broad categories of contour and region based. This is where the features are calculated from shape 
+points to different sources that go into the subject. To summarise, shape features are 
+split into two broad categories: contour and region based. This is where the features are calculated from shape 
 boundaries and image regions respectively. A simple example of a shape feature is the circularity ratio where you measure 
 how close a shape is to a circle by calculating the ratio of the area of a shape to the area of a circle with the same 
 perimeter \citep{mingqiang2008survey}. Shape analysing will be very important in this project because flower shapes can
@@ -392,9 +392,9 @@ flower as species A as opposed to B, C or D. They also go into detail about the 
 as:
 \begin{itemize}
     \item \textbf{Binary classification}, e.g. it's flower A or flower B.
-    \item \textbf{Multi-class classification}, where there are more than two classes.
-    \item \textbf{Multi-label classification}, this is where there are multiple predictions for classes based on a probability. 
-    This can be a path that could be taken to produce multiple predictions for a flower species and then provide 
+    \item \textbf{Multi-class classification}; where there are more than two classes.
+    \item \textbf{Multi-label classification}; this is where there are multiple predictions for classes based on a probability. 
+    This is a path that could be taken to produce multiple predictions for a flower species and then provide 
     the likelihoods of each prediction to the user.
 \end{itemize}
 Next, the idea of classifiers will be introduced, which help carry out the classification stage. Fortunately, 
@@ -439,13 +439,15 @@ to a new level, aiming to perform better than these classifiers in all categorie
 
 \section{Deep Learning}
 
-DL will of course be the main approach to recognizing flower species. Where ML is basically the baseline, the DL 
-implementation should hopefully highlight how much better it is compared to the classical ML approach.
+DL will be the main approach to recognizing flower species within the smartphone application. 
+Where ML is basically the baseline, the DL 
+implementation should hopefully highlight how much better it is compared to the classical ML approach. This section will
+explore the building blocks of DL.
 
 \subsection{Neurons and Perceptrons}
 
 \citet{ScarpinoMatthew2018Tfd} introduces the concept of Perceptrons in their book about using TensorFlow 
-to implement DL. First, the idea of neurons must be discussed and how they relate to understanding the foundation of DL.
+to implement DL. First, the idea of neurons must be discussed and how they relate to the foundation of DL.
 
 \begin{figure}[h]\
     \centering
@@ -456,9 +458,8 @@ to implement DL. First, the idea of neurons must be discussed and how they relat
 
 \break
 
-What they choose to highlight in particular are three points that describe a neuron's functionality (see figure \ref{fig:neuron})
-and ultimately how 
-it relates to perceptrons:
+What they choose to highlight in particular are three points that describe a neuron's functionality 
+(see figure \ref{fig:neuron}):
 
 \begin{itemize}
     \item A neuron receives one or more incoming signals and produces one outgoing signal.
@@ -467,10 +468,11 @@ it relates to perceptrons:
      exceeds the threshold.
 \end{itemize}
 
+Perceptrons emulate these features of a neuron.
 This page by \citet{anonpercep} highlights a brief history of perceptrons,
-serving as a starting point to learn more about the concept. Perceptrons were coined by Frank Rosenblatt in 1962  
+serving as a starting point to learn more about the concept. Perceptrons were coined by Frank Rosenblatt in 1961  
 \citep{rosenblatt1961principles}. Their research is a bit outdated for this project, therefore a more modern approach
-must be identified:
+must be identified.
 
 \begin{figure}[h]\
     \centering
@@ -481,16 +483,18 @@ must be identified:
 Each input on the left is weighted and then summed within the circle node. If the summation meets a certain threshold, 
 the output will be 1, if it doesn't, then a 0 is outputted \citep{ScarpinoMatthew2018Tfd}. 
 Scarpino highlights some 
-improvements to the model that were made, including the weights that were discussed earlier, as well as additional biases 
+improvements to the model that were made such as additional biases 
 assigned to the incoming signals and an “activation function” that generates the output signal. Scarpino goes further 
 by linking activation functions directly to in-built TensorFlow functions that carry out the same task. Making it 
 quite useful to understand the link between the TensorFlow API and the underlying DL context. Once 
-perceptrons start getting linked together and arranged into layers, a neural network is formed, as seen here:
+perceptrons start getting linked together and arranged into layers, a neural network is formed, as seen in figure
+\ref{fig:network}:
 
 \begin{figure}[h]\
     \centering
     \includegraphics[width=0.7\textwidth]{network.png}
     \caption{Diagram of a layered network of perceptrons \citep{ScarpinoMatthew2018Tfd}.}
+    \label{fig:network}
 \end{figure}
 
 \section{Convolutional Neural Networks}
@@ -508,10 +512,10 @@ purposes such as the individual layers: convolutional (kernel),  pooling and cla
     \label{fig:cnnSimple}
 \end{figure}
 
-They also highlight a feature of CNNs that make images easier to process, where it reduces the size of images “into a 
-form that is easier to process", all while keeping the critical features that are needed for a good prediction. This helps 
+They also highlight a feature of CNNs that make images easier to process, where it reduces the size of images,
+all while keeping the critical features that are needed for a good prediction. This helps 
 with scalability when it comes to dataset sizes in particular. The ELI5 (Explain Like I'm 5) format is 
-quite useful and allows us to highlight the key points of each layer (Saha, 2018):
+quite useful and allows us to highlight the key points of each layer \citep{saha2018}:
 
 \begin{itemize}
     \item \textbf{Convolution}: Applying the kernel to extract high and low-level features.
@@ -533,14 +537,14 @@ implementations. Something they talk about that is interesting, is the increasin
 which is quite applicable to the project since mobile hardware is relatively limited in storage. They discuss how the 
 increasing capabilities of computer hardware have led to the development of larger models and that neural networks tend 
 to double in size roughly every 2.4 years. They predict that the trend will continue further on in the future. 
-Datasets take up storage space, they state that a DL algorithm 
-(as of 2015) is stated to perform at acceptable levels with “around 5,000 labelled examples per category, and will match
-or exceed human performance when trained with a dataset containing at least 10,000,000 labelled examples. That is of 
+Datasets take up storage space and they state that a DL algorithm 
+(as of 2015) is expected to perform at acceptable levels with “around 5,000 labelled examples per category, and will match
+or exceed human performance when trained with a dataset containing at least 10,000,000 labelled examples". That is of 
 course, extremely large and is most definitely going to take up a lot of storage. Therefore, the book does reiterate 
 the earlier point of making use of unlabelled data like with semi-supervised learning. \citet{goodfellow2016deep} 
 dig deep into the subject of DL and explain areas from applied maths to the modern practices of DL and 
 the research in the field. This can prove useful in fully understanding the various processes in place including 
-optimisations and ways to increase accuracy that will need to be considered when designing a DL model for the mobile 
+optimisations and ways to increase accuracy that will need to be considered when designing a DL model for the smartphone 
 application.
 
 \subsection{ML vs DL}
@@ -549,7 +553,7 @@ application.
 DL is an obvious evolution from classical ML, but it is worth highlighting the key differences for clarity. 
 \citet{kav2020} breaks down how DL is different 
 from classical ML. They highlight that DL takes the initiative by automating feature extraction to lessen human intervention and 
-that classical ML is more reliant on humans, where humans normally define the characteristics to look out for, as well as their 
+that classical ML is more reliant on humans, where they normally define the characteristics to look out for, as well as their 
 priorities.
 
 \par
@@ -560,7 +564,7 @@ are:
 
 \begin{itemize}
     \item \textbf{Data dependencies}: DL performs better with larger datasets as well as
-    classical ML outperforming DL with smaller data sets.
+    classical ML outperforming DL with smaller datasets.
     \item \textbf{Hardware dependencies}: DL requires a lot of matrix calculations and therefore a Graphical Processing 
     Unit (GPU) can be used to optimise these processes. Note that mobile hardware does contain GPUs but they are
     not on the same scale as the ones found in some PC hardware. Therefore, it will be interesting to see how DL 
@@ -606,7 +610,7 @@ and how to build the classifier.
 \par
 
 For DL, there is an extensive study that looks at using transfer learning, which is a technique of retraining
-TensorFlow models for different data sets. \citet{Xia2017} use the Inception-v3 model to train a classifier for 
+TensorFlow models for different datasets. \citet{Xia2017} use the Inception V3 model to train a classifier for 
 the Oxford-17 and Oxford-102 flower datasets. They go into detail about the steps that took place to carry out the 
 transfer learning as well as how to reconfigure the last layer of the network to only have 17 and 102 outputs for each 
 dataset as it defaults to 1001. They found that the models for the Oxford-17 and Oxford-102 datasets 
@@ -679,8 +683,8 @@ representing accuracy by providing a “summary of prediction results” where t
 predictions are presented per class to show which particular classes the classifier may be struggling with \citep{Brownlee2020b}. 
 Precision and recall are a bit more complex. 
 Fortunately, \citet{shung2018} demonstrates how these two differ to accuracy. Precision is the number of 
-instances that are correctly determined over the total number of instances that are guessed, this is made up of 
-correctly guessed instances as well as instances that are incorrectly guessed. Recall is the number of correctly 
+instances that are correctly determined over the total number of instances that are guessed.
+ Recall is the number of correctly 
 predicted instances over the true number of instances in the class. In addition to these evaluation methods, 
 \citet{10.1145/1163593.1163596} outline measuring CPU and memory usage. Fortunately, TensorFlow
 contains benchmarking tools to measure: Initialization time, inference time of warmup-state/steady-state and overall 
@@ -771,8 +775,8 @@ stated in section \ref{subsec:existing}.
 
 SVMs create a separator between two classes by first plotting data into a feature space of high dimension. The data is 
 then transformed so that the separator is represented on a hyperplane. Any new data can then be placed into one of two 
-chosen categories that have been separated. The kernel function of the SVM projects data into higher dimensions, 
-depending on the type of kernel chosen, the data could become more “separable” within higher dimensions 
+chosen categories that have been separated. The kernel function of the SVM projects data into higher dimensions. 
+Depending on the type of kernel chosen, the data could become more “separable” within higher dimensions 
 \citep{NobleWilliamS2006Wias}. The default kernel, Radial Basis Function (RBF) will be used \citep{sckikitsvm}. 
 
 \par
@@ -786,7 +790,7 @@ terms of factors like rotation and scale \citep{mohan}.
 The “words” will be produced by extracting key points using Scale Invariant Feature
 Transform (SIFT) and then clustered by a K-Means trainer using 200 clusters to make up the “vocabulary”. HSV values are 
 useful as they give
-us the relevant colour data as well as information about the 
+the relevant colour data as well as information about the 
 luminance in the image \citep{chapelle1999support}. HOG values provide information about the general
 shape of the object; this is useful in mapping the various shapes and sizes that flowers come in. The dataset images 
 will be resized to have a height and width of 
@@ -808,25 +812,26 @@ TensorFlow. Inception V4 exists and has a better performance compared to V3 but 
     \label{fig:inception}
 \end{figure}
 
-Compared to the initial research of deep learning models presented in figure \ref{fig:cnnSimple} within the literature 
-review, figure \ref{fig:inception} demonstrates how complex deep learning models can truly be. 
+Compared to the initial research of DL models presented in figure \ref{fig:cnnSimple} within the literature 
+review, figure \ref{fig:inception} demonstrates how complex they can truly be. 
 The terms convolution and pooling within section \ref{subsec:cnn} were already discussed however, there are additional 
 layers here that were not discussed:
 
 \begin{itemize}
-    \item Concatenate (Concat) takes a list of tensors and outputs a single combined tensor \citep{kerasconcat}.
-    \item Fully connected layers map all inputs in the previous layer to every “activation unit” of the layer next to it
+    \item \textbf{Concatenate (Concat)} takes a list of tensors and outputs a single combined tensor \citep{kerasconcat}.
+    \item \textbf{Fully connected layers} map all inputs in the previous layer to every “activation unit” of the layer next to it
 \citep{singhsurya}.
-    \item Softmax is where probabilities are assigned to each label based on the likelihood of the image belonging to 
+    \item \textbf{Softmax} is where probabilities are assigned to each label based on the likelihood of the image belonging to 
 that label. All probabilities add up to 1 \citep{googledevcnn}. 
-    \item Dropout mitigates the overfitting of a dataset by randomly dropping out neurons on each pass of the network when 
+    \item \textbf{Dropout} mitigates the overfitting of a dataset by randomly dropping out neurons on each pass of the network when 
     training \citep{seb}. 
 \end{itemize}
 
 The images will go through some data pre-processing such as resizing to have a width and height of 299 as that is the 
-requirement of the input tensor for Inception V3. They will also have to have their values rescaled from 0-255 to 
+requirement of the input tensor for Inception V3. A tensor is an immutable data structure that consists of multi-dimensional
+arrays that will store the image data in this case \citep{tensor}. They will also have to have their values rescaled from 0-255 to 
 between 0-1. Random flips and crops will also be added as part of the pre-processing pipeline. Images will be batched 
-into sets of 32 images, this means that 32 images will be trained per step per epoch. 
+into sets of 32, this means that 32 images will be trained per step per epoch. 
 
 \par
 
@@ -871,7 +876,7 @@ learning and dropout rates need to be tested using a grid search. This is when e
 \citep{gridsearch}. 
 When testing with a 
 large number of hyperparameters, one can use other methods like random search to decrease overall tuning time by 
-randomly sampling hyperparameters from a range based on a statistical distribution, this means that more effective 
+randomly sampling hyperparameters from a range based on a statistical distribution. This means that more effective 
 hyperparameters are tested to avoid spending time on one that will not affect the overall performance that
 much \citep{sayak}. 
 
@@ -886,7 +891,7 @@ Both approaches will be developed and run on the same machine, a custom desktop 
     \item 16GB 3200Mhz DDR4 Memory
 \end{itemize}
 
-The PC ran on Ubuntu 20.04 LTS with the relevant python3 and TensorFlow libraries needed to run the Jupyter Notebooks 
+The PC ran on Ubuntu 20.04 LTS with the relevant Python and TensorFlow libraries needed to run the Jupyter Notebooks 
 locally. VS Code was used as the Integrated Development Environment (IDE) with the Python and Jupyter extensions.  It is
 possible to run model training on the GPU instead of the CPU, however, only Nvidia GPUs are directly supported. As a 
 result of not having access to one for this project, the CPU will be used to carry out training.
@@ -897,7 +902,7 @@ The key metrics that will be analysed along with accuracy, precision, recall and
 
 \begin{itemize}
     \item \textbf{Loss}: A measure of how bad the model's predictions are \citep{googletrainloss}. 
-    This metric only applies to the deep learning model as it is calculated during the training process as the model 
+    This metric only applies to the DL approach as it is calculated during the training process as the model 
     tries to minimise it.
     \item \textbf{Area under the receiving operating characteristic curve (AOC)}: Computed by plotting the true-positive
     rate against the false-positive rate. The area under this curve indicates how well the model performs at selecting 
@@ -917,8 +922,8 @@ of the model,
 it was found that 5 epochs are more than sufficient as the maximum accuracy is reached, as shown in figure 
 \ref{fig:incep_acc}. If
 the number of epochs is increased, there is a risk of overfitting \citep{geeksforgeeks}. Optimisers were tested individually to 
-determine how much they would affect the results under standard conditions. I found that SGD was unsuitable for this 
-task, producing accuracy results at almost half of what Adam and AmaMax were producing. Overall, Adam produced the best 
+determine how much they would affect the results under standard conditions. SGD was found to be unsuitable for this 
+task, producing accuracy results at almost half of what Adam and AdaMax were producing. Overall, Adam produced the best 
 results, with AdaMax being only a percentage point behind. Therefore, it was decided to conduct any main hyperparameter 
 tuning, purely using the Adam optimiser. All hyperparameter tuning is done to only the first epoch to reduce overall 
 execution time. 
@@ -937,7 +942,7 @@ results
 certain combinations of hyperparameters produce. Highlighted in green shows the joint first highest with a dropout of 
 0.3 and a learning rate of 0.001. A dropout of 0.2 with the same learning rate produces the same result. A learning rate
 of 1e-4 produces a significant reduction in first epoch performance, this is because the number of overall epochs would
-need to increase to account for the slower learning rate. Ideally, it would be best to test the number of epochs along 
+need to increase to account for the slower learning rate \citep{lrate}. Ideally, it would be best to test the number of epochs along 
 with the other 
 hyperparameters to produce fairer results, however, that would significantly increase training time with a grid search. 
 If a developer has access to more specialised hardware, suited for these tasks, this would not be too much of
@@ -985,7 +990,7 @@ Here are the overall performance metrics produced from both approaches:
 Precision, recall and ROC AUC values are weighted, meaning that they consider class balance as they calculate the metrics
 for each class and find the average weighted by the number of correct instances for each class 
 \citep{scikitprec}. This was necessary, to account for the slight imbalances in the number of images 
-in each class. The CL approach clearly comes out on top with excellent results.
+in each class. The DL approach clearly comes out on top with excellent results.
 
 \par
 
@@ -996,14 +1001,14 @@ while the model is being trained. It demonstrates how the model improves per epo
 \begin{figure}[h]\
     \centering
     \includegraphics[width=0.6\textwidth]{Accuracy.png}
-    \caption{Graph of accuracy against the number of training steps.}
+    \caption{Graph of accuracy against the number of epochs.}
     \label{fig:incep_acc}
 \end{figure}
 
-The model needs to be converted to a TensorFlow lite file in order for it to be allowed to be used in the Android 
+The model needs to be converted to a TensorFlow Lite file in order for it to be used in the Android 
 application. Once it is converted, the model can be reloaded to run inference on it, to check if it is still effective. The 
 result after doing that produces an accuracy of 100\% if it is tested on just the first batch of 32 images. Of course, 
-this is not indicative of real-world performance, and additional real-world performance profiling will be conducted
+this is not indicative of real-world performance, and additional performance profiling will be conducted
 once the app is developed. 
 
 \section{Analysis}
@@ -1014,7 +1019,7 @@ to get a better understanding of the advantages of DL.
 \subsection{Outcome}
 
 It is clear that the DL approach is vastly superior in classifying flowers to the SVM in all aspects. The Inception V3
-approach has high accuracy meaning it can correctly identify the classes of most of the images in the test set. 
+approach has high accuracy, meaning it can correctly identify the classes of most of the images in the test set. 
 High precision indicates that a large portion of correct identifications were genuinely correct. High recall demonstrates
 how well the classifier identified correct instances. One might notice that accuracy and recall are the same value for 
 both classifiers, this is because they represent the same thing in non-binary classification. Recall is shown to be:
@@ -1074,7 +1079,8 @@ for the quick development of a working example that could be adjusted by simply 
 documentation is easy to follow as it provides clear explanations as well as examples of how it would be used. The 
 process to train models for different datasets using transfer learning is simple as well, allowing developers to adapt most
 models. A model can be saved to storage so that it can be reloaded, and re-training is not required. The saved 
-model can then be converted to be used as a TensorFlow Lite model, to be used in a mobile phone app. The process for this
+model can then be converted to be used as a TensorFlow Lite model, so it can be integrated into a smartphone app. 
+The process for this
 is simple and requires using the example code provided, to implement. The developer needs to provide the 
 details to describe the model, including the shape of the input tensor, the image data type, and the number of classes. 
 This data can then be used by the TensorFlow Lite interpreter within Android.
@@ -1092,7 +1098,7 @@ The DL approach certainly required less set-up and thought when it came to actua
 because the model can directly extract features and the developer doesn't have to worry about what features to extract 
 as they do with an SVM. The training time is about the same for both approaches. When increasing the number of 
 features produced from the bag of words, HSV and HOG extractors, the training time would also increase significantly. 
-Similarly, with the DL model, when decreasing the learning rate and adding more epochs, the training time will increase.
+Similarly, with the DL model, when decreasing the learning rate and adding more epochs.
 Therefore, that comparison is situational. When it comes to understanding the functionality of the two approaches, it 
 was certainly a requirement to understand the SVM approach relatively in-depth compared to the DL approach. This is 
 mainly because of the feature extraction process, where developers can clearly see what exactly is being analysed and 
@@ -1164,7 +1170,7 @@ floating-point model, which means that GPU acceleration can be used in order to 
 \citep{TFGPU}. The documentation also provides additional advice on tuning the interpreter to get the best 
 performance. Android Studio, the main IDE used by Android App Developers has tools that can help analyse the 
 real-world performance of the interpreter, which will be key during the development process. By following the advice 
-given by the documentation key areas of optimisation within the app can be identified. 
+given by the documentation, key areas of optimisation within the app can be identified. 
 Areas that will be considered are performance on the GPU and the performance using the CPU with varying numbers of threads.
 
 \subsubsection{Android Developers}
@@ -1224,7 +1230,7 @@ up with the prediction, in case they're not sure of whether the predicted label 
 
 \par
 
-To track if the classifier is recognising images in an acceptable time, a time will be shown within the UI that outputs 
+To track if the classifier is recognising images in an acceptable time, an element will be shown within the UI that outputs 
 how long it took from the picture being taken to the image being classified.
 
 \subsection{Non-functional Requirements}
@@ -1457,11 +1463,11 @@ works well in identifying the two different dandelion types. These flowers are v
 still both dandelions. In the case of the flower identified as a Columbine, it is unconfirmed whether the subject 
 flower is in fact a Columbine, but by looking at some of the example flowers in the dataset, it is clear why the 
 classifier came to that conclusion. The orchid that is incorrectly identified as a Cyclamen has a second guess of 
-sweat pea that is also 47\%. This suggests that the classifier cannot make a definitive decision of what the flower is,
+Sweat Pea that is also 47\%. This suggests that the classifier cannot make a definitive decision of what the flower is,
 likely due to a lack of orchids within the dataset. Moon orchids are a class within the dataset and are not too 
 dissimilar in appearance to this orchid \citep{PlantsState}. Therefore, it is unclear as to why that class was not 
 suggested over the other classes. Subsequent classification attempts on this same plant yielded consistent high 
-probabilities for the cyclamen class, suggesting it didn't matter what angle the picture was taken in. The inference 
+probabilities for the Cyclamen class, suggesting it didn't matter what angle the picture was taken in. The inference 
 times seem consistent using the GPU. It will be interesting to see what the performance will be like when using the
 different hardware configuration types.
 
@@ -1510,7 +1516,7 @@ calculations within each layer of the model. The profiler tool within Android St
 report of what is going on, internally. As the profiler pulls in information about all processes going on within the 
 phone, the recording feature will be used to capture specific sections of the profiler output. During the recording, 
 the capture button will be pressed 5 times in a row, the tool will then automatically calculate the average, max, min 
-and standard deviation of the event in milliseconds.
+and standard deviation of the events in milliseconds.
 
 \begin{table}[h!]
     \centering
@@ -1532,7 +1538,7 @@ and standard deviation of the event in milliseconds.
 
         
     \end{tabular}
-    \caption{Results from inference timings for each hardware delegate configuration.}
+    \caption{Results from inference timings for each hardware delegate configuration. T means thread.}
     \label{table:timings}
 \end{table}
 
@@ -1544,7 +1550,7 @@ by the CPU especially since the GPU can carry out parallelised workloads better 
 execute the layer operations quicker. It may still be worth using the GPU over the CPU simply because of the added 
 benefits of accuracy in doing floating-point calculations. GPUs are also more energy efficient as they can carry out the
 same tasks as the CPU while using less power \citep{TFGPU}. Using eight threads does not seem ideal as the average time shoots up. 
-This may be because scheduling overhead becomes too large due to the lack of CPU resources available. 
+This may be because the scheduling overhead becomes too large due to the lack of CPU resources available. 
 Standard deviation also gets larger as more threads are used, indicating that the inference timings become less 
 consistent, likely due to the state of the CPU at that current time as it juggles other tasks. It may be best to keep 
 using the GPU simply because it's more efficient compared to a CPU. Realistically, a 200ms difference is minuscule in 
@@ -1596,7 +1602,7 @@ the maturity of classical ML resources and code libraries.
 \par
 
 In terms of mobile app development, the project shows an updated process of how to train a model through transfer 
-learning and then make it compatible with mobile phones through TensorFlow lite. The steps required to make image 
+learning and then make it compatible with mobile phones through TensorFlow Lite. The steps required to make image 
 classification in general work were also highlighted by demonstrating how to convert a raw image into the format 
 required for the classifier. These steps were generated through studying the available documentation and making use of 
 the CameraX and TensorFlow API to convert the image correctly. There are example apps provided by Google for image 
@@ -1617,7 +1623,7 @@ It is possible to spend more time focusing on improving the individual models, s
 develop a better-optimised SVM and carry out additional actions to improve the image pre-processing pipeline or extract 
 better features. As the aim of the investigation was to compare the approaches from the perspective of a software 
 developer, rather than develop the best possible models, this isn't something that was investigated in-depth. However, 
-there is certainly value in understanding SVMs and other classical machine learning methods more by dedicating more time
+there is certainly value in understanding SVMs and other classical ML methods more by dedicating additional time
 to implementing them. If one wants to conduct a fairer comparison of DL vs classical ML, they would dedicate more time 
 to developing both approaches to get the best possible results for each. 
 
@@ -1632,8 +1638,8 @@ gathered in this project.
 
 \section{Future Work}
 
-There is a lot of potential for deep learning within the smartphone space. There are two areas that we will see 
-improvements in that would require future re-evaluations. The first area is the models such as Inception V4. 
+There is a lot of potential for DL within the smartphone space. There are two areas that will see 
+improvements which would require future re-evaluations. The first area is the models such as Inception V4. 
 Researchers will consistently develop new models which can then be potentially re-trained. These models may get larger 
 in size, but could also be more accurate. When new models are produced, future work can be done to see how they compare 
 with the implementation produced in this project. The second area is the dataset. More testing can be done on larger 

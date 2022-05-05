@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Example images from the dataset.}}{18}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The Inception V3 model diagram \citep {GoogleCloud}.}}{19}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Graph generated in TensorBoard from HP training results.}}{22}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Graph of accuracy against the number of training steps.}}{23}{figure.3.4}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Graph of accuracy against the number of epochs.}}{23}{figure.3.4}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart that shows the actions that need to take place to classify a flower in the app.}}{29}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Diagram that shows the processing an image has to go through until it gets fed to the classifier.}}{29}{figure.4.2}%

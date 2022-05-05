@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.5.1}ML vs DL}{12}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}Flower Classification}{13}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Existing Methods}{13}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Existing Apps}{14}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.2}Existing Apps}{13}{subsection.2.6.2}%
 \contentsline {section}{\numberline {2.7}Evaluation}{15}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Summary}{16}{section.2.8}%
 \contentsline {chapter}{\numberline {3}Investigation}{17}{chapter.3}%

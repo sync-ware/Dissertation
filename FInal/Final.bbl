@@ -1,4 +1,4 @@
-\begin{thebibliography}{78}
+\begin{thebibliography}{80}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Available from: }
@@ -43,6 +43,14 @@
   \urlprefix\url{https://machinelearningmastery.com/gentle-introduction-bag-words-model/}
   [\urldateprefix{}2021-11-06].
 
+\bibitem[{Brownlee(2019)}]{lrate}
+\bibinfo{author}{Brownlee, J.}, \bibinfo{year}{2019}.
+\newblock \emph{\bibinfo{title}{Understand the impact of learning rate on
+  neural network performance}} [Online].
+\newblock
+  \urlprefix\url{https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/#:~:text=The%20learning%20rate%20controls%20how,and%20require%20fewer%20training%20epochs.}
+  [\urldateprefix{}2022-05-05].
+
 \bibitem[{Brownlee(2020{\natexlab{a}})}]{brownlee2020}
 \bibinfo{author}{Brownlee, J.}, \bibinfo{year}{2020}{\natexlab{a}}.
 \newblock \emph{\bibinfo{title}{4 types of classification tasks in machine
@@ -59,8 +67,9 @@
   \urlprefix\url{https://machinelearningmastery.com/confusion-matrix-machine-learning/#:~:text=A%20confusion%20matrix%20is%20a%20summary%20of%20prediction%20results%20on,key%20to%20the%20confusion%20matrix}
   [\urldateprefix{}2022-03-09].
 
-\bibitem[{Camastra and Vinciarelli(n.d.)}]{CamastraFrancescoMLfA}
-\bibinfo{author}{Camastra, F.} and \bibinfo{author}{Vinciarelli, A.}, n.d.
+\bibitem[{Camastra and Vinciarelli(2015)}]{CamastraFrancescoMLfA}
+\bibinfo{author}{Camastra, F.} and \bibinfo{author}{Vinciarelli, A.},
+  \bibinfo{year}{2015}.
 \newblock \emph{\bibinfo{title}{Machine learning for audio, image and video
   analysis: Theory and applications}}, Advanced Information and Knowledge
   Processing.
@@ -500,22 +509,28 @@
 \newblock \urlprefix\url{https://www.tensorflow.org/lite/guide/hosted_models}
   [\urldateprefix{}2022-04-22].
 
-\bibitem[{TensorFlow(2022{\natexlab{a}})}]{TFOX102}
+\bibitem[{TensorFlow(2022{\natexlab{a}})}]{tensor}
 \bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{a}}.
+\newblock \emph{\bibinfo{title}{Introduction to tensors}} [Online].
+\newblock \urlprefix\url{https://www.tensorflow.org/guide/tensor}
+  [\urldateprefix{}2022-05-05].
+
+\bibitem[{TensorFlow(2022{\natexlab{b}})}]{TFOX102}
+\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{b}}.
 \newblock \emph{\bibinfo{title}{oxford flowers102}} [Online].
 \newblock
   \urlprefix\url{https://www.tensorflow.org/datasets/catalog/oxford_flowers102}
   [\urldateprefix{}2022-04-17].
 
-\bibitem[{TensorFlow(2022{\natexlab{b}})}]{TFGPU}
-\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{b}}.
+\bibitem[{TensorFlow(2022{\natexlab{c}})}]{TFGPU}
+\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{c}}.
 \newblock \emph{\bibinfo{title}{Tensorflow lite on gpu}} [Online].
 \newblock
   \urlprefix\url{https://www.tensorflow.org/lite/performance/gpu_advanced}
   [\urldateprefix{}2022-04-26].
 
-\bibitem[{TensorFlow(2022{\natexlab{c}})}]{transfer}
-\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{c}}.
+\bibitem[{TensorFlow(2022{\natexlab{d}})}]{transfer}
+\bibinfo{author}{TensorFlow}, \bibinfo{year}{2022}{\natexlab{d}}.
 \newblock \emph{\bibinfo{title}{Transfer learning and fine-tuning}} [Online].
 \newblock
   \urlprefix\url{https://www.tensorflow.org/tutorials/images/transfer_learning}

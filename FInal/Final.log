@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  4 MAY 2022 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  5 MAY 2022 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,7 +943,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <neuron.png, id=738, 285.31593pt x 197.23688pt>
 File: neuron.png Graphic file (type png)
 <use neuron.png>
-Package pdftex.def Info: neuron.png  used on input line 452.
+Package pdftex.def Info: neuron.png  used on input line 454.
 (pdftex.def)             Requested size: 271.7835pt x 187.88257pt.
 
 
@@ -953,29 +953,33 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <perceptron.jpg, id=755, 464.4853pt x 181.42781pt>
 File: perceptron.jpg Graphic file (type jpg)
 <use perceptron.jpg>
-Package pdftex.def Info: perceptron.jpg  used on input line 477.
+Package pdftex.def Info: perceptron.jpg  used on input line 479.
 (pdftex.def)             Requested size: 317.07614pt x 123.85374pt.
-<network.png, id=760, 327.47343pt x 135.50626pt>
+<network.png, id=761, 327.47343pt x 135.50626pt>
 File: network.png Graphic file (type png)
 <use network.png>
-Package pdftex.def Info: network.png  used on input line 492.
+Package pdftex.def Info: network.png  used on input line 495.
 (pdftex.def)             Requested size: 317.07614pt x 131.20517pt.
- [10 <./neuron.png> <./perceptron.jpg>]
-<saha.jpg, id=776, 301.8915pt x 161.622pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./neuron.png> <./perceptron.jpg>]
+<saha.jpg, id=777, 301.8915pt x 161.622pt>
 File: saha.jpg Graphic file (type jpg)
 <use saha.jpg>
-Package pdftex.def Info: saha.jpg  used on input line 506.
+Package pdftex.def Info: saha.jpg  used on input line 510.
 (pdftex.def)             Requested size: 317.07614pt x 169.75987pt.
  [11 <./network.png> <./saha.jpg>] [12] [13]
-<plantnet.png, id=821, 330.48468pt x 248.42813pt>
+<plantnet.png, id=824, 330.48468pt x 248.42813pt>
 File: plantnet.png Graphic file (type png)
 <use plantnet.png>
-Package pdftex.def Info: plantnet.png  used on input line 633.
+Package pdftex.def Info: plantnet.png  used on input line 637.
 (pdftex.def)             Requested size: 317.07614pt x 238.3594pt.
-<picturethis.png, id=827, 205.5178pt x 245.41687pt>
+<picturethis.png, id=830, 205.5178pt x 245.41687pt>
 File: picturethis.png Graphic file (type png)
 <use picturethis.png>
-Package pdftex.def Info: picturethis.png  used on input line 653.
+Package pdftex.def Info: picturethis.png  used on input line 657.
 (pdftex.def)             Requested size: 181.18439pt x 216.3607pt.
 
 
@@ -987,32 +991,32 @@ Chapter 3.
 
 
 ]
-<ox102examples.png, id=882, 521.95pt x 518.93875pt>
+<ox102examples.png, id=885, 521.95pt x 518.93875pt>
 File: ox102examples.png Graphic file (type png)
 <use ox102examples.png>
-Package pdftex.def Info: ox102examples.png  used on input line 758.
+Package pdftex.def Info: ox102examples.png  used on input line 762.
 (pdftex.def)             Requested size: 317.07614pt x 315.25357pt.
  [18 <./ox102examples.png>]
-<inceptionv3.png, id=906, 1003.75pt x 390.45876pt>
+<inceptionv3.png, id=909, 1003.75pt x 390.45876pt>
 File: inceptionv3.png Graphic file (type png)
 <use inceptionv3.png>
-Package pdftex.def Info: inceptionv3.png  used on input line 806.
+Package pdftex.def Info: inceptionv3.png  used on input line 810.
 (pdftex.def)             Requested size: 452.9679pt x 176.20528pt.
  [19 <./inceptionv3.png>] [20]
-<cross_graph.png, id=963, 705.63625pt x 547.04375pt>
+<cross_graph.png, id=969, 705.63625pt x 547.04375pt>
 File: cross_graph.png Graphic file (type png)
 <use cross_graph.png>
-Package pdftex.def Info: cross_graph.png  used on input line 928.
+Package pdftex.def Info: cross_graph.png  used on input line 933.
 (pdftex.def)             Requested size: 271.7835pt x 210.70013pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21] [22 <./cross_graph.png>]
-<Accuracy.png, id=985, 387.4475pt x 266.9975pt>
+<Accuracy.png, id=994, 387.4475pt x 266.9975pt>
 File: Accuracy.png Graphic file (type png)
 <use Accuracy.png>
-Package pdftex.def Info: Accuracy.png  used on input line 998.
+Package pdftex.def Info: Accuracy.png  used on input line 1003.
 (pdftex.def)             Requested size: 271.7835pt x 187.29214pt.
  [23 <./Accuracy.png>] [24] [25]
 Chapter 4.
@@ -1021,22 +1025,22 @@ Chapter 4.
 
 ] [27] [28]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1331.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1337.
 
-Overfull \hbox (1.05478pt too wide) in paragraph at lines 1379--1380
+Overfull \hbox (1.05478pt too wide) in paragraph at lines 1385--1386
  [][] 
  []
 
 [29]
-<Main_Sketch.jpg, id=1055, 1358.07375pt x 1358.07375pt>
+<Main_Sketch.jpg, id=1064, 1358.07375pt x 1358.07375pt>
 File: Main_Sketch.jpg Graphic file (type jpg)
 <use Main_Sketch.jpg>
-Package pdftex.def Info: Main_Sketch.jpg  used on input line 1403.
+Package pdftex.def Info: Main_Sketch.jpg  used on input line 1409.
 (pdftex.def)             Requested size: 271.7835pt x 271.77571pt.
-<IDE_Ver.png, id=1056, 391.4625pt x 750.805pt>
+<IDE_Ver.png, id=1065, 391.4625pt x 750.805pt>
 File: IDE_Ver.png Graphic file (type png)
 <use IDE_Ver.png>
-Package pdftex.def Info: IDE_Ver.png  used on input line 1416.
+Package pdftex.def Info: IDE_Ver.png  used on input line 1422.
 (pdftex.def)             Requested size: 135.89174pt x 260.63188pt.
 
 
@@ -1063,22 +1067,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--45
  []
 
 
+Underfull \hbox (badness 4479) in paragraph at lines 47--53
+\T1/lmss/m/sl/12 (+20) for-mance \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / machinelearningmastery . com /
+ []
+
+
+Overfull \hbox (19.49446pt too wide) in paragraph at lines 47--53
+\T1/lmtt/m/n/12 understand-[]the-[]dynamics-[]of-[]learning-[]rate-[]on-[]deep-[]learning-[]neural-[]networks /
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--53
+\T1/lmtt/m/n/12 # : ~ : text = The % 20learning % 20rate % 20controls % 20how ,[] and % 20require % 20fewer %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
 []\T1/lmss/m/n/12 (+20) Brownlee, J., 2020a.  \T1/lmss/m/sl/12 (+20) 4 types of clas-si-fi-ca-tion tasks in ma-chine learn-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
 \T1/lmss/m/sl/12 (+20) ing \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / machinelearningmastery . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
 []$\T1/lmtt/m/n/12 https : / / machinelearningmastery . com / confusion-[]matrix-[]machine-[]learning / # :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
 \T1/lmtt/m/n/12 ~ : text = A % 20confusion % 20matrix % 20is % 20a % 20summary % 20of % 20prediction %
  []
 
@@ -1086,162 +1105,162 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--61
 
 
 ]
-Underfull \hbox (badness 1286) in paragraph at lines 123--129
+Underfull \hbox (badness 1286) in paragraph at lines 132--138
 []\T1/lmss/m/n/12 (+20) GeeksForGeeks, 2020.  \T1/lmss/m/sl/12 (+20) Choose op-ti-mal num-ber of epochs to train a neu-ral net-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 123--129
+Underfull \hbox (badness 3815) in paragraph at lines 132--138
 \T1/lmss/m/sl/12 (+20) work in keras \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / www . geeksforgeeks . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 \T1/lmtt/m/n/12 choose-[]optimal-[]number-[]of-[]epochs-[]to-[]train-[]a-[]neural-[]network-[]in-[]keras / # :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 \T1/lmtt/m/n/12 ~ : text = Therefore % 2C % 20the % 20optimal % 20number % 20of ,[] values % 20against %
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 164--170
+Underfull \hbox (badness 2469) in paragraph at lines 173--179
 []\T1/lmss/m/n/12 (+20) GoogleDevelopers, 2020a.  \T1/lmss/m/sl/12 (+20) Clas-si-fi-ca-tion: Pre-ci-sion and re-call \T1/lmss/m/n/12 (+20) [On-line].  Avail-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 164--170
+Underfull \hbox (badness 1742) in paragraph at lines 173--179
 \T1/lmss/m/n/12 (+20) able from: []$\T1/lmtt/m/n/12 https : / / developers . google . com / machine-[]learning / crash-[]course /
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 172--177
+Underfull \hbox (badness 2277) in paragraph at lines 181--186
 []\T1/lmss/m/n/12 (+20) GoogleDevelopers, 2020b.  \T1/lmss/m/sl/12 (+20) Clas-si-fi-ca-tion: Roc curve and auc \T1/lmss/m/n/12 (+20) [On-line].  Avail-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 172--177
+Underfull \hbox (badness 1742) in paragraph at lines 181--186
 \T1/lmss/m/n/12 (+20) able from: []$\T1/lmtt/m/n/12 https : / / developers . google . com / machine-[]learning / crash-[]course /
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 179--185
+Underfull \hbox (badness 1742) in paragraph at lines 188--194
 \T1/lmss/m/n/12 (+20) able from: []$\T1/lmtt/m/n/12 https : / / developers . google . com / machine-[]learning / crash-[]course /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--185
+Underfull \hbox (badness 10000) in paragraph at lines 188--194
 \T1/lmtt/m/n/12 descending-[]into-[]ml / training-[]and-[]loss# : ~ : text = Loss % 20is % 20the % 20penalty %
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 187--193
+Underfull \hbox (badness 1173) in paragraph at lines 196--202
 []\T1/lmss/m/n/12 (+20) GoogleDevelopers, 2020d.  \T1/lmss/m/sl/12 (+20) Multi-class neu-ral net-works: Soft-max \T1/lmss/m/n/12 (+20) [On-line].  Avail-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 187--193
+Underfull \hbox (badness 1742) in paragraph at lines 196--202
 \T1/lmss/m/n/12 (+20) able from: []$\T1/lmtt/m/n/12 https : / / developers . google . com / machine-[]learning / crash-[]course /
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 239--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
 \T1/lmtt/m/n/12 ~ : text = Keras % 20is % 20the % 20high % 2Dlevel ,[] solutions % 20with % 20high %
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 299--305
+Underfull \hbox (badness 5431) in paragraph at lines 308--314
 []\T1/lmss/m/n/12 (+20) Malato, G., 2021.  \T1/lmss/m/sl/12 (+20) Hy-per-pa-ram-e-ter tun-ing. grid search and ran-dom search
  []
 
 
-Underfull \hbox (badness 7415) in paragraph at lines 299--305
+Underfull \hbox (badness 7415) in paragraph at lines 308--314
 \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / www . yourdatateacher . com / 2021 / 05 / 19 /
  []
 
 [40]
-Underfull \hbox (badness 7362) in paragraph at lines 345--351
+Underfull \hbox (badness 7362) in paragraph at lines 354--360
 []\T1/lmss/m/n/12 (+20) Mohan, S., 2020.  \T1/lmss/m/sl/12 (+20) Im-age clas-si-fi-ca-tion us-ing bag of vi-sual words model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--351
+Underfull \hbox (badness 10000) in paragraph at lines 354--360
 \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / machinelearningknowledge . ai /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--351
+Underfull \hbox (badness 10000) in paragraph at lines 354--360
 \T1/lmtt/m/n/12 image-[]classification-[]using-[]bag-[]of-[]visual-[]words-[]model/$[] \T1/lmss/m/n/12 (+20) [Ac-cessed 2022-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--375
+Underfull \hbox (badness 10000) in paragraph at lines 378--384
 \T1/lmtt/m/n/12 global-[]market-[]share-[]held-[]by-[]smartphone-[]vendors-[]since-[]4th-[]quarter-[]2009/$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--422
+Underfull \hbox (badness 10000) in paragraph at lines 425--431
 []\T1/lmss/m/n/12 (+20) Rosebrook, A., 2016.  \T1/lmss/m/sl/12 (+20) k-nn clas-si-fier for im-age clas-si-fi-ca-tion \T1/lmss/m/n/12 (+20) [On-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--422
+Underfull \hbox (badness 10000) in paragraph at lines 425--431
 \T1/lmss/m/n/12 (+20) line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / www . pyimagesearch . com / 2016 / 08 / 08 /
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 430--436
+Underfull \hbox (badness 3250) in paragraph at lines 439--445
 []\T1/lmss/m/n/12 (+20) Saha, S., 2018.  \T1/lmss/m/sl/12 (+20) A com-pre-hen-sive guide to con-vo-lu-tional neu-ral net-works ^^V
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 430--436
+Underfull \hbox (badness 3724) in paragraph at lines 439--445
 \T1/lmss/m/sl/12 (+20) the eli5 way \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / towardsdatascience . com /
  []
 
 
-Overfull \hbox (57.77248pt too wide) in paragraph at lines 430--436
+Overfull \hbox (57.77248pt too wide) in paragraph at lines 439--445
 \T1/lmtt/m/n/12 a-[]comprehensive-[]guide-[]to-[]convolutional-[]neural-[]networks-[]the-[]eli5-[]way-[]3bd2b1164a53$[]
  []
 
-
-Underfull \hbox (badness 6559) in paragraph at lines 438--444
+[41]
+Underfull \hbox (badness 6559) in paragraph at lines 447--453
 []\T1/lmss/m/n/12 (+20) Sayak, P., 2018.  \T1/lmss/m/sl/12 (+20) Hy-per-pa-ram-e-ter op-ti-miza-tion in ma-chine learn-ing mod-els
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 438--444
+Underfull \hbox (badness 3108) in paragraph at lines 447--453
 \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / www . datacamp . com / community / tutorials /
  []
 
-[41]
-Underfull \hbox (badness 1789) in paragraph at lines 452--457
+
+Underfull \hbox (badness 1789) in paragraph at lines 461--466
 \T1/lmtt/m/n/12 modules / generated / sklearn . metrics . precision _ score . html$[] \T1/lmss/m/n/12 (+20) [Ac-cessed 2022-04-
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 465--471
+Underfull \hbox (badness 1448) in paragraph at lines 474--480
 []\T1/lmss/m/n/12 (+20) Sebastian, 2021.  \T1/lmss/m/sl/12 (+20) Dropout reg-u-lar-iza-tion in neu-ral net-works: How it works and
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 465--471
+Underfull \hbox (badness 2057) in paragraph at lines 474--480
 \T1/lmss/m/sl/12 (+20) when to use it \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 https : / / programmathically . com /
  []
 
 
-Overfull \hbox (20.49446pt too wide) in paragraph at lines 465--471
+Overfull \hbox (20.49446pt too wide) in paragraph at lines 474--480
 \T1/lmtt/m/n/12 dropout-[]regularization-[]in-[]neural-[]networks-[]how-[]it-[]works-[]and-[]when-[]to-[]use-[]it/$[]
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 525--530
+Underfull \hbox (badness 1946) in paragraph at lines 540--545
 []\T1/lmss/m/n/12 (+20) Three, 2021.  \T1/lmss/m/sl/12 (+20) Sam-sung galaxy s21 ul-tra 5g \T1/lmss/m/n/12 (+20) [On-line].  Avail-able from: []$\T1/lmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--530
+Underfull \hbox (badness 10000) in paragraph at lines 540--545
 \T1/lmtt/m/n/12 / / www . three . co . uk / samsung / galaxy-[]s21-[]ultra-[]5g ? colour = phantom % 20black &
  []
 
@@ -1254,23 +1273,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [45]
-<dataset_hist.png, id=1264, 376.40625pt x 248.93pt>
+<dataset_hist.png, id=1279, 376.40625pt x 248.93pt>
 File: dataset_hist.png Graphic file (type png)
 <use dataset_hist.png>
-Package pdftex.def Info: dataset_hist.png  used on input line 1725.
+Package pdftex.def Info: dataset_hist.png  used on input line 1731.
 (pdftex.def)             Requested size: 271.7835pt x 179.75363pt.
  [46
 
  <./dataset_hist.png>]
-<full_hp.png, id=1270, 712.6625pt x 319.1925pt>
+<full_hp.png, id=1285, 712.6625pt x 319.1925pt>
 File: full_hp.png Graphic file (type png)
 <use full_hp.png>
-Package pdftex.def Info: full_hp.png  used on input line 1740.
+Package pdftex.def Info: full_hp.png  used on input line 1746.
 (pdftex.def)             Requested size: 452.9679pt x 202.87979pt.
-<Loss.png, id=1271, 393.47pt x 266.9975pt>
+<Loss.png, id=1286, 393.47pt x 266.9975pt>
 File: Loss.png Graphic file (type png)
 <use Loss.png>
-Package pdftex.def Info: Loss.png  used on input line 1751.
+Package pdftex.def Info: Loss.png  used on input line 1757.
 (pdftex.def)             Requested size: 271.7835pt x 184.42401pt.
  [47
 
@@ -1285,99 +1304,99 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 49 contains only floats.
 
 [49]
-<Min_SDK.png, id=1286, 787.94376pt x 96.36pt>
+<Min_SDK.png, id=1301, 787.94376pt x 96.36pt>
 File: Min_SDK.png Graphic file (type png)
 <use Min_SDK.png>
-Package pdftex.def Info: Min_SDK.png  used on input line 1855.
+Package pdftex.def Info: Min_SDK.png  used on input line 1861.
 (pdftex.def)             Requested size: 452.9679pt x 55.39479pt.
  [50
 
  <./Min_SDK.png>]
-<models.png, id=1292, 791.95876pt x 879.285pt>
+<models.png, id=1307, 791.95876pt x 879.285pt>
 File: models.png Graphic file (type png)
 <use models.png>
-Package pdftex.def Info: models.png  used on input line 1868.
+Package pdftex.def Info: models.png  used on input line 1874.
 (pdftex.def)             Requested size: 452.9679pt x 502.91502pt.
  [51
 
  <./models.png>]
-<Info_Sketch.jpg, id=1304, 949.5475pt x 1257.69875pt>
+<Info_Sketch.jpg, id=1319, 949.5475pt x 1257.69875pt>
 File: Info_Sketch.jpg Graphic file (type jpg)
 <use Info_Sketch.jpg>
-Package pdftex.def Info: Info_Sketch.jpg  used on input line 1880.
+Package pdftex.def Info: Info_Sketch.jpg  used on input line 1886.
 (pdftex.def)             Requested size: 271.7835pt x 359.98314pt.
  [52
 
  <./Info_Sketch.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1932--1935
+Underfull \hbox (badness 10000) in paragraph at lines 1938--1941
 
  []
 
 [53]
-<Error_Trainable.png, id=1313, 1217.54875pt x 637.38126pt>
+<Error_Trainable.png, id=1328, 1217.54875pt x 637.38126pt>
 File: Error_Trainable.png Graphic file (type png)
 <use Error_Trainable.png>
-Package pdftex.def Info: Error_Trainable.png  used on input line 1985.
+Package pdftex.def Info: Error_Trainable.png  used on input line 1991.
 (pdftex.def)             Requested size: 452.9679pt x 237.12088pt.
  [54 <./Error_Trainable.png>]
-<anthurium.jpg, id=1327, 1084.05pt x 2409.0pt>
+<anthurium.jpg, id=1342, 1084.05pt x 2409.0pt>
 File: anthurium.jpg Graphic file (type jpg)
 <use anthurium.jpg>
-Package pdftex.def Info: anthurium.jpg  used on input line 2022.
+Package pdftex.def Info: anthurium.jpg  used on input line 2028.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<columbine.jpg, id=1328, 1084.05pt x 2409.0pt>
+<columbine.jpg, id=1343, 1084.05pt x 2409.0pt>
 File: columbine.jpg Graphic file (type jpg)
 <use columbine.jpg>
-Package pdftex.def Info: columbine.jpg  used on input line 2028.
+Package pdftex.def Info: columbine.jpg  used on input line 2034.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cyclamen.jpg, id=1329, 1084.05pt x 2409.0pt>
+<cyclamen.jpg, id=1344, 1084.05pt x 2409.0pt>
 File: cyclamen.jpg Graphic file (type jpg)
 <use cyclamen.jpg>
-Package pdftex.def Info: cyclamen.jpg  used on input line 2035.
+Package pdftex.def Info: cyclamen.jpg  used on input line 2041.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daffodil.jpg, id=1330, 1084.05pt x 2409.0pt>
+<daffodil.jpg, id=1345, 1084.05pt x 2409.0pt>
 File: daffodil.jpg Graphic file (type jpg)
 <use daffodil.jpg>
-Package pdftex.def Info: daffodil.jpg  used on input line 2041.
+Package pdftex.def Info: daffodil.jpg  used on input line 2047.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daisy.jpg, id=1331, 1084.05pt x 2409.0pt>
+<daisy.jpg, id=1346, 1084.05pt x 2409.0pt>
 File: daisy.jpg Graphic file (type jpg)
 <use daisy.jpg>
-Package pdftex.def Info: daisy.jpg  used on input line 2047.
+Package pdftex.def Info: daisy.jpg  used on input line 2053.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion.jpg, id=1332, 1084.05pt x 2409.0pt>
+<dandelion.jpg, id=1347, 1084.05pt x 2409.0pt>
 File: dandelion.jpg Graphic file (type jpg)
 <use dandelion.jpg>
-Package pdftex.def Info: dandelion.jpg  used on input line 2053.
+Package pdftex.def Info: dandelion.jpg  used on input line 2059.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion_2.jpg, id=1333, 1084.05pt x 2409.0pt>
+<dandelion_2.jpg, id=1348, 1084.05pt x 2409.0pt>
 File: dandelion_2.jpg Graphic file (type jpg)
 <use dandelion_2.jpg>
-Package pdftex.def Info: dandelion_2.jpg  used on input line 2059.
+Package pdftex.def Info: dandelion_2.jpg  used on input line 2065.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose.jpg, id=1334, 1084.05pt x 2409.0pt>
+<rose.jpg, id=1349, 1084.05pt x 2409.0pt>
 File: rose.jpg Graphic file (type jpg)
 <use rose.jpg>
-Package pdftex.def Info: rose.jpg  used on input line 2066.
+Package pdftex.def Info: rose.jpg  used on input line 2072.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1385,32 +1404,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [55
 
  <./anthurium.jpg>] [56 <./columbine.jpg> <./cyclamen.jpg>] [57 <./daffodil.jpg> <./daisy.jpg>] [58 <./dandelion.jpg> <./dandelion_2.jpg>] [59 <./rose.jpg>]
-<rose_4cm.jpg, id=1361, 1084.05pt x 2409.0pt>
+<rose_4cm.jpg, id=1376, 1084.05pt x 2409.0pt>
 File: rose_4cm.jpg Graphic file (type jpg)
 <use rose_4cm.jpg>
-Package pdftex.def Info: rose_4cm.jpg  used on input line 2096.
+Package pdftex.def Info: rose_4cm.jpg  used on input line 2102.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_15cm.jpg, id=1362, 1084.05pt x 2409.0pt>
+<rose_15cm.jpg, id=1377, 1084.05pt x 2409.0pt>
 File: rose_15cm.jpg Graphic file (type jpg)
 <use rose_15cm.jpg>
-Package pdftex.def Info: rose_15cm.jpg  used on input line 2102.
+Package pdftex.def Info: rose_15cm.jpg  used on input line 2108.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_35cm.jpg, id=1363, 1084.05pt x 2409.0pt>
+<rose_35cm.jpg, id=1378, 1084.05pt x 2409.0pt>
 File: rose_35cm.jpg Graphic file (type jpg)
 <use rose_35cm.jpg>
-Package pdftex.def Info: rose_35cm.jpg  used on input line 2108.
+Package pdftex.def Info: rose_35cm.jpg  used on input line 2114.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_60cm.jpg, id=1364, 1084.05pt x 2409.0pt>
+<rose_60cm.jpg, id=1379, 1084.05pt x 2409.0pt>
 File: rose_60cm.jpg Graphic file (type jpg)
 <use rose_60cm.jpg>
-Package pdftex.def Info: rose_60cm.jpg  used on input line 2114.
+Package pdftex.def Info: rose_60cm.jpg  used on input line 2120.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1418,24 +1437,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [60
 
  <./rose_4cm.jpg>] [61 <./rose_15cm.jpg> <./rose_35cm.jpg>] [62 <./rose_60cm.jpg>]
-<rose_left.jpg, id=1377, 1084.05pt x 2409.0pt>
+<rose_left.jpg, id=1392, 1084.05pt x 2409.0pt>
 File: rose_left.jpg Graphic file (type jpg)
 <use rose_left.jpg>
-Package pdftex.def Info: rose_left.jpg  used on input line 2124.
+Package pdftex.def Info: rose_left.jpg  used on input line 2130.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_right.jpg, id=1378, 1084.05pt x 2409.0pt>
+<rose_right.jpg, id=1393, 1084.05pt x 2409.0pt>
 File: rose_right.jpg Graphic file (type jpg)
 <use rose_right.jpg>
-Package pdftex.def Info: rose_right.jpg  used on input line 2130.
+Package pdftex.def Info: rose_right.jpg  used on input line 2136.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_side.jpg, id=1379, 1084.05pt x 2409.0pt>
+<rose_side.jpg, id=1394, 1084.05pt x 2409.0pt>
 File: rose_side.jpg Graphic file (type jpg)
 <use rose_side.jpg>
-Package pdftex.def Info: rose_side.jpg  used on input line 2136.
+Package pdftex.def Info: rose_side.jpg  used on input line 2142.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1443,24 +1462,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [63
 
  <./rose_left.jpg>] [64 <./rose_right.jpg> <./rose_side.jpg>]
-<rose_light_1.jpg, id=1392, 1084.05pt x 2409.0pt>
+<rose_light_1.jpg, id=1407, 1084.05pt x 2409.0pt>
 File: rose_light_1.jpg Graphic file (type jpg)
 <use rose_light_1.jpg>
-Package pdftex.def Info: rose_light_1.jpg  used on input line 2163.
+Package pdftex.def Info: rose_light_1.jpg  used on input line 2169.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_light_2.jpg, id=1393, 1084.05pt x 2409.0pt>
+<rose_light_2.jpg, id=1408, 1084.05pt x 2409.0pt>
 File: rose_light_2.jpg Graphic file (type jpg)
 <use rose_light_2.jpg>
-Package pdftex.def Info: rose_light_2.jpg  used on input line 2169.
+Package pdftex.def Info: rose_light_2.jpg  used on input line 2175.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_light_3.jpg, id=1394, 1084.05pt x 2409.0pt>
+<rose_light_3.jpg, id=1409, 1084.05pt x 2409.0pt>
 File: rose_light_3.jpg Graphic file (type jpg)
 <use rose_light_3.jpg>
-Package pdftex.def Info: rose_light_3.jpg  used on input line 2175.
+Package pdftex.def Info: rose_light_3.jpg  used on input line 2181.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1468,43 +1487,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [65
 
  <./rose_light_1.jpg>] [66 <./rose_light_2.jpg> <./rose_light_3.jpg>]
-<CPU1_Time.png, id=1403, 573.14125pt x 241.90375pt>
+<CPU1_Time.png, id=1418, 573.14125pt x 241.90375pt>
 File: CPU1_Time.png Graphic file (type png)
 <use CPU1_Time.png>
-Package pdftex.def Info: CPU1_Time.png  used on input line 2187.
+Package pdftex.def Info: CPU1_Time.png  used on input line 2193.
 (pdftex.def)             Requested size: 452.9679pt x 191.18675pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2186--2188
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2192--2194
 [] [] 
  []
 
-<CPU2_Time.png, id=1404, 574.145pt x 237.88875pt>
+<CPU2_Time.png, id=1419, 574.145pt x 237.88875pt>
 File: CPU2_Time.png Graphic file (type png)
 <use CPU2_Time.png>
-Package pdftex.def Info: CPU2_Time.png  used on input line 2194.
-(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2193--2195
-[] [] 
- []
-
-<CPU4_Time.png, id=1405, 574.145pt x 237.88875pt>
-File: CPU4_Time.png Graphic file (type png)
-<use CPU4_Time.png>
-Package pdftex.def Info: CPU4_Time.png  used on input line 2200.
+Package pdftex.def Info: CPU2_Time.png  used on input line 2200.
 (pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 2199--2201
 [] [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<CPU8_Time.png, id=1406, 574.145pt x 237.88875pt>
-File: CPU8_Time.png Graphic file (type png)
-<use CPU8_Time.png>
-Package pdftex.def Info: CPU8_Time.png  used on input line 2206.
+<CPU4_Time.png, id=1420, 574.145pt x 237.88875pt>
+File: CPU4_Time.png Graphic file (type png)
+<use CPU4_Time.png>
+Package pdftex.def Info: CPU4_Time.png  used on input line 2206.
 (pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 2205--2207
@@ -1514,13 +1520,26 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 2205--2207
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<GPU_Time.png, id=1407, 575.14874pt x 227.85126pt>
-File: GPU_Time.png Graphic file (type png)
-<use GPU_Time.png>
-Package pdftex.def Info: GPU_Time.png  used on input line 2212.
-(pdftex.def)             Requested size: 452.9679pt x 179.45467pt.
+<CPU8_Time.png, id=1421, 574.145pt x 237.88875pt>
+File: CPU8_Time.png Graphic file (type png)
+<use CPU8_Time.png>
+Package pdftex.def Info: CPU8_Time.png  used on input line 2212.
+(pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 2211--2213
+[] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<GPU_Time.png, id=1422, 575.14874pt x 227.85126pt>
+File: GPU_Time.png Graphic file (type png)
+<use GPU_Time.png>
+Package pdftex.def Info: GPU_Time.png  used on input line 2218.
+(pdftex.def)             Requested size: 452.9679pt x 179.45467pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2217--2219
 [] [] 
  []
 
@@ -1530,13 +1549,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [67
 
  <./CPU1_Time.png> <./CPU2_Time.png>] [68 <./CPU4_Time.png> <./CPU8_Time.png> <./GPU_Time.png>]
-<Depracated.png, id=1421, 1178.4025pt x 413.545pt>
+<Depracated.png, id=1436, 1178.4025pt x 413.545pt>
 File: Depracated.png Graphic file (type png)
 <use Depracated.png>
-Package pdftex.def Info: Depracated.png  used on input line 2222.
+Package pdftex.def Info: Depracated.png  used on input line 2228.
 (pdftex.def)             Requested size: 452.9679pt x 158.96605pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2221--2223
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2227--2229
 [] [] 
  []
 
@@ -1547,18 +1566,18 @@ Package rerunfilecheck Info: File `Final.out' has not changed.
 (rerunfilecheck)             Checksum: E00C9691CC22D7AF53CBEC5793DAB91B;11825.
  ) 
 Here is how much of TeX's memory you used:
- 29010 strings out of 478287
- 552944 string characters out of 5849289
- 899429 words of memory out of 5000000
- 46157 multiletter control sequences out of 15000+600000
- 548165 words of font info for 177 fonts, out of 8000000 for 9000
+ 29023 strings out of 478287
+ 553117 string characters out of 5849289
+ 899594 words of memory out of 5000000
+ 46164 multiletter control sequences out of 15000+600000
+ 548322 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,1043b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Final.pdf (79 pages, 16708428 bytes).
+Output written on Final.pdf (79 pages, 16709358 bytes).
 PDF statistics:
- 1526 PDF objects out of 1728 (max. 8388607)
- 1351 compressed objects within 14 object streams
- 301 named destinations out of 1000 (max. 500000)
+ 1541 PDF objects out of 1728 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 303 named destinations out of 1000 (max. 500000)
  49505 words of extra memory for PDF output out of 51595 (max. 10000000)
 
