@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  5 MAY 2022 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.28)  6 MAY 2022 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -971,12 +971,12 @@ File: saha.jpg Graphic file (type jpg)
 Package pdftex.def Info: saha.jpg  used on input line 510.
 (pdftex.def)             Requested size: 317.07614pt x 169.75987pt.
  [11 <./network.png> <./saha.jpg>] [12] [13]
-<plantnet.png, id=824, 330.48468pt x 248.42813pt>
+<plantnet.png, id=825, 330.48468pt x 248.42813pt>
 File: plantnet.png Graphic file (type png)
 <use plantnet.png>
 Package pdftex.def Info: plantnet.png  used on input line 637.
 (pdftex.def)             Requested size: 317.07614pt x 238.3594pt.
-<picturethis.png, id=830, 205.5178pt x 245.41687pt>
+<picturethis.png, id=831, 205.5178pt x 245.41687pt>
 File: picturethis.png Graphic file (type png)
 <use picturethis.png>
 Package pdftex.def Info: picturethis.png  used on input line 657.
@@ -991,19 +991,22 @@ Chapter 3.
 
 
 ]
-<ox102examples.png, id=885, 521.95pt x 518.93875pt>
+<ox102examples.png, id=886, 521.95pt x 518.93875pt>
 File: ox102examples.png Graphic file (type png)
 <use ox102examples.png>
 Package pdftex.def Info: ox102examples.png  used on input line 762.
 (pdftex.def)             Requested size: 317.07614pt x 315.25357pt.
  [18 <./ox102examples.png>]
-<inceptionv3.png, id=909, 1003.75pt x 390.45876pt>
+<inceptionv3.png, id=910, 1003.75pt x 390.45876pt>
 File: inceptionv3.png Graphic file (type png)
 <use inceptionv3.png>
 Package pdftex.def Info: inceptionv3.png  used on input line 810.
 (pdftex.def)             Requested size: 452.9679pt x 176.20528pt.
- [19 <./inceptionv3.png>] [20]
-<cross_graph.png, id=969, 705.63625pt x 547.04375pt>
+ [19 <./inceptionv3.png>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 875.
+ [20]
+<cross_graph.png, id=970, 705.63625pt x 547.04375pt>
 File: cross_graph.png Graphic file (type png)
 <use cross_graph.png>
 Package pdftex.def Info: cross_graph.png  used on input line 933.
@@ -1013,7 +1016,7 @@ Package pdftex.def Info: cross_graph.png  used on input line 933.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21] [22 <./cross_graph.png>]
-<Accuracy.png, id=994, 387.4475pt x 266.9975pt>
+<Accuracy.png, id=995, 387.4475pt x 266.9975pt>
 File: Accuracy.png Graphic file (type png)
 <use Accuracy.png>
 Package pdftex.def Info: Accuracy.png  used on input line 1003.
@@ -1024,20 +1027,17 @@ Chapter 4.
 
 
 ] [27] [28]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1337.
-
 Overfull \hbox (1.05478pt too wide) in paragraph at lines 1385--1386
  [][] 
  []
 
 [29]
-<Main_Sketch.jpg, id=1064, 1358.07375pt x 1358.07375pt>
+<Main_Sketch.jpg, id=1065, 1358.07375pt x 1358.07375pt>
 File: Main_Sketch.jpg Graphic file (type jpg)
 <use Main_Sketch.jpg>
 Package pdftex.def Info: Main_Sketch.jpg  used on input line 1409.
 (pdftex.def)             Requested size: 271.7835pt x 271.77571pt.
-<IDE_Ver.png, id=1065, 391.4625pt x 750.805pt>
+<IDE_Ver.png, id=1066, 391.4625pt x 750.805pt>
 File: IDE_Ver.png Graphic file (type png)
 <use IDE_Ver.png>
 Package pdftex.def Info: IDE_Ver.png  used on input line 1422.
@@ -1273,23 +1273,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [45]
-<dataset_hist.png, id=1279, 376.40625pt x 248.93pt>
+<dataset_hist.png, id=1280, 376.40625pt x 248.93pt>
 File: dataset_hist.png Graphic file (type png)
 <use dataset_hist.png>
-Package pdftex.def Info: dataset_hist.png  used on input line 1731.
+Package pdftex.def Info: dataset_hist.png  used on input line 1732.
 (pdftex.def)             Requested size: 271.7835pt x 179.75363pt.
  [46
 
  <./dataset_hist.png>]
-<full_hp.png, id=1285, 712.6625pt x 319.1925pt>
+<full_hp.png, id=1286, 712.6625pt x 319.1925pt>
 File: full_hp.png Graphic file (type png)
 <use full_hp.png>
-Package pdftex.def Info: full_hp.png  used on input line 1746.
+Package pdftex.def Info: full_hp.png  used on input line 1747.
 (pdftex.def)             Requested size: 452.9679pt x 202.87979pt.
-<Loss.png, id=1286, 393.47pt x 266.9975pt>
+<Loss.png, id=1287, 393.47pt x 266.9975pt>
 File: Loss.png Graphic file (type png)
 <use Loss.png>
-Package pdftex.def Info: Loss.png  used on input line 1757.
+Package pdftex.def Info: Loss.png  used on input line 1758.
 (pdftex.def)             Requested size: 271.7835pt x 184.42401pt.
  [47
 
@@ -1304,99 +1304,99 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 49 contains only floats.
 
 [49]
-<Min_SDK.png, id=1301, 787.94376pt x 96.36pt>
+<Min_SDK.png, id=1302, 787.94376pt x 96.36pt>
 File: Min_SDK.png Graphic file (type png)
 <use Min_SDK.png>
-Package pdftex.def Info: Min_SDK.png  used on input line 1861.
+Package pdftex.def Info: Min_SDK.png  used on input line 1862.
 (pdftex.def)             Requested size: 452.9679pt x 55.39479pt.
  [50
 
  <./Min_SDK.png>]
-<models.png, id=1307, 791.95876pt x 879.285pt>
+<models.png, id=1308, 791.95876pt x 879.285pt>
 File: models.png Graphic file (type png)
 <use models.png>
-Package pdftex.def Info: models.png  used on input line 1874.
+Package pdftex.def Info: models.png  used on input line 1875.
 (pdftex.def)             Requested size: 452.9679pt x 502.91502pt.
  [51
 
  <./models.png>]
-<Info_Sketch.jpg, id=1319, 949.5475pt x 1257.69875pt>
+<Info_Sketch.jpg, id=1320, 949.5475pt x 1257.69875pt>
 File: Info_Sketch.jpg Graphic file (type jpg)
 <use Info_Sketch.jpg>
-Package pdftex.def Info: Info_Sketch.jpg  used on input line 1886.
+Package pdftex.def Info: Info_Sketch.jpg  used on input line 1887.
 (pdftex.def)             Requested size: 271.7835pt x 359.98314pt.
  [52
 
  <./Info_Sketch.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1938--1941
+Underfull \hbox (badness 10000) in paragraph at lines 1939--1942
 
  []
 
 [53]
-<Error_Trainable.png, id=1328, 1217.54875pt x 637.38126pt>
+<Error_Trainable.png, id=1329, 1217.54875pt x 637.38126pt>
 File: Error_Trainable.png Graphic file (type png)
 <use Error_Trainable.png>
-Package pdftex.def Info: Error_Trainable.png  used on input line 1991.
+Package pdftex.def Info: Error_Trainable.png  used on input line 1992.
 (pdftex.def)             Requested size: 452.9679pt x 237.12088pt.
  [54 <./Error_Trainable.png>]
-<anthurium.jpg, id=1342, 1084.05pt x 2409.0pt>
+<anthurium.jpg, id=1343, 1084.05pt x 2409.0pt>
 File: anthurium.jpg Graphic file (type jpg)
 <use anthurium.jpg>
-Package pdftex.def Info: anthurium.jpg  used on input line 2028.
+Package pdftex.def Info: anthurium.jpg  used on input line 2029.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<columbine.jpg, id=1343, 1084.05pt x 2409.0pt>
+<columbine.jpg, id=1344, 1084.05pt x 2409.0pt>
 File: columbine.jpg Graphic file (type jpg)
 <use columbine.jpg>
-Package pdftex.def Info: columbine.jpg  used on input line 2034.
+Package pdftex.def Info: columbine.jpg  used on input line 2035.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<cyclamen.jpg, id=1344, 1084.05pt x 2409.0pt>
+<cyclamen.jpg, id=1345, 1084.05pt x 2409.0pt>
 File: cyclamen.jpg Graphic file (type jpg)
 <use cyclamen.jpg>
-Package pdftex.def Info: cyclamen.jpg  used on input line 2041.
+Package pdftex.def Info: cyclamen.jpg  used on input line 2042.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daffodil.jpg, id=1345, 1084.05pt x 2409.0pt>
+<daffodil.jpg, id=1346, 1084.05pt x 2409.0pt>
 File: daffodil.jpg Graphic file (type jpg)
 <use daffodil.jpg>
-Package pdftex.def Info: daffodil.jpg  used on input line 2047.
+Package pdftex.def Info: daffodil.jpg  used on input line 2048.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<daisy.jpg, id=1346, 1084.05pt x 2409.0pt>
+<daisy.jpg, id=1347, 1084.05pt x 2409.0pt>
 File: daisy.jpg Graphic file (type jpg)
 <use daisy.jpg>
-Package pdftex.def Info: daisy.jpg  used on input line 2053.
+Package pdftex.def Info: daisy.jpg  used on input line 2054.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion.jpg, id=1347, 1084.05pt x 2409.0pt>
+<dandelion.jpg, id=1348, 1084.05pt x 2409.0pt>
 File: dandelion.jpg Graphic file (type jpg)
 <use dandelion.jpg>
-Package pdftex.def Info: dandelion.jpg  used on input line 2059.
+Package pdftex.def Info: dandelion.jpg  used on input line 2060.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dandelion_2.jpg, id=1348, 1084.05pt x 2409.0pt>
+<dandelion_2.jpg, id=1349, 1084.05pt x 2409.0pt>
 File: dandelion_2.jpg Graphic file (type jpg)
 <use dandelion_2.jpg>
-Package pdftex.def Info: dandelion_2.jpg  used on input line 2065.
+Package pdftex.def Info: dandelion_2.jpg  used on input line 2066.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose.jpg, id=1349, 1084.05pt x 2409.0pt>
+<rose.jpg, id=1350, 1084.05pt x 2409.0pt>
 File: rose.jpg Graphic file (type jpg)
 <use rose.jpg>
-Package pdftex.def Info: rose.jpg  used on input line 2072.
+Package pdftex.def Info: rose.jpg  used on input line 2073.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1404,32 +1404,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [55
 
  <./anthurium.jpg>] [56 <./columbine.jpg> <./cyclamen.jpg>] [57 <./daffodil.jpg> <./daisy.jpg>] [58 <./dandelion.jpg> <./dandelion_2.jpg>] [59 <./rose.jpg>]
-<rose_4cm.jpg, id=1376, 1084.05pt x 2409.0pt>
+<rose_4cm.jpg, id=1377, 1084.05pt x 2409.0pt>
 File: rose_4cm.jpg Graphic file (type jpg)
 <use rose_4cm.jpg>
-Package pdftex.def Info: rose_4cm.jpg  used on input line 2102.
+Package pdftex.def Info: rose_4cm.jpg  used on input line 2103.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_15cm.jpg, id=1377, 1084.05pt x 2409.0pt>
+<rose_15cm.jpg, id=1378, 1084.05pt x 2409.0pt>
 File: rose_15cm.jpg Graphic file (type jpg)
 <use rose_15cm.jpg>
-Package pdftex.def Info: rose_15cm.jpg  used on input line 2108.
+Package pdftex.def Info: rose_15cm.jpg  used on input line 2109.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_35cm.jpg, id=1378, 1084.05pt x 2409.0pt>
+<rose_35cm.jpg, id=1379, 1084.05pt x 2409.0pt>
 File: rose_35cm.jpg Graphic file (type jpg)
 <use rose_35cm.jpg>
-Package pdftex.def Info: rose_35cm.jpg  used on input line 2114.
+Package pdftex.def Info: rose_35cm.jpg  used on input line 2115.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_60cm.jpg, id=1379, 1084.05pt x 2409.0pt>
+<rose_60cm.jpg, id=1380, 1084.05pt x 2409.0pt>
 File: rose_60cm.jpg Graphic file (type jpg)
 <use rose_60cm.jpg>
-Package pdftex.def Info: rose_60cm.jpg  used on input line 2120.
+Package pdftex.def Info: rose_60cm.jpg  used on input line 2121.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1437,24 +1437,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [60
 
  <./rose_4cm.jpg>] [61 <./rose_15cm.jpg> <./rose_35cm.jpg>] [62 <./rose_60cm.jpg>]
-<rose_left.jpg, id=1392, 1084.05pt x 2409.0pt>
+<rose_left.jpg, id=1393, 1084.05pt x 2409.0pt>
 File: rose_left.jpg Graphic file (type jpg)
 <use rose_left.jpg>
-Package pdftex.def Info: rose_left.jpg  used on input line 2130.
+Package pdftex.def Info: rose_left.jpg  used on input line 2131.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_right.jpg, id=1393, 1084.05pt x 2409.0pt>
+<rose_right.jpg, id=1394, 1084.05pt x 2409.0pt>
 File: rose_right.jpg Graphic file (type jpg)
 <use rose_right.jpg>
-Package pdftex.def Info: rose_right.jpg  used on input line 2136.
+Package pdftex.def Info: rose_right.jpg  used on input line 2137.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_side.jpg, id=1394, 1084.05pt x 2409.0pt>
+<rose_side.jpg, id=1395, 1084.05pt x 2409.0pt>
 File: rose_side.jpg Graphic file (type jpg)
 <use rose_side.jpg>
-Package pdftex.def Info: rose_side.jpg  used on input line 2142.
+Package pdftex.def Info: rose_side.jpg  used on input line 2143.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1462,24 +1462,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [63
 
  <./rose_left.jpg>] [64 <./rose_right.jpg> <./rose_side.jpg>]
-<rose_light_1.jpg, id=1407, 1084.05pt x 2409.0pt>
+<rose_light_1.jpg, id=1408, 1084.05pt x 2409.0pt>
 File: rose_light_1.jpg Graphic file (type jpg)
 <use rose_light_1.jpg>
-Package pdftex.def Info: rose_light_1.jpg  used on input line 2169.
+Package pdftex.def Info: rose_light_1.jpg  used on input line 2170.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
-<rose_light_2.jpg, id=1408, 1084.05pt x 2409.0pt>
+<rose_light_2.jpg, id=1409, 1084.05pt x 2409.0pt>
 File: rose_light_2.jpg Graphic file (type jpg)
 <use rose_light_2.jpg>
-Package pdftex.def Info: rose_light_2.jpg  used on input line 2175.
+Package pdftex.def Info: rose_light_2.jpg  used on input line 2176.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<rose_light_3.jpg, id=1409, 1084.05pt x 2409.0pt>
+<rose_light_3.jpg, id=1410, 1084.05pt x 2409.0pt>
 File: rose_light_3.jpg Graphic file (type jpg)
 <use rose_light_3.jpg>
-Package pdftex.def Info: rose_light_3.jpg  used on input line 2181.
+Package pdftex.def Info: rose_light_3.jpg  used on input line 2182.
 (pdftex.def)             Requested size: 135.89174pt x 301.9697pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1487,59 +1487,59 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [65
 
  <./rose_light_1.jpg>] [66 <./rose_light_2.jpg> <./rose_light_3.jpg>]
-<CPU1_Time.png, id=1418, 573.14125pt x 241.90375pt>
+<CPU1_Time.png, id=1419, 573.14125pt x 241.90375pt>
 File: CPU1_Time.png Graphic file (type png)
 <use CPU1_Time.png>
-Package pdftex.def Info: CPU1_Time.png  used on input line 2193.
+Package pdftex.def Info: CPU1_Time.png  used on input line 2194.
 (pdftex.def)             Requested size: 452.9679pt x 191.18675pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2192--2194
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2193--2195
 [] [] 
  []
 
-<CPU2_Time.png, id=1419, 574.145pt x 237.88875pt>
+<CPU2_Time.png, id=1420, 574.145pt x 237.88875pt>
 File: CPU2_Time.png Graphic file (type png)
 <use CPU2_Time.png>
-Package pdftex.def Info: CPU2_Time.png  used on input line 2200.
+Package pdftex.def Info: CPU2_Time.png  used on input line 2201.
 (pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2199--2201
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2200--2202
 [] [] 
  []
 
-<CPU4_Time.png, id=1420, 574.145pt x 237.88875pt>
+<CPU4_Time.png, id=1421, 574.145pt x 237.88875pt>
 File: CPU4_Time.png Graphic file (type png)
 <use CPU4_Time.png>
-Package pdftex.def Info: CPU4_Time.png  used on input line 2206.
+Package pdftex.def Info: CPU4_Time.png  used on input line 2207.
 (pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2205--2207
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2206--2208
 [] [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<CPU8_Time.png, id=1421, 574.145pt x 237.88875pt>
+<CPU8_Time.png, id=1422, 574.145pt x 237.88875pt>
 File: CPU8_Time.png Graphic file (type png)
 <use CPU8_Time.png>
-Package pdftex.def Info: CPU8_Time.png  used on input line 2212.
+Package pdftex.def Info: CPU8_Time.png  used on input line 2213.
 (pdftex.def)             Requested size: 452.9679pt x 187.6832pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2211--2213
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2212--2214
 [] [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<GPU_Time.png, id=1422, 575.14874pt x 227.85126pt>
+<GPU_Time.png, id=1423, 575.14874pt x 227.85126pt>
 File: GPU_Time.png Graphic file (type png)
 <use GPU_Time.png>
-Package pdftex.def Info: GPU_Time.png  used on input line 2218.
+Package pdftex.def Info: GPU_Time.png  used on input line 2219.
 (pdftex.def)             Requested size: 452.9679pt x 179.45467pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2217--2219
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2218--2220
 [] [] 
  []
 
@@ -1549,13 +1549,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [67
 
  <./CPU1_Time.png> <./CPU2_Time.png>] [68 <./CPU4_Time.png> <./CPU8_Time.png> <./GPU_Time.png>]
-<Depracated.png, id=1436, 1178.4025pt x 413.545pt>
+<Depracated.png, id=1437, 1178.4025pt x 413.545pt>
 File: Depracated.png Graphic file (type png)
 <use Depracated.png>
-Package pdftex.def Info: Depracated.png  used on input line 2228.
+Package pdftex.def Info: Depracated.png  used on input line 2229.
 (pdftex.def)             Requested size: 452.9679pt x 158.96605pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 2227--2229
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 2228--2230
 [] [] 
  []
 
@@ -1563,7 +1563,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 2227--2229
 
  <./Depracated.png>] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: E00C9691CC22D7AF53CBEC5793DAB91B;11825.
+(rerunfilecheck)             Checksum: 57621E263801AABB76209A214C0C8706;11812.
  ) 
 Here is how much of TeX's memory you used:
  29023 strings out of 478287
@@ -1574,10 +1574,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,1043b,887s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Final.pdf (79 pages, 16709358 bytes).
+Output written on Final.pdf (79 pages, 16709515 bytes).
 PDF statistics:
- 1541 PDF objects out of 1728 (max. 8388607)
- 1366 compressed objects within 14 object streams
+ 1542 PDF objects out of 1728 (max. 8388607)
+ 1367 compressed objects within 14 object streams
  303 named destinations out of 1000 (max. 500000)
  49505 words of extra memory for PDF output out of 51595 (max. 10000000)
 

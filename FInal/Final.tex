@@ -80,23 +80,23 @@ is granting the advanced capabilities of ML to smartphones.
 \par
 
 This project aims to investigate the application of ML techniques to recognize images of flower species 
-on mobile devices. This will be done by implementing classical ML algorithms that are effective in image 
+on smartphones. This will be done by implementing classical ML algorithms that are effective in image 
 classification as well as Deep Learning (DL) algorithms which are stated to be more effective in carrying out the same 
 task. It will be interesting to compare both types of implementations in terms of accuracy and speed.
 
 \par
 
-Mobile devices have the advantage of portability and flexibility compared to PCs at the expense of pure processing 
-power, storage and battery life. Advancements in ML can boost the abilities of mobile devices by allowing 
+Smartphones have the advantage of portability and flexibility compared to PCs at the expense of pure processing 
+power, storage and battery life. Advancements in ML can boost the abilities of smartphones by allowing 
 them to make informed decisions to aid the user. Traditional algorithms can't answer questions
 like “What is this flower?”
 without being cumbersome and inaccurate, that's why ML is required.
-Smartphones and tablets are packed with more advanced technology than they've ever had like high-resolution 
-cameras, sensors, displays and mobile processors. Each of these are resources that an ML model can take advantage of.
+Smartphones and tablets are packed with more powerful technology than they've ever had like advanced
+cameras, sensors, displays and processors. Each of these are resources that an ML model can take advantage of.
 
 \par
 
-Traditionally, mobile devices as well as similar devices with sensors do some light pre-processing of data, then they 
+Traditionally, smartphones as well as similar devices do some light pre-processing of data, then they 
 send it to the cloud which can handle actions that require intensive processing, this introduces some level of latency 
 because of the communication between the device and the cloud \citep[p. 3]{olascoaga2021hardware}. 
 Latency is important to consider in some use cases such as autonomous vehicles \citep[pp. 3-4]{olascoaga2021hardware} 
@@ -123,7 +123,7 @@ appearance. Factors like this make it difficult to get representations in the fi
 \par
 
 DL is a part of ML that aims to overcome the limitations of classical ML techniques 
-by expanding upon representation learning. Deep learning can be split into two unique parts:
+by expanding upon representation learning. DL can be split into two unique parts:
 
 \begin{itemize}
     \item \textbf{Distributed Representation:} These are used to represent objects in a more compact and dense manner.
@@ -163,7 +163,7 @@ identify the key resources, experiment with approaches and then finally create a
 everything that was learnt in this project. This is what I hope to achieve for this project:
 \begin{itemize}
     \item Identify and review literature that will aid in understanding the problem domain.
-    \item Analyse existing mobile-based image recognition software.
+    \item Analyse existing smartphone-based image recognition software.
     \item Investigate the advantages and disadvantages of both classical ML and DL implementations and compare the two 
 using analysis tools, this will be done on PC hardware.
     \item Design and implement an Android application that can recognize images using DL.
@@ -180,13 +180,13 @@ presented here.
 
 \subsubsection*{Literature and Technology Review}
 A presentation of the background research relevant to this dissertation. Here the subjects of ML and DL will be
-expanded upon. Additionally, the topic of flower classification will be elaborated on with looks at existing solutions.
+expanded upon. Additionally, the topic of flower classification will be elaborated on by looking at existing solutions.
 
 \subsubsection*{Investigation}
-An investigation into the classification approaches for classical ML and DL. Here there will be two implementations that
+An investigation into the classification approaches for classical ML and DL. Here, there will be two implementations that
 will be presented and analysed.
 
-\subsubsection*{Flower Classificaion App}
+\subsubsection*{Flower Classification App}
 The development and implementation of a flower classification app based on the findings in the literature and 
 technology review as well as the investigation.
 
@@ -198,14 +198,14 @@ A reflection of the dissertation that includes contributions and a critical appr
 
 Ground-breaking achievements in technology have given developers the tools and capabilities to
 tackle the key problem of image recognition. What this project aims to demonstrate is the application of DL 
-within a mobile application to recognise flowers. It will be interesting to see how it performs on mobile 
+within a smartphone application to recognise flowers. It will be interesting to see how it performs on smartphone 
 hardware which is generally less powerful than desktop PCs and laptops. Additionally, it will be beneficial to explore 
 what sort 
-of optimisations need to take place in order to get a feasible mobile-based solution. The limited computing resources 
+of optimisations need to take place in order to get a feasible smartphone-based solution. The limited computing resources 
 that are available to developers when creating their solutions is what makes DL on smartphones challenging. 
-Mobile devices typically 
-contain smaller mobile processors, limited storage and batteries. These restrictions are in place to 
-make mobile phones more efficient and to ensure that they last longer when not connected to a power source. In addition
+Smartphones typically 
+contain smaller processors, storage and batteries. These restrictions are in place to 
+make them more efficient and to ensure that they last longer when not connected to a power source. In addition
 to this, the subject of ML (and subsequently DL) is complex and many find the concepts challenging to understand. 
 What this literature review aims to do is identify key sources of information to help break down the underlying 
 subject and discuss the quality of the research available.
@@ -378,7 +378,7 @@ context of images is a way to describe the perceived smoothness, roughness or bu
 variations in pixel intensity levels \citep{mathworks}. Lastly, the paper goes into depth about shape features and 
 points to different sources that go into the subject. To summarise, shape features are 
 split into two broad categories: contour and region based. This is where the features are calculated from shape 
-boundaries and image regions respectively. A simple example of a shape feature is the circularity ratio where you measure 
+boundaries and image regions respectively. A simple example of a shape feature is the circularity ratio where one measures 
 how close a shape is to a circle by calculating the ratio of the area of a shape to the area of a circle with the same 
 perimeter \citep{mingqiang2008survey}. Shape analysing will be very important in this project because flower shapes can
 differ greatly and can therefore serve as a way to easily differentiate between species.
@@ -534,7 +534,7 @@ implement them using TensorFlow.
 
 \citet{goodfellow2016deep} go into detail about DL from the concept of perceptrons to modern 
 implementations. Something they talk about that is interesting, is the increasing dataset and model sizes over time, 
-which is quite applicable to the project since mobile hardware is relatively limited in storage. They discuss how the 
+which is quite applicable to the project since smartphone hardware is relatively limited in storage. They discuss how the 
 increasing capabilities of computer hardware have led to the development of larger models and that neural networks tend 
 to double in size roughly every 2.4 years. They predict that the trend will continue further on in the future. 
 Datasets take up storage space and they state that a DL algorithm 
@@ -566,7 +566,7 @@ are:
     \item \textbf{Data dependencies}: DL performs better with larger datasets as well as
     classical ML outperforming DL with smaller datasets.
     \item \textbf{Hardware dependencies}: DL requires a lot of matrix calculations and therefore a Graphical Processing 
-    Unit (GPU) can be used to optimise these processes. Note that mobile hardware does contain GPUs but they are
+    Unit (GPU) can be used to optimise these processes. Note that smartphone hardware does contain GPUs but they are
     not on the same scale as the ones found in some PC hardware. Therefore, it will be interesting to see how DL 
     fares against classical ML when keeping this hardware dependency in mind.
     \item \textbf{Feature processing}: Reiterating on the point mentioned before, DL can extract features directly 
@@ -617,7 +617,7 @@ dataset as it defaults to 1001. They found that the models for the Oxford-17 and
 produced 95\% and 94\% accuracy respectively. This is a very impressive performance, and their breakdown will be helpful 
 when it comes to the implementation produced in this project. 
 The paper really outlines the simplicity and flexibility of Google's 
-TensorFlow however, it remains to be seen if these great results will translate to a mobile implementation 
+TensorFlow however, it remains to be seen if these great results will translate to a smartphone implementation 
 as well.
 
 \subsection{Existing Apps}
@@ -646,7 +646,7 @@ independently verified and added back to the training set. The search engine is 
 paper doesn't go into much more detail about the search engine itself apart from mentioning that progress in ML 
 and computer vision should improve the performance of identification. Unfortunately, there aren't any new 
 papers that provide a better look at the app, so it is hard to understand what changes have been made over the last 
-several years as well as how what methods they use to build the search engine. There is, however, a dataset now 
+several years as well as what methods they use to build the search engine. There is, however, a dataset now 
 available for use that covers over a thousand plant species with over 300 thousand images 
 \citep{camille_garcin_2021_5645731}. This is of course out of the scope of the project as it doesn't strictly contain 
 flowers, but it does go into detail about how to use the dataset as well as how to load the data and build a model with 
@@ -872,7 +872,7 @@ performance
 metrics for each combination. TensorBoard allows the developer to view how the hyperparameters affected the results. 
 In an effort to decrease overall training time, some preliminary testing will be conducted to see which 
 optimiser is more suitable with just baseline parameters. Once that is selected, only the different 
-learning and dropout rates need to be tested using a grid search. This is when every possible parameter combination is tested 
+learning and dropout rates need to be tested using a \emph{grid search}. This is when every possible parameter combination is tested 
 \citep{gridsearch}. 
 When testing with a 
 large number of hyperparameters, one can use other methods like random search to decrease overall tuning time by 
@@ -914,7 +914,7 @@ The key metrics that will be analysed along with accuracy, precision, recall and
 In this section, the results of the approaches will be presented and discussed, starting with what was found during the
 initial testing phase of the DL implementation.
 
-\subsection{Preliminary DL Findings}
+\subsection{Hyperparameter tuning}
 
 Another factor to consider when carrying out training is the number of epochs. An epoch is a full pass over the training
 set \citep{epoch}. Multiple passes are needed to minimise loss and fully train the model. Through preliminary testing 
@@ -1052,10 +1052,10 @@ that decrease extraction and training time significantly, in exchange for output
 achieved an accuracy of 88.3\% with the Oxford Flowers 17 dataset, a smaller subset of the one being used here using 
 very similar methods of combining SIFT, HOG and HSV. Their method is a lot more intuitive than this SVM
 implementation but still doesn't reach the performance of the Inception V3 model. This doesn't mean that SVM or any 
-other classical ML method is obsolete, even in being used as a classifier on mobile phones. They can still
+other classical ML method is obsolete, even in being used as a classifier on smartphones. They can still
 perform extremely well on smaller and less complex datasets. Therefore, if dataset complexity is not an issue, what 
 else is there to consider? The ease of implementation and how easy it is to move the classifier 
-into a mobile phone can be looked at.
+into a smartphone can be looked at.
 
 \subsection{Comparison of Development Processes}
 Most of the SVM was implemented with the help of Scikit which contains easy to understand documentation on how to 
@@ -1128,7 +1128,7 @@ guidelines produced by Google when it comes to TensorFlow integration, Material 
 These are useful in designing and developing applications that conform to the general Google standards. As there is
 no defined client or target market, there are no requirements based on questionnaires and interviews. 
 Therefore, the aim is to describe the development process and test the performance of the app so that the feasibility of 
-using DL within a mobile phone can be assessed. 
+using DL within a smartphone can be assessed. 
 
 \subsection{Literature and Technology Survey Findings}
 
@@ -1176,7 +1176,7 @@ Areas that will be considered are performance on the GPU and the performance usi
 \subsubsection{Android Developers}
 
 Apart from general UI interactions like button presses and UI updates, the only additional library support that needs to 
-be considered from the Android platform is the Camera API. The camera plays a big part in the classification process as it 
+be considered from the Android platform is the camera API. The camera plays a big part in the classification process as it 
 provides the input image information for the model. The application will make use of the newest CameraX API which is 
 designed to be easy to use and have support for the majority of Android devices including legacy devices down to Android 5 
 \citep{ADCameraX}. Using this API, developers can control the input image dimensions and provide image previews to the 
@@ -1389,7 +1389,7 @@ Figure \ref{fig:classify} outlines the full process that needs to be carried out
 
 \subsection{Implementation Process}
 
-The environment is the same as what was described in section \ref{subsec:env}. The key differences are that the Android 
+The environment is the same as what was described in section \ref{subsec:env}. The key difference is that the Android 
 Studio IDE will be used for the development of the app. Testing will take place directly on a Samsung Galaxy S20 5G. 
 This device is one of the flagship Samsung phones released in the year 2020 and has decent specifications for a 
 smartphone. The exact specifications can be seen in Appendix \ref{subsec:phone_spec}. Android Studio has an in-built 
@@ -1400,7 +1400,7 @@ app directories are created for the developer, as well as the library dependenci
 
 While this is not relevant to the base functionality of the application. It is still important to plan a user interface 
 that will allow the user to carry out the simple operation of classifying flowers on their device. Therefore, some rough
-sketches were produced to plan out the single view that will encompass everything including the camera and results interface as 
+sketches were produced to plan out the single view that will encompass everything, including the camera and results interface as 
 seen in figure \ref{fig:sketch_main}. There is also an additional view as seen in figure \ref{fig:sketch_info} that outlines a description page for the 
 flowers.
 
@@ -1493,7 +1493,8 @@ it cannot be seen (see figure \ref{fig:rose_side}).
 
 \par
 
-Next, lighting testing was carried out to see how the classifier performed. The full results can be seen in Appendix 
+Next, lighting testing was carried out to see how the classifier performed under different conditions. 
+The full results can be seen in Appendix 
 \ref{subsec:lighting}. Lighting was measured using the lighting 
 sensor within the camera sensor. A free Android app named DevCheck \citep{GooglePlayDevCheck} has access to all sensor 
 readings on the device and was used to measure the light hitting the sensor in lux.
@@ -1564,7 +1565,7 @@ Overall, the requirements for this app were quite simple. The end product was de
 could easily fit as part of the latest Android ecosystem. The requirements have all been sourced from the background 
 research conducted as well as personal input as a software developer. A more extensive set of requirements could be 
 produced by using input from potential users of the app such as gardeners and hobbyists however, the main aim is to 
-demonstrate that this method of using TensorFlow for DL is a very valid approach as a backend for your app. 
+demonstrate that this method of using TensorFlow for DL is a very valid approach as a backend for an app. 
 Most of the effort was dedicated to investigating the performance of TensorFlow when put up against the challenging 
 task of classifying flowers. The design and implementation process for the app made sure the scope of the app was kept 
 simple so that the focus could be on testing the performance of the Inception V3 model. Designing complex apps can 
@@ -1601,8 +1602,8 @@ the maturity of classical ML resources and code libraries.
 
 \par
 
-In terms of mobile app development, the project shows an updated process of how to train a model through transfer 
-learning and then make it compatible with mobile phones through TensorFlow Lite. The steps required to make image 
+In terms of smartphone app development, the project shows an updated process of how to train a model through transfer 
+learning and then make it compatible with smartphones through TensorFlow Lite. The steps required to make image 
 classification in general work were also highlighted by demonstrating how to convert a raw image into the format 
 required for the classifier. These steps were generated through studying the available documentation and making use of 
 the CameraX and TensorFlow API to convert the image correctly. There are example apps provided by Google for image 

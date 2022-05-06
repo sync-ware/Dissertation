@@ -1102,6 +1102,7 @@ INPUT ./inceptionv3.png
 INPUT inceptionv3.png
 INPUT ./inceptionv3.png
 INPUT ./inceptionv3.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./cross_graph.png
 INPUT ./cross_graph.png
 INPUT cross_graph.png
@@ -1112,7 +1113,6 @@ INPUT ./Accuracy.png
 INPUT Accuracy.png
 INPUT ./Accuracy.png
 INPUT ./Accuracy.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./Main_Sketch.jpg
 INPUT ./Main_Sketch.jpg
 INPUT Main_Sketch.jpg
